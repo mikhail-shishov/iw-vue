@@ -1,4 +1,24 @@
+<script lang="ts">
+import { defineComponent } from 'vue';
+import { Splide, SplideSlide } from '@splidejs/vue-splide';
+
+export default defineComponent({
+  components: {
+    Splide,
+    SplideSlide,
+  },
+});
+</script>
+
 <template>
+  <Splide :options="{ rewind: true }" aria-label="My Favorite Images">
+    <SplideSlide>
+      <img src="image1.jpg" alt="Sample 1">
+    </SplideSlide>
+    <SplideSlide>
+      <img src="image2.jpg" alt="Sample 2">
+    </SplideSlide>
+  </Splide>
   <section class="review-sect text-sect">
     <div class="container">
       <div class="h2 center">Testimonials</div>
