@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-6, .cls-7, .cls-8 {
+        stroke-linecap: round;
+      }
+
+      .cls-1, .cls-2, .cls-9, .cls-6 {
+        fill: #aa0c1f;
+      }
+
+      .cls-1, .cls-5, .cls-7, .cls-8 {
+        stroke: #aa0c1f;
+      }
+
+      .cls-2 {
+        stroke-width: .25px;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-6 {
+        stroke: #fff;
+      }
+
+      .cls-3, .cls-5, .cls-7 {
+        fill: none;
+      }
+
+      .cls-4, .cls-8 {
+        fill: #fff;
+      }
+
+      .cls-10 {
+        fill: #ffe93e;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <g id="Layer_2" data-name="Layer 2">
+      <circle class="cls-9" cx="40" cy="40" r="40"/>
+      <g>
+        <rect class="cls-6" x="25.97" y="15.78" width="28.05" height="11.47"/>
+        <rect class="cls-4" x="30.39" y="18.7" width="19.55" height="8.55"/>
+        <line class="cls-10" x1="19.86" y1="35.77" x2="17.88" y2="37.21"/>
+        <line class="cls-10" x1="20.25" y1="36.75" x2="19.23" y2="37.49"/>
+        <line class="cls-3" x1="24.42" y1="15" x2="55.58" y2="15"/>
+        <rect class="cls-8" x="16.36" y="27.64" width="46.97" height="33.3"/>
+        <line class="cls-7" x1="15" y1="32.64" x2="65" y2="32.64"/>
+        <line class="cls-7" x1="15.32" y1="56" x2="64.73" y2="55.96"/>
+        <line class="cls-3" x1="58.35" y1="65" x2="21.33" y2="65"/>
+        <rect class="cls-4" x="23.95" y="61.29" width="2.04" height="3.24"/>
+        <rect class="cls-4" x="39.07" y="61.29" width="2.04" height="2.96"/>
+        <rect class="cls-4" x="54.2" y="61.29" width="2.04" height="3.05"/>
+        <path class="cls-2" d="M36.97,47.42c.42,.62,1.15,1.22,1.85,1.52-1.76-2-.92-3.73-.92-3.73,0,0,.29,1.43,.88,1.83,0,0,1.7-.65,1.66-3.53,0,0,1.07,1.87,1.04,3.22,0,0,1.38-.46,1.57-1.79,0,0,.44,2.14-1.29,3.97,4.4-1.4,.9-7.74,.9-7.74,.02,1.99-.6,2.09-.6,2.09,.15-3.35-3.47-4.08-3.47-4.08,1.11,.7,.11,4.1,.11,4.1,.07-2.04-2.05-1.55-2.05-1.55,0,0,1.41,.16,.14,2.8-.51,1.06-.29,2.18,.18,2.89Z"/>
+        <path class="cls-5" d="M40.16,53.27c-4.07-2.88-8.14-5.75-12.2-8.63,4.02-2.91,8.04-5.81,12.06-8.72,3.97,2.86,7.95,5.72,11.92,8.58-3.93,2.92-7.85,5.85-11.78,8.77Z"/>
+        <line class="cls-7" x1="37.68" y1="22.09" x2="45.3" y2="22.09"/>
+        <line class="cls-7" x1="34.73" y1="24.78" x2="39.84" y2="24.75"/>
+        <rect class="cls-1" x="40.29" y="22.41" width="2.89" height="4.55"/>
+        <rect class="cls-7" x="34.11" y="23.87" width="1.24" height="1.82"/>
+      </g>
+    </g>
+  </g>
+</svg>

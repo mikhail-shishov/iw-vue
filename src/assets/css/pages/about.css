@@ -1,0 +1,82 @@
+.intro-sect{padding:220px 0 180px;background-color:#f6f2f7;position:relative;overflow:hidden}
+.intro-sect:before{content:"";background-color:rgba(0,0,0,0.4);width:100%;height:100%;display:block;position:absolute;z-index:1;top:0;left:0}
+.intro-sect .intro-row{position:relative;z-index:2}
+.intro-sect .main-heading{color:#fff}
+.intro-text{max-width:500px}
+.max-quote-sect{padding:110px 0}
+.max-quote-row{display:flex}
+.max-quote-text{position:relative;padding-right:30px}
+.max-quote-text:after{content:"";background-image:url(/assets/images/about/quote-mark.png);background-size:contain;background-repeat:no-repeat;width:25px;height:20px;display:inline-block;position:absolute;top:20px;right:50px}
+.max-quote-img img{height:auto}
+.home-numbers-sect{background-image:none}
+.home-numbers-sect .section-heading{text-align:left}
+p.home-numbers-percent{font-size:36px}
+.home-numbers-item{width:33.3333%}
+.motto-sect{padding:100px 0}
+.motto-sect .section-heading{margin:0}
+.about-points-sect{margin:120px 0}
+.about-point-row{display:flex;gap:35px}
+.about-point-img img{max-width:600px;height:auto}
+.about-point-row:nth-of-type(2){flex-direction:row-reverse}
+.about-point-row + .about-point-row{margin-top:120px}
+.team-member-sect{margin:120px 0 60px}
+.team-row,.team-row-small{display:flex;margin:80px 0}
+.team-member-name{margin:15px 0 5px;font-weight:700}
+.team-row{gap:35px}
+.team-row .team-member-name{font-size:28px;margin:30px 0 15px}
+.team-row-small .team-member-name{font-size:24px}
+.team-row-reverse{flex-direction:row-reverse}
+.team-member-role{font-weight:700;text-transform:uppercase;margin:0;font-size:16px}
+.team-member-tel{color:#1f1d20;margin-top:7px;display:inline-block}
+.team-member-small{margin-right:35px}
+.team-member-small img{max-width:286px;height:auto}
+.team-member-img img{width:480px;height:auto}
+.team-member-text p{margin:0}
+.slider-sect{background-color:#f6f2f7;padding:150px 0 200px}
+.slider-sect .container-small{position:relative}
+.history-item{display:flex}
+.history-item-text{padding-right:40px}
+.history-swiper-pagination.swiper-pagination-horizontal{text-align:left;bottom:-80px;left:20px}
+.history-swiper-pagination.swiper-pagination-horizontal
+.swiper-pagination-bullet,.history-swiper-pagination .swiper-pagination-bullet-active{opacity:1;background:#27e34f;width:20px;height:20px;border:1px solid #4f4a51;margin:0 23px 0 0;position:relative}
+.history-swiper-pagination .swiper-pagination-bullet-active:before{content:"";background-color:#fff;border-radius:50%;border:2px solid #27e34f;width:30px;height:30px;display:inline-block;position:absolute;z-index:-1;left:-8px;top:-8px}
+.history-item-img img{max-width:600px;height:auto}
+.slider-sect .swiper-buttons{bottom:-70px}
+.transparency-img{text-align:center;margin:180px 0}
+.transparency-img img{max-width:100%;height:auto}
+.bg-video{position:absolute;top:50%;left:50%;width:100%;transform:translate(-50%,-50%)}
+@media (max-width: 1280px) {
+.intro-sect{padding:160px 0}
+}
+@media (max-width: 992px) {
+.about-point-row,.about-point-row:nth-of-type(2),.history-item,.team-row,.team-row-small,.team-row-reverse{flex-direction:column}
+.intro-sect{padding:88px 0}
+img,.history-item-img img{max-width:100%}
+.home-numbers-item{width:100%}
+.team-member-small{margin:0 0 40px}
+.transparency-img img{max-width:90%}
+.max-quote-row{display:flex;flex-direction:column-reverse}
+.history-swiper-pagination.swiper-pagination-horizontal{bottom:-40px;left:0}
+.slider-sect{padding:90px 0 150px}
+.motto-sect{padding:60px 0}
+.about-points-sect{margin:90px 0}
+.transparency-img{margin:120px 0}
+.history-item-img iframe,.intro-right iframe{width:100%}
+}
+@media (max-width: 768px) {
+.bg-video{height:100%;width:auto}
+}
+@media (max-width: 640px) {
+.about-point-img img{max-width:100%}
+.bg-video{height:120%;width:auto}
+}
+@media (max-width: 576px) {
+.intro-right iframe{height:50vw}
+.about-point-row + .about-point-row{margin-top:88px}
+.intro-sect{padding:80px 0 60px}
+.max-quote-text:after {right: 0;}
+}
+@media (max-width: 400px) {
+.team-member-small img {max-width: 100%;}
+.max-quote-sect {padding: 80px 0;}
+}

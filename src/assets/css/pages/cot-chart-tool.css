@@ -1,0 +1,85 @@
+.intro-sect{padding:120px 0;background-color:#f8f1f8}
+.intro-text{max-width:620px}
+.article-sect{background-color:#f6f2f7;background-image:none}
+.cols-row{display:flex}
+.cols-sect .col{width:50%;padding-right:60px}
+.col-list{list-style:none;padding-left:20px;font-size:14px}
+.col-list li{margin-bottom:15px;position:relative;list-style:none;padding-left:20px;font-size:16px;line-height:1.8}
+.col-list li:before{content:"";background-color:#34a938;width:8px;height:8px;top:11px;left:0;border-radius:50px;display:inline-block;position:absolute}
+.cot-chart-tool .cot-report-sect{padding:50px 0 90px}
+.cot-chart-tool .cot-report-sect .main-heading{font-size:36px}
+.cot-chart-tool .cot-report-sect .intro-right img{max-width:340px;min-width:300px}
+.cot-chart-tool .cot-report-sect .main-heading + .section-heading{display:none}
+.cot-chart-tool .cot-report-sect .cot-report-points{margin:40px 0 30px}
+.cot-tabs-content{margin-bottom:30px}
+.cot-tabs-nav{padding:0;margin:0;list-style:none;display:flex;gap:7px;margin:10px 0 0}
+.cot-tabs-nav-small{margin:0;flex-wrap:wrap;gap:0 7px}
+.cot-tabs-nav .btn{border:1px solid #f6f5f7;background-color:#f6f5f7;padding:12px 22px;color:#3e3940;transition:.3s;}
+.cot-tabs-nav .btn:hover{background-color:#27e34f;color:white;}
+.cot-tabs-nav-small .btn{border:2px solid #f9f9f9;background-color:#f9f9f9;font-size:14px;padding:10px 16px 10px 10px;text-transform:capitalize;transition:.3s;}
+.cot-tabs-nav-small .btn:hover{background-color:#f6f5f7;color:#3e3940;}
+.cot-tabs-nav-small li{margin-top:0}
+.cot-tabs-nav .active .btn{background-color:#27e34f;color:#fff}
+.cot-tabs-nav-small .active .btn{border:2px solid #27e34f;background-color:#f9f9f9;color:#3e3940}
+.cot-tabs-nav-small .btn:after{content:"";background-image:url(../../images/arrow-right.svg);background-size:contain;background-repeat:no-repeat;background-position:center;width:20px;height:20px;margin-left:15px;transition:.3s;display:inline-block;vertical-align:middle;display:none}
+.cot-tabs-nav-small .active .btn:after{transform:rotate(90deg)}
+.cot-tabs-nav-small .btn:before{content:"";background-size:contain;background-repeat:no-repeat;background-position:center;width:36px;height:36px;margin-right:15px;transition:.3s;display:inline-block;vertical-align:middle}
+.indices .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/indices/s_p500.svg)}
+.indices .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/indices/nasdaq.svg)}
+.indices .cot-tabs-nav-small li:nth-child(3) .btn:before{background-image:url(../../images/cot/icons/indices/russel.svg)}
+.indices .cot-tabs-nav-small li:nth-child(4) .btn:before{background-image:url(../../images/cot/icons/indices/dow-emini.svg)}
+.bonds .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/bonds/30yr-bonds.svg)}
+.bonds .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/bonds/10yr-bonds.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/currencies/dollar-index.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/currencies/euro-fx.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(3) .btn:before{background-image:url(../../images/cot/icons/currencies/swiss-franc.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(4) .btn:before{background-image:url(../../images/cot/icons/currencies/british-pound.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(5) .btn:before{background-image:url(../../images/cot/icons/currencies/japanese-yen.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(6) .btn:before{background-image:url(../../images/cot/icons/currencies/canadian-dollar.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(7) .btn:before{background-image:url(../../images/cot/icons/currencies/australian-dollar.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(8) .btn:before{background-image:url(../../images/cot/icons/currencies/new-zealand-dollar.svg)}
+.currencies .cot-tabs-nav-small li:nth-child(9) .btn:before{background-image:url(../../images/cot/icons/currencies/mexican-peso.svg)}
+.energy .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/energy/crude-oil.svg)}
+.energy .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/energy/gasoline.svg)}
+.energy .cot-tabs-nav-small li:nth-child(3) .btn:before{background-image:url(../../images/cot/icons/energy/heating-oil.svg)}
+.energy .cot-tabs-nav-small li:nth-child(4) .btn:before{background-image:url(../../images/cot/icons/energy/natural-gas.svg)}
+.metals .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/metals/gold.svg)}
+.metals .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/metals/silver.svg)}
+.metals .cot-tabs-nav-small li:nth-child(3) .btn:before{background-image:url(../../images/cot/icons/metals/platinum.svg)}
+.metals .cot-tabs-nav-small li:nth-child(4) .btn:before{background-image:url(../../images/cot/icons/metals/palladium.svg)}
+.metals .cot-tabs-nav-small li:nth-child(5) .btn:before{background-image:url(../../images/cot/icons/metals/copper.svg)}
+.grains .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/grains/soybeans.svg)}
+.grains .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/grains/soybean-meal.svg)}
+.grains .cot-tabs-nav-small li:nth-child(3) .btn:before{background-image:url(../../images/cot/icons/grains/soybean-oil.svg)}
+.grains .cot-tabs-nav-small li:nth-child(4) .btn:before{background-image:url(../../images/cot/icons/grains/corn.svg)}
+.grains .cot-tabs-nav-small li:nth-child(5) .btn:before{background-image:url(../../images/cot/icons/grains/wheat.svg)}
+.grains .cot-tabs-nav-small li:nth-child(6) .btn:before{background-image:url(../../images/cot/icons/grains/rough-rice.svg)}
+.softs .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/softs/cotton.svg)}
+.softs .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/softs/coffee.svg)}
+.softs .cot-tabs-nav-small li:nth-child(3) .btn:before{background-image:url(../../images/cot/icons/softs/cacao.svg)}
+.softs .cot-tabs-nav-small li:nth-child(4) .btn:before{background-image:url(../../images/cot/icons/softs/sugar.svg)}
+.softs .cot-tabs-nav-small li:nth-child(5) .btn:before{background-image:url(../../images/cot/icons/softs/orange-juice.svg)}
+.softs .cot-tabs-nav-small li:nth-child(6) .btn:before{background-image:url(../../images/cot/icons/softs/lumber.svg)}
+.meats .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/meats/live-cattle.svg)}
+.meats .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/meats/feeder-cattle.svg)}
+.meats .cot-tabs-nav-small li:nth-child(3) .btn:before{background-image:url(../../images/cot/icons/meats/lean-hogs.svg)}
+.other .cot-tabs-nav-small li:nth-child(1) .btn:before{background-image:url(../../images/cot/icons/other/bitcoin.svg)}
+.other .cot-tabs-nav-small li:nth-child(2) .btn:before{background-image:url(../../images/cot/icons/other/vix-futures.svg)}
+#nav{padding-top:100px;margin-top:-80px}
+@media (max-width: 1200px) {
+.cot-tabs-nav{flex-wrap:wrap;gap:0 20px}
+.cot-tabs-nav-small{margin-top:20px}
+}
+@media (max-width: 992px) {
+.intro-sect{padding:90px 0}
+#nav{padding-top:70px;margin-top:-70px}
+.cot-report-sect .intro-right img{max-width:100%;min-width:unset}
+.cot-tabs-nav{gap:0 10px}
+.cot-tabs-nav li,.cot-tabs-nav-small li{margin:5px 0}
+.cot-tabs-nav .btn{padding:10px 16px}
+.cot-tabs-nav-small .btn{padding:8px 12px 8px 8px;font-size:13px;}
+}
+@media (max-width:480px) {
+.cot-tabs-nav .btn {padding: 8px 14px;}
+.cot-tabs-nav-small .btn:before {width: 25px;height: 25px;margin-right: 10px;}
+}

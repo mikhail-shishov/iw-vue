@@ -48,7 +48,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">M.H.</b>
@@ -74,7 +74,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">U.</b>
@@ -104,7 +104,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">J.P.</b>
@@ -132,7 +132,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">M.H.</b>
@@ -157,7 +157,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">U.</b>
@@ -186,7 +186,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">J.P.</b>
@@ -213,7 +213,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">M.H.</b>
@@ -239,7 +239,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">U.</b>
@@ -269,7 +269,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">J.P.</b>
@@ -297,7 +297,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">M.H.</b>
@@ -323,7 +323,7 @@ export default defineComponent({
               </div>
               <div class="article-info-left">
                 <div class="article-info-avatar">
-                  <img src="/assets/images/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
+                  <img src="/article/avatar.svg" loading="lazy" width="60" height="60" alt="">
                 </div>
                 <div class="article-info-item">
                   <b itemprop="author">U.</b>

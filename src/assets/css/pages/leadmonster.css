@@ -1,0 +1,362 @@
+.intro-sect {
+  background-color: var(--black);
+  background-image: url(../../images/downloads/downloads-bg.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 100px 0;
+  position: relative;
+  min-height: 480px;
+}
+
+.intro-sect .text-min {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10px;
+}
+
+.intro-sect-col {
+  max-width: 610px;
+}
+
+.intro-sect .h1,
+.intro-sect .h2,
+.intro-sect .h3,
+.intro-sect .text {
+  color: white;
+}
+
+.intro-sect-col .text {
+  max-width: 550px;
+}
+
+.intro-sect-col .btn-white {
+  padding: 0;
+  border: 0;
+  text-decoration: underline;
+}
+
+.down-list {
+  display: flex;
+  margin: 35px 0 60px;
+  gap: 35px;
+  flex-wrap: wrap;
+}
+
+.down-item {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  padding: 35px;
+  border: 1px solid var(--black);
+  position: relative;
+  z-index: 2;
+  flex-basis: 48%;
+  flex-grow: 1;
+}
+
+.down-item .btn-container {
+  align-items: center;
+}
+
+.down-item-wide {
+  max-width: 100%;
+  flex-basis: 100%;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+}
+
+.down-item-img {
+  min-width: 100%;
+}
+
+.down-item-wide .down-item-img-wrap {
+  min-width: 410px;
+  display: flex;
+  flex-direction: column;
+}
+
+.video-item,
+.present-item {
+  flex-basis: calc(50% - 5px);
+  display: flex;
+  flex-direction: column;
+}
+
+.present-item {
+  align-items: flex-start;
+}
+
+.present-img {
+  margin-bottom: 20px;
+}
+
+.video-container,
+.present-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 60px;
+}
+
+.article-video {
+  height: 300px;
+  margin: auto 0 0;
+}
+
+.video-item .h4 {
+  font-size: 16px;
+}
+
+.trader-mag-row {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+
+.trader-mag-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.trader-mag-item .h4,
+.trader-mag-item .text {
+  font-size: 15px;
+}
+
+.trader-mag-item .h4 {
+  margin: 0;
+}
+
+.trader-mag-pic {
+  max-width: 210px;
+}
+
+.present-item .h4 {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.intro-item-sect {
+  background-image: url(/assets/images/downloads/item-bg.webp);
+  padding: 20px 0 0;
+  min-height: auto;
+}
+
+.intro-item-sect .h1 {
+  margin-bottom: 20px;
+}
+
+.intro-item-sect .text {
+  margin: 35px 0;
+}
+
+.intro-item-sect .btn {
+  margin-top: 5px;
+}
+
+.intro-item-sect .intro-right {
+  margin-right: -100px;
+  min-width: 600px;
+}
+
+.download-sect {
+  background-color: var(--lightgrey-2);
+  padding: 70px 0;
+}
+
+.download-row {
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 35px 35px 35px 50px;
+}
+
+.download-left {
+  flex-basis: 300px;
+  min-width: 300px;
+}
+
+.download-right .text {
+  margin-top: 0;
+}
+
+.video-container {
+  background-color: white;
+  padding: 25px;
+}
+
+.video-container .h3 {
+  margin-right: auto;
+}
+
+.video-container .video {
+  width: 100% !important;
+  height: 490px !important;
+}
+
+@media (max-width: 992px) {
+  .video-container {
+    gap: 0;
+  }
+
+  .video-item,
+  .present-item {
+    flex-basis: 100%;
+  }
+
+  .article-video {
+    margin: 0 0 20px;
+    height: 400px;
+  }
+
+  .down-item {
+    padding: 20px;
+  }
+
+  .down-item-wide {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .trader-mag-row {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .intro-sect {
+    min-height: unset;
+  }
+
+  .intro-sect .text-min {
+    position: static;
+    margin: 50px 0 0;
+  }
+
+  .intro-sect .btn {
+    margin-top: 25px;
+  }
+
+  .intro-item-sect .text {
+    margin: 0;
+  }
+
+  .download-row {
+    padding: 20px;
+    gap: 26px;
+  }
+
+  .intro-item-sect {
+    padding: 60px 0 0;
+  }
+
+  .intro-item-sect .intro-left {
+    width: 100%;
+  }
+
+  .intro-item-sect .intro-right {
+    margin-right: 0;
+    min-width: 100%;
+    justify-content: center;
+  }
+
+  .video-container .video {
+    height: auto !important;
+    min-height: 460px;
+  }
+
+  .video-container .video {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 768px) {
+  .intro-sect {
+    padding: 60px 0;
+    position: relative;
+  }
+
+  .intro-sect:before {
+    content: '';
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+  }
+
+  .intro-sect-col {
+    position: relative;
+    z-index: 1;
+  }
+
+  .down-list {
+    flex-direction: column;
+  }
+
+  .down-item-img {
+    min-width: unset;
+    max-width: 100%;
+    width: 400px;
+  }
+
+  .down-item-wide .down-item-img-wrap {
+    min-width: 100%;
+  }
+
+  .intro-item-sect:before {
+    display: none;
+  }
+
+  .download-left {
+    min-width: unset;
+  }
+
+  .intro-item-sect {
+    padding: 60px 0 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .article-video {
+    height: 240px;
+  }
+
+  .download-sect {
+    padding: 40px 0;
+  }
+
+  .download-left {
+    flex-basis: unset;
+  }
+
+  .download-row {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+  }
+
+  .intro-item-sect .intro-row {
+    gap: 25px;
+  }
+}
+
+@media (max-width: 420px) {
+  .trader-mag-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .video-container .video {
+    min-height: 110px;
+  }
+}

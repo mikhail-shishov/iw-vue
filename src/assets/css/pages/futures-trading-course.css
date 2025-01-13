@@ -1,0 +1,58 @@
+.futures-sect{padding:90px 0;position:relative;overflow:hidden;background:linear-gradient(90deg,#2b2e31 0%,#3c8131 100%)}
+.futures-sect .badge{font-weight:700;font-size:28px;padding:9px 43px;background-color:#242923;color:#fff;display:inline-block;border-radius:100px}
+.futures-sect .h1-heading{font-size:58px;margin:30px 0 20px}
+.futures-sect .text-container .btn{margin-top:60px;color: #1f1d20;}
+.futures-sect *{color:#fff}
+.futures-sect .container{display:flex}
+.futures-right{background:#2e2e2e;border-radius:15px;width:50%}
+.futures-right-text{background:#6ee327;border-radius:0 10px 10px 0;max-width:295px;padding:27px 40px;font-size:18px;margin-top:40px}
+.futures-right-text ul{margin:0;padding:0}
+.futures-sect .text-container{position:relative;z-index:1;max-width:55%;padding-right:40px}
+.futures-sect .text-big{font-size:32px;margin:30px 0;font-weight:700}
+.futures-max{position:absolute;bottom:0;right:60px;z-index:2}
+.futures-time{display:flex;align-items:center}
+.futures-time span,.futures-time b{font-size:32px;line-height:1}
+.futures-time * + *{margin-left:13px;padding-left:13px;border-left:1px solid #242923}
+.futures-term{display:flex;align-items:center;margin-bottom:80px}
+.futures-term-img{position:relative;background:linear-gradient(134.06deg,#3c7d32 5.71%,#2e2e2e 94.66%);border-radius:10px;margin-right:15px;width:100px;height:100px;display:flex;align-items:center;overflow:hidden}
+.futures-term-img img{margin:0 4px -10px}
+.futures-term .text{margin:0;max-width:380px}
+.futures-sect .cf-input-text{border-bottom:1px solid #fff}
+.futures-sect .cf-vertical{display:flex;flex-direction:column;max-width:400px}
+.futures-decor{position:absolute;height:100%;width:50%;right:0;bottom:0}
+.futures-decor img{position:absolute;max-width:100%}
+.futures-decor .big-300{z-index:1;width:490px;bottom:90px}
+.futures-decor .decor-300{z-index:3;bottom:0;right:27vw;width:300px;height:auto}
+.futures-decor .book-decor{z-index:3;max-width:400px;right:3vw;bottom:0}
+.futures-sect-3{background:unset}
+.futures-sect-3 .h1-heading,.futures-sect-3 .text-big{color:#2E2E2E}
+.futures-sect-3 li::marker{color:#6EE327}
+.futures-sect-3 .cf-input-text{border-bottom:1px solid #B9B9B9}
+@media (max-width: 1280px) {
+.futures-sect .container{display:flex;flex-direction:column}
+.futures-sect-3 .futures-right-text{background:linear-gradient(90deg,#2E2E2E 0%,#3D8132 100%);margin:0}
+.futures-right{background:transparent;width:100%;margin-top:40px}
+.futures-right-img{max-width:100%}
+}
+@media (max-width: 1140px) {
+.futures-sect{padding:90px 0}
+.futures-sect .text-container{max-width:100%;padding-right:0;z-index:4}
+.futures-right-text{border-radius:10px;width:100%;max-width:100%}
+.futures-max{position:static;max-width:400px;margin:auto}
+.futures-decor .decor-300{bottom:0;right:46vw;max-width:200px}
+.futures-decor .book-decor{max-width:300px;right:15vw;bottom:0}
+}
+@media (max-width: 992px) {
+.futures-sect .badge{font-size:16px;padding:9px 30px}
+.futures-sect .h1-heading{font-size:36px;margin:20px 0}
+.futures-sect .text-big{font-size:24px;margin:20px 0}
+.futures-sect .text-container .btn{margin-top:20px}
+}
+@media (max-width: 576px) {
+.futures-sect{padding:60px 0 0}
+.futures-decor .book-decor{max-width:240px;right:10vw}
+.futures-right{margin-top:0}
+}
+@media (max-width: 420px) {
+.futures-max{max-width:100%}
+}

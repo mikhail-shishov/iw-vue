@@ -1,0 +1,21 @@
+.unsere-erfolge{overflow-x:hidden}
+.intro-sect{padding:120px 0;background-color:#f6f2f7}
+.intro-text{max-width:480px}
+.article-video{width:100%;min-width:640px;height:360px}
+.intro-right{width:100%;padding-left:30px}
+.home-numbers-container{overflow:visible;max-width:100vw}
+.last-trades-sect{padding:60px 0;overflow:hidden;max-width:100vw}
+@keyframes ticker-kf {
+0%{transform:translate3d(108rem,0,0)}
+100%{transform:translate3d(-108rem,0,0)}
+}
+@media (max-width: 1439px) {
+.article-video{min-width:520px;height:290px}
+}
+@media (max-width: 1280px) {
+.intro-right{padding-left:0}
+.article-video{min-width:auto;height:50vw}
+}
+@media (max-width: 992px) {
+.intro-sect {padding: 90px 0;}
+}

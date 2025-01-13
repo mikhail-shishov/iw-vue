@@ -1,0 +1,9 @@
+.thank-you-sect{padding:70px 0}
+.social-links{flex-direction:row;justify-content:center;gap:25px;margin:30px 0}
+.social-links .footer-icon{width:50px;margin:0 7px;}
+.main-heading{color:#1f1d20;font-size:58px;margin:20px 0 30px}
+.section-heading{margin:40px 0 28px}
+.ebook-block{margin:40px 0 80px}
+@media (max-width: 576px) {
+.main-heading{font-size:36px}
+}

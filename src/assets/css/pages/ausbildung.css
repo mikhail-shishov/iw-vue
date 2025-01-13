@@ -1,0 +1,9 @@
+.intro-sect{background-color:#f6f2f7;padding:120px 0}
+.article-sect{background-color:#f6f2f7}
+.cot-01-product-sect{background-color:#fff;padding:90px 0}
+.cot-01-product-sect + .cot-01-product-sect{padding-top:0}
+.courses-article-sect .section-heading{margin-top:0}
+@media(max-width:400px){
+    .intro-sect{padding: 90px 0;}
+    .cot-01-product-sect{padding: 60px 0;}
+}

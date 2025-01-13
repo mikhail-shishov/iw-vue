@@ -1,0 +1,70 @@
+.intro-sect{padding:120px 0;background-color:#3d56e3}
+.intro-text{max-width:600px}
+.recept-sect{padding:80px 0}
+.recept-container{display:flex;justify-content:space-between}
+.recept-col{width:60%}
+.recept-col + .recept-col{width:75%}
+.recept-item{margin:30px 0;display:flex;flex-wrap:wrap;align-items:center}
+.recept-item-left{position:relative}
+.recept-item-left,.recept-item-right{width:80%;padding:0 20px}
+.recept-item-left{position:relative}
+.recept-col{width:60%}
+.recept-col h3{text-align:left}
+.recept-col:last-of-type .recept-item-heading{align-self:end}
+.recept-item-heading img{height:40px}
+.recept-item-heading-number{color:#3f313f;background-color:#27e34f;min-width:40px;height:40px;border-radius:50%;text-align:center;line-height:37px;font-weight:700;border:1px solid #3f313f}
+.cols-sect{background-color:#f6f2f7;padding:80px 0}
+.cols-row{display:flex}
+.cols-sect .col{width:50%;padding-right:60px}
+.col-list li{margin-bottom:15px;position:relative;list-style:none;padding-left:20px;font-size:16px;line-height:1.8}
+.col-list li:before{content:"";background-color:#34a938;width:8px;height:8px;top:11px;left:0;border-radius:50px;display:inline-block;position:absolute}
+.tariff-item:before{content:"";position:absolute;width:50px;height:50px;background-repeat:no-repeat;background-position:center;display:inline-block;top:-30px;left:-10px}
+.tariff-item:nth-of-type(1):before{background-image:url(/assets/images/cot-01/book-icon.svg)}
+.tariff-item:nth-of-type(2):before{background-image:url(/assets/images/cot-01/tools-icon.svg)}
+.tariff-item:nth-of-type(3):before{background-image:url(/assets/images/cot-01/graph-icon.svg)}
+.coaching-people-sect{padding:80px 0;background-color:#3e3940;background-image:url(/assets/images/cot-01/graphic-behind-team-white.png);background-position:bottom;background-repeat:no-repeat;background-size:100%;background-repeat:no-repeat}
+.coaching-people-sect *{color:#fff}
+.coaching-people-container{height:800px;position:relative;margin-left:20px}
+.coaching-people-name{display:none}
+.coaching-people-item,.coaching-people-desc{position:absolute}
+.coaching-people-desc{width:275px;background-color:#3e3940}
+.cot-01-product-sect{background-color:transparent}
+.coaching-people-item:nth-of-type(1){top:50px;left:280px}
+.coaching-people-item:nth-of-type(2){top:180px;left:0}
+.coaching-people-item:nth-of-type(3){top:250px;left:530px}
+.coaching-people-item:nth-of-type(4){bottom:80px;left:270px}
+.coaching-people-item:nth-of-type(1) .coaching-people-desc{top:-50px;left:330px}
+.coaching-people-item:nth-of-type(2) .coaching-people-desc{top:50px;left:-170px}
+.coaching-people-item:nth-of-type(3) .coaching-people-desc{top:-50px;left:220px}
+.coaching-people-item:nth-of-type(4) .coaching-people-desc{bottom:-130px;left:390px}
+@media (max-width: 1280px) {
+.coaching-people-item,.coaching-people-desc{position:static}
+.coaching-people-container{height:auto;margin-left:0}
+.coaching-people-item{display:flex;margin:20px 0 40px}
+.coaching-people-text{display:none}
+.coaching-people-name{display:block;font-weight:700;cursor:pointer;user-select:none}
+.coaching-people-name:before{content:"";background-image:url(../../images/triangel.png);background-position:center;background-size:cover;display:inline-block;width:10px;height:15px;margin-right:10px;translate:.3s}
+.coaching-people-name-open:before{transform:rotate(90deg)}
+.coaching-people-name.coaching-people-name-open ~ .coaching-people-text{display:block}
+.coaching-people-desc{width:100%;margin-left:40px}
+.coaching-people-item img{max-width:300px}
+}
+@media (max-width: 992px) {
+.coaching-people-name{display:block}
+}
+@media (max-width: 768px) {
+.recept-item{justify-content:flex-start;flex-wrap:initial;min-height:0;margin:20px 0}
+.recept-container{flex-direction:column}
+.recept-col,.recept-col + .recept-col{width:100%}
+.recept-item p{font-size:14px}
+.recept-col:last-of-type .recept-item-heading{align-self:start;margin-right:20px;min-width:40px;text-align:center}
+.cols-row{flex-direction:column}
+.cols-sect .col{width:100%;padding-right:0}
+.cols-sect .col + .col{margin-top:20px}
+.col-list li{margin-bottom:10px}
+}
+@media (max-width: 576px) {
+.coaching-people-item{flex-direction:column}
+.coaching-people-desc{margin-left:0}
+.intro-sect{padding:30px 0 40px}
+}

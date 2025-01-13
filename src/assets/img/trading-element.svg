@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="518" height="57.5" viewBox="0 0 518 57.5">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: #27e34f;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #27e34f;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-width: 1px;
+      }
+
+      .cls-3 {
+        stroke: #3b3b3b;
+      }
+    </style>
+  </defs>
+  <rect id="vertikal" class="cls-1" x="255.5" width="1" height="50"/>
+  <rect id="Rechteck_24" data-name="Rechteck 24" class="cls-2" x="10.5" y="48" width="500" height="1"/>
+  <circle class="cls-3" cx="256" cy="48.5" r="7.5"/>
+  <circle class="cls-3" cx="510" cy="48.5" r="7.5"/>
+  <circle class="cls-3" cx="8" cy="49.5" r="7.5"/>
+</svg>

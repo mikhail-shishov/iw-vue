@@ -1,0 +1,242 @@
+.bday-modal .modal-wrap {
+  background: url(/assets/images/modal/geburtstag-aktion/hooray.png),
+    linear-gradient(224.62deg, #37a022 13.26%, #093700 81.07%);
+  background-position: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 40px 40px 40px 30px;
+  overflow: hidden;
+}
+
+.bday-green {
+  color: #6ee327;
+}
+
+.bday-modal-offer {
+  display: flex;
+  align-items: center;
+}
+
+.bday-modal-offer-number {
+  font-weight: 700;
+  font-size: 72px;
+  color: #6ee327;
+  line-height: 1.1;
+  margin-right: 8px;
+}
+
+.bday-modal-offer-text {
+  margin: 0;
+  font-weight: 700;
+  font-size: 26px;
+  color: #ffffff;
+  line-height: 1.1;
+}
+
+.bday-modal .btn-filled-green {
+  background-color: #6ee327;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 5px 26px;
+}
+
+.bday-modal .btn-filled-green:hover {
+  opacity: 0.95;
+  border-color: #6ee327;
+}
+
+.bday-modal-date {
+  margin: 30px 0;
+}
+
+.bday-modal .main-heading {
+  color: white;
+  font-size: 48px;
+  margin: 0 0 25px;
+}
+
+.bday-modal .section-heading {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.bday-modal-date-day,
+.bday-modal-date-time {
+  color: white;
+  margin: 0;
+}
+
+.bday-modal-date-day {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+.bday-modal-date-time {
+  font-size: 20px;
+}
+
+.bday-modal-date-time:before {
+    content: "";
+    background-image: url(/assets/images/modal/geburtstag-aktion/clock.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    padding-right: 8px;
+    border-right: 1px solid white;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bday-row {
+  display: flex;
+}
+
+.bday-left {
+  max-width: 340px;
+}
+
+.bday-right {
+  position: relative;
+  width: 50%;
+}
+
+.bday-right img {
+  position: absolute;
+}
+
+.bday-circle {
+  position: relative;
+  top: -40px;
+  right: -10px;
+  width: 615px;
+}
+
+.bday-modal-max {
+  right: -80px;
+  z-index: 1;
+}
+
+.bday-modal-circle-out {
+  width: 655px;
+  z-index: 1;
+  left: -10px;
+  top: -10px;
+}
+
+.bday-modal-circle-shadow {
+  z-index: 1;
+}
+
+.bday-modal-pointer {
+  left: 50%;
+  transform: translateX(-50%);
+  top: 0;
+  z-index: 1;
+}
+
+.bday-modal-spin {
+  width: 615px;
+  animation: spin 10s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 840px) {
+  .modal-close-trigger {
+    color: white;
+  }
+  .bday-modal .modal-wrap {
+    padding: 40px 20px;
+    background-position: bottom;
+  }
+  .bday-row {
+    flex-direction: column;
+  }
+  .bday-left,
+  .bday-right {
+    max-width: 100%;
+    width: 100%;
+  }
+  .bday-right {
+    height: 400px;
+  }
+  .bday-modal-date-day {
+    font-size: 24px;
+  }
+  .bday-modal .main-heading {
+    margin: 0 0 20px;
+  }
+  .bday-modal .section-heading {
+    margin-bottom: 20px;
+  }
+  .bday-modal-date {
+    margin: 15px 0 30px;
+  }
+  .bday-modal .btn-filled-green {
+    position: absolute;
+    bottom: 0;
+    z-index: 3;
+    left: 50%;
+    bottom: 30px;
+    transform: translateX(-50%);
+  }
+  .bday-circle {
+    top: 0;
+    right: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 100vw;
+    width: 100%;
+    text-align: center;
+  }
+  .bday-modal-circle-out,
+  .bday-modal-spin,
+  .bday-modal-max {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+  }
+  .bday-modal-max {
+    top: -40px;
+    left: calc(50% - 55px);
+  }
+  .bday-modal-circle-out,
+  .bday-modal-spin {
+    width: 120%;
+  }
+  .bday-modal-spin {
+    width: 95vw;
+    left: -2.5vw;
+    top: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .bday-modal .main-heading {
+    font-size: 40px;
+  }
+  .bday-modal .section-heading {
+    font-size: 24px;
+  }
+  .bday-modal-offer-number {
+    font-size: 54px;
+  }
+  .bday-modal-offer-text {
+    font-size: 22px;
+  }
+  .bday-modal-spin {
+    width: 92vw;
+  }
+}

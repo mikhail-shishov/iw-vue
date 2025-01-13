@@ -28,10 +28,10 @@
                     <span class="article-item-card-name">COT Data</span>
                     <picture>
                       <source srcset="/assets/images/tools/tools-cot.webp" width="400" height="267" type="image/webp">
-                      <img src="/assets/images/tools/tools-cot.jpg" class="article-img-thumb" loading="lazy" width="400"
+                      <img src="/tools/tools-cot.jpg" class="article-img-thumb" loading="lazy" width="400"
                         height="267" alt="">
                     </picture>
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>
@@ -50,7 +50,7 @@
                       <img src="/uploads/2023/05/22/400season-thumb.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">
                     </picture>
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>
@@ -65,10 +65,10 @@
                     <picture>
                       <source srcset="/assets/images/tools/tools-futures-calc.webp" width="400" height="267"
                         type="image/webp">
-                      <img src="/assets/images/tools/tools-futures-calc.jpg" class="article-img-thumb" loading="lazy"
+                      <img src="/tools/tools-futures-calc.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">
                     </picture>
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>
@@ -83,10 +83,10 @@
                     <picture>
                       <source srcset="/assets/images/tools/tools-calendar.webp" width="400" height="267"
                         type="image/webp">
-                      <img src="/assets/images/tools/tools-calendar.jpg" class="article-img-thumb" loading="lazy"
+                      <img src="/tools/tools-calendar.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">
                     </picture>
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>
@@ -101,10 +101,10 @@
                     <picture>
                       <source srcset="/assets/images/tools/tools-contract.webp" width="400" height="267"
                         type="image/webp">
-                      <img src="/assets/images/tools/tools-contract.jpg" class="article-img-thumb" loading="lazy"
+                      <img src="/tools/tools-contract.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">
                     </picture>
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>
@@ -116,9 +116,9 @@
                   <a href="/en/trade-return-calculator/" tabindex="-1">
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">Trade Return Calculator</span>
-                    <img src="/assets/images/tools/tools-new-calc.webp" class="article-img-thumb" loading="lazy"
+                    <img src="/tools/tools-new-calc.webp" class="article-img-thumb" loading="lazy"
                       width="400" height="267" alt="">
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>
@@ -130,9 +130,9 @@
                   <a href="/en/commodities-map/" tabindex="-1">
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">Commodities Map</span>
-                    <img src="/assets/images/tools/tools-commodities.webp" class="article-img-thumb" loading="lazy"
+                    <img src="/tools/tools-commodities.webp" class="article-img-thumb" loading="lazy"
                       width="400" height="267" alt="">
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>
@@ -144,9 +144,9 @@
                   <a href="/en/compound-calculator/" tabindex="-1">
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">Сompound Interest Calculator</span>
-                    <img src="/assets/images/tools/tools-compound.webp" class="article-img-thumb" loading="lazy"
+                    <img src="/tools/tools-compound.webp" class="article-img-thumb" loading="lazy"
                       width="400" height="267" alt="">
-                    <img src="/assets/images/en/icons/tool.svg" class="article-item-card-icon" alt="">
+                    <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
                   </a>
                 </div>
               </div>

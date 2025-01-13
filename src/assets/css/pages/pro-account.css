@@ -1,0 +1,5 @@
+.intro-sect{padding:120px 0;background-color:#f6f2f7}
+.pro-tools-sect{padding:60px 0 90px}
+@media (max-width: 992px) {
+.intro-sect {padding: 90px 0;}
+}

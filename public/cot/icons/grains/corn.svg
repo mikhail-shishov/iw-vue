@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: .99px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10 {
+        stroke: #ffe019;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-8, .cls-9, .cls-10 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke-width: .99px;
+      }
+
+      .cls-3 {
+        stroke-width: .93px;
+      }
+
+      .cls-4 {
+        stroke-width: .98px;
+      }
+
+      .cls-5 {
+        stroke-width: .99px;
+      }
+
+      .cls-6 {
+        stroke-width: .98px;
+      }
+
+      .cls-11 {
+        fill: #ffe019;
+      }
+
+      .cls-7 {
+        fill: #fff;
+      }
+
+      .cls-9 {
+        stroke-width: .98px;
+      }
+
+      .cls-10 {
+        stroke-width: .98px;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <g id="Layer_2" data-name="Layer 2">
+      <circle class="cls-11" cx="40" cy="40" r="40"/>
+    </g>
+    <g>
+      <path class="cls-7" d="M48.5,55.52l-.99-21.5c-.05-12.42-4.31-21.04-7.71-21.22-3.45-.19-8.41,8.23-8.97,21.22l-.99,21.5"/>
+      <path class="cls-7" d="M39.18,54.68c0-9.54,20-13.33,20-13.33-.23,.18-7.3,4.99-7.73,13.54-.18,3.53-1.12,7.71-8.21,7.9-1.31,.03-2.57-.18-3.69-.53-.28-.09-.53-.08-.8,.02-1.23,.44-2.69,.58-4.17,.49-6.6-.38-7.49-4.43-7.67-7.87-.44-8.55-7.51-13.36-7.73-13.54,0,0,20,3.79,20,13.33Z"/>
+      <line class="cls-9" x1="31.4" y1="28.28" x2="46.81" y2="28.28"/>
+      <line class="cls-6" x1="31.4" y1="32.94" x2="47.5" y2="32.94"/>
+      <line class="cls-2" x1="30.69" y1="37.6" x2="47.5" y2="37.6"/>
+      <line class="cls-1" x1="30.46" y1="42.25" x2="47.5" y2="42.25"/>
+      <line class="cls-5" x1="32.45" y1="45.55" x2="32.45" y2="23.39"/>
+      <line class="cls-8" x1="36.98" y1="49.31" x2="36.98" y2="14.43"/>
+      <line class="cls-8" x1="42.07" y1="48.79" x2="42.07" y2="14.09"/>
+      <line class="cls-8" x1="46.06" y1="45.55" x2="46.06" y2="22.45"/>
+      <line class="cls-8" x1="32.45" y1="45.94" x2="46.06" y2="45.94"/>
+      <line class="cls-4" x1="33.73" y1="19.61" x2="44.97" y2="19.61"/>
+      <line class="cls-10" x1="32.45" y1="24.27" x2="46.06" y2="24.27"/>
+      <line class="cls-3" x1="35.95" y1="16.01" x2="43.29" y2="16.01"/>
+    </g>
+  </g>
+</svg>

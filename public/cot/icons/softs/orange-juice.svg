@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Ebene_2" data-name="Ebene 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f68290;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #f68290;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-3 {
+        fill: #db8600;
+      }
+    </style>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <g id="Layer_2" data-name="Layer 2">
+      <circle class="cls-1" cx="40" cy="40" r="40"/>
+    </g>
+    <g>
+      <path class="cls-2" d="M35.8,15.87h-8.63l6.11,44.04c.12,.99,.87,1.8,1.96,1.8h19.85c1.07,0,1.82-.81,1.96-1.8l6.08-44.04h-27.34Z"/>
+      <path class="cls-3" d="M40.09,61.7h-4.85c-1.09,0-1.84-.81-1.96-1.8l-2.74-19.8c7.03,1.25,12.36,6.86,12.36,13.6,0,2.96-1.04,5.72-2.81,7.99h0Z"/>
+      <path class="cls-2" d="M27.41,41.01c1.07-5.5-7.2-4.77-9.5-8.59-2.04,3.64,5.07,11.13,9.5,8.59h0Z"/>
+      <path class="cls-2" d="M36.65,27.69h-7.83l4.46,32.22c.12,.99,.87,1.8,1.96,1.8h19.85c1.07,0,1.82-.81,1.96-1.8l4.46-32.22h-24.87Z"/>
+      <path class="cls-2" d="M27.44,40c7.9,0,14.3,5.8,14.3,12.92s-6.4,12.94-14.3,12.94-14.3-5.8-14.3-12.94,6.4-12.92,14.3-12.92h0Z"/>
+    </g>
+  </g>
+</svg>

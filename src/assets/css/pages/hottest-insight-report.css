@@ -1,0 +1,97 @@
+.digest-sect .container-big{width:1400px}
+.digest-sect .main-heading{font-size:48px;margin:0 0 25px;max-width:750px}
+.digest-sect .section-heading{font-size:28px;max-width:750px;margin:0 0 45px;font-weight:400}
+.digest-sect .section-heading:before{content:"";background-image:url(/assets/images/hottest-insight-report/fire-icon.png);background-size:cover;width:55px;height:55px;display:inline-block;margin:10px 20px 0 0;float:left}
+.digest-sect{background-image:url(/assets/images/hottest-insight-report/digest-bg.svg);background-position:right;background-repeat:no-repeat;background-size:contain;padding:50px 0 20px;position:relative}
+.digest-row{display:flex}
+.digest-col{width:50%;max-width:500px}
+.digest-box{position:relative;padding:50px 0}
+.digest-box:after{content:"";display:inline-block;position:absolute;top:0;left:110px;height:333px;width:372px;border:2px solid #27e34f;border-radius:4px}
+.digest-box-item{display:flex;background-color:#fff;position:relative;z-index:1;max-width:460px}
+.digest-box-item img{margin-right:25px}
+.digest-box-item p{max-width:410px}
+.digest-sect .digest-form-container{margin:40px 0 0}
+.digest-traders-img{position:absolute;right:0;bottom:0}
+.digest-img{position:relative;margin-left:74px;z-index:1;filter:drop-shadow(0px 4px 25px rgba(0,0,0,0.1))}
+.digest-sect .small-text{color:#9c9c9c;font-size:14px}
+.digest-risk-disclosure{padding:20px 0;margin:0;border-top:0;background-color:#1f1d20}
+.digest-risk-disclosure p{color:#fff;font-size:12px}
+.digest-sect .logo{margin:0 0 45px}
+.mail-icon{display:none}
+.digest-sect .digest-form{display:flex;align-items:baseline;background-color:#f2f2f2;border:1px solid rgba(0,0,0,0.25);border-radius:4px;gap:35px;padding:15px;position:relative;z-index:2;max-width:990px;flex-wrap:wrap}
+.digest-sect .digest-form .cf-label{margin-bottom:0}
+.digest-sect .digest-form .cf-input-text{background-color:#FBFBFB;border:1px solid #9C9C9C;border-radius:4px;padding:9px 22px;min-width:294px;max-width:294px}
+.digest-sect .digest-form .btn-filled{background-color:#00B9F3;border-radius:4px;border:0;padding:12px 30px;text-transform:none}
+.owhforms_loading{position:static;width:100%;color:#27e34f;font-weight:700}
+.hottest-insight-report .main-footer{display:none}
+@media (max-width: 1600px) {
+.digest-img{margin-left:20px;max-width:100%}
+}
+@media (max-width: 1440px) {
+.digest-sect .logo,.digest-sect .main-heading{margin:0 0 25px}
+.digest-sect .logo img{width:180px}
+.digest-sect .main-heading{font-size:42px;margin-bottom:20px}
+.digest-sect .section-heading{font-size:26px;margin-bottom:25px}
+.digest-box{position:relative;padding:30px 0}
+.digest-box:after{height:295px}
+.digest-img{max-height:300px}
+.digest-sect{padding-top:40px}
+.digest-sect .digest-form-container{margin:30px 0 0}
+}
+@media (max-width: 1439px) {
+.digest-sect .container-big{width:1240px}
+}
+@media (max-width: 1280px) {
+.digest-sect{background-position:top right;padding:40px 0 0;background-image:none}
+.digest-sect .container-big{width:90%;display:flex;flex-direction:column}
+.digest-sect .main-heading{order:1}
+.digest-sect .section-heading{order:3}
+.digest-traders-img{position:static;max-width:100%;max-height:600px;order:2;margin:-60px 0 30px;align-self:flex-end}
+.digest-row{order:4}
+.digest-sect .digest-form-container{order:5}
+.digest-risk-disclosure{max-width:100%;margin:0}
+.digest-img{max-height:unset;margin-top:40px}
+.digest-row{display:flex;flex-direction:column}
+.digest-sect .digest-form{flex-direction:column;gap:20px}
+.digest-sect .digest-form .btn-filled,.digest-sect .digest-form .cf-label,.digest-sect .digest-form .btn-filled{width:100%}
+.digest-sect .digest-form .cf-input-text{min-width:100%;max-width:100%}
+.digest-sect .mail-icon{display:block;position:absolute;top:375px;left:60px}
+.digest-sect .mail-icon img{width:35px}
+}
+@media (max-width: 992px) {
+.digest-sect .mail-icon{left:40px}
+}
+@media (max-width: 768px) {
+.digest-box{padding:30px 0;margin-bottom:30px}
+.digest-box:after{left:0;width:108%}
+.digest-col{width:90%}
+.digest-sect .mail-icon{right:20px}
+.digest-img{margin-top:0}
+}
+@media (max-width: 480px) {
+.digest-sect .mail-icon{top:465px;left:20px}
+}
+@media (max-width: 400px) {
+.digest-sect .mail-icon{top:565px}
+}
+.custom-modal-main{text-align:center;overflow:hidden;position:fixed;top:0;right:0;bottom:0;left:0;outline:0;opacity:0;transition:.15s;z-index:-1;overflow-x:hidden;overflow-y:auto}
+.modal-open{z-index:99999;opacity:1;overflow:hidden}
+.custom-modal-inner{transform:translate(0,-25%);transition:.3s ease-out;display:inline-block;vertical-align:middle;width:95%;max-width:700px;margin:30px auto}
+.custom-modal-wrap{display:block;width:100%;position:relative;background-color:#fff;border:1px solid rgba(0,0,0,0.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,0.5);background-clip:padding-box;outline:0;text-align:center;padding:50px;box-sizing:border-box;max-height:calc(100vh - 70px);overflow-y:auto;background-image:url(/assets/images/hottest-insight-report/reg-thx.jpg);background-size:cover;background-position:right}
+.popup-content-wrap .digest-form{max-width:420px}
+.popup-content-wrap .main-heading{margin-bottom:0;max-width:100%}
+.popup-content-wrap .section-heading,.popup-content-wrap .middle-heading{margin-top:30px;margin-bottom:0;max-width:100%}
+.modal-open .custom-modal-inner{transform:translate(0,0);position:relative;z-index:999}
+.modal-open .bg-overlay{background:rgba(0,0,0,0.6);z-index:99}
+.bg-overlay{background:rgba(0,0,0,0);height:100vh;width:100%;position:fixed;left:0;top:0;right:0;bottom:0;z-index:0;transition:.15s linear}
+.btn-close{text-align:center;font-size:48px;line-height:1;background-color:#fff;border-radius:50%;width:48px;height:48px;cursor:pointer;position:absolute;right:10px;top:10px;cursor:pointer}
+.custom-modal-main .section-heading:before{display:none}
+@media (max-width: 1280px) {
+.popup-content-wrap .main-heading{font-size:30px}
+.popup-content-wrap .section-heading,.popup-content-wrap .middle-heading{font-size:24px}
+}
+@media (max-width: 992px) {
+.popup-content-wrap .section-heading,.popup-content-wrap .middle-heading{font-size:18px;margin-top:20px}
+.custom-modal-wrap{padding:25px}
+.btn-close{font-size:25px;width:25px;height:25px;right:5px;top:5px}
+}

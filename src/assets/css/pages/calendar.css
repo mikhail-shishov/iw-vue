@@ -1,0 +1,50 @@
+.calendar-tip{margin-top:60px}
+.calendar-tip-item img{width:18px;margin-right:25px}
+.calendar-tip-row{display:flex;width:100%;justify-content:space-between}
+.calendar-tip-item{margin-bottom:35px;display: flex;align-items: center;}
+.calendar-main-container{max-width:1540px;margin:60px auto 0;}
+.calendar-week-days{position:sticky;top:105px;background-color:#fff}
+.calendar-week-days,.calendar-month-days{display:flex;flex-wrap:wrap}
+.calendar-month{text-align:center;margin:0 0 60px}
+.calendar-month-title{font-size:36px;font-weight:700;margin:0 40px;user-select:none}
+.calendar-arrow{width:40px;height:40px;background-image:url(/assets/images/calendar/arrow-left.svg);background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align:text-bottom}
+.calendar-arrow-right{background-image:url(/assets/images/calendar/arrow-right.svg)}
+.calendar-day{width:16.6666%;border-top:1px solid #d0ccd1;padding:30px 16px 30px 8px}
+.calendar-day-current{border-top:2px solid #27e34f}
+.calendar-week-days .calendar-day{text-align:center;padding:15px;border-top:0}
+.calendar-date{font-size:28px;font-weight:700;text-align:center;display:block}
+.calendar-day-fade span,.calendar-day-fade p,.calendar-day-fade a,.calendar-day-fade .calendar-event-text a{color:#d0ccd1}
+.calendar-event{display:flex;align-items:flex-start;margin-top:30px}
+.calendar-event span{margin-right:6px}
+.calendar-event-icon{min-width:18px;margin:5px 12px 0 0}
+.calendar-event-text{font-size:16px}
+.calendar-event-text p{margin:0;font-size:16px}
+.calendar-event-text a{font-weight:700;color:#1f1d20;display:inline-block}
+.calendar-event-text .small-text{font-size:14px}
+.calendar-event-link-img{width:16px;margin:0 0 -2px 8px;display:inline-block}
+.our-event .calendar-event-text p{border-bottom:2px solid #27e34f;padding-bottom:4px}
+.calendar-day-fade .our-event .calendar-event-text p{border-bottom:2px solid #d0ccd1}
+.calendar-day-current .calendar-date{color:#27e34f}
+.calendar{position:relative}
+@media (max-width: 1600px) {
+.calendar-main-container{max-width:95%}
+}
+@media (max-width: 992px) {
+.calendar-tip-row{justify-content:flex-start;flex-direction:column}
+.calendar-tip-item{margin:0 0 20px}
+.calendar-wrapper{overflow-x:auto}
+.calendar{overflow-x:auto;min-width:900px}
+.calendar-week-days{position:static}
+.calendar-event{margin-top:25px}
+.calendar-event-text p{font-size:13px}
+.calendar-event-text .small-text{font-size:12px}
+.calendar-event-link-img{margin:0 0 -4px 5px}
+.calendar-event + .calendar-event{margin-top:18px}
+.calendar-day{padding:20px 16px 30px 8px}
+}
+@media (max-width: 400px) {
+.calendar-month {margin: 0 0 40px;}
+.calendar-month-title {font-size: 20px;margin:0 20px;}
+.calendar-arrow {width: 30px;height: 30px;}
+.calendar-event-text p {font-size: 12px;}
+}

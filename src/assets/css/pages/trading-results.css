@@ -1,0 +1,34 @@
+.trading-results{padding:70px 0 0}
+.trading-results-list p{display:flex;align-items:center}
+.trading-results-icon{margin-right:20px}
+.trading-results-list{margin:30px 0}
+.trading-results-list-heading{margin-left:37px}
+.trading-results-row{display:flex}
+.trading-results-col{display:flex;flex-direction:column}
+.trading-results-col:first-of-type{max-width:47%}
+.trading-results-col:last-of-type{max-width:53%}
+.trading-results-subheading{font-size:28px;margin:0}
+.cta-button-container{position:relative;text-align:center;width:310px;margin-bottom:80px}
+.cta-button-container:after{content:"";background-image:url(/assets/images/telegram-logo.svg);background-size:contain;background-position:center;background-repeat:no-repeat;width:50px;height:50px;display:inline-block;position:absolute;right:-70px;top:0}
+.cta-button-container .btn{width:310px;padding:12px}
+.cta-button-container p{color:#bdbdbd;margin-top:7px;min-width:310px;font-size:15px}
+.trading-results-main-img{width:53vw;max-width:720px}
+.cot-report-sect ~ .trading-results{padding-top:0}
+@media (max-width: 992px) {
+.trading-results{padding:50px 0 0}
+.trading-results-row{flex-direction:column}
+.trading-results .main-heading{margin-bottom:10px}
+.trading-results-subheading{font-size:24px;margin:0}
+.trading-results-list{margin:10px 0}
+.trading-results-main-img{margin-top:20px;width:100%;max-width:100%}
+.trading-results-col,.trading-results-col:first-of-type,.trading-results-col:last-of-type{max-width:100%}
+.cta-button-container{margin-bottom:0}
+}
+@media (max-width: 576px) {
+.cta-button-container{width:260px}
+.cta-button-container .btn{width:260px;font-size:14px}
+.cta-button-container p{min-width:260px}
+}
+@media (max-width: 375px) {
+.cta-button-container:after{width:40px;height:40px;right:0;top:-60px}
+}

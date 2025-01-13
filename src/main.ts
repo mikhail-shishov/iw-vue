@@ -1,17 +1,13 @@
-import "./assets/main.css";
+// import "./assets/css/style.css";
 
 import { createApp } from "vue";
 import { createPinia } from "pinia";
 import 'vuetify/styles';
 import { createVuetify } from 'vuetify';
+import i18n from './i18n/index.ts';
 import { VBtn } from 'vuetify/components';
+import VueEasyLightbox from 'vue-easy-lightbox'
 import { Ripple } from 'vuetify/directives'; // vizuálny efekt, vyzerá ako Material Design
-
-// Translations provided by Vuetify
-import { pl, zhHans } from 'vuetify/locale'
-
-// Your own translation file
-// import sv from './i18n/vuetify/sv'
 
 import App from "./App.vue";
 import router from "./router";
@@ -22,13 +18,7 @@ const vuetify = createVuetify({
     },
     directives: {
         Ripple,
-    },
-    locale: {
-        locale: 'zhHans',
-        fallback: 'sv',
-        //   messages: { zhHans, pl, sv },
-        messages: { zhHans, pl },
-    },
+    }
 });
 
 const app = createApp(App);
@@ -36,4 +26,6 @@ const app = createApp(App);
 app.use(createPinia());
 app.use(router);
 app.use(vuetify)
+app.use(i18n)
+app.use(VueEasyLightbox)
 app.mount('#app')

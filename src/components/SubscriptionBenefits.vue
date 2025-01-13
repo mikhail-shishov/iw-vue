@@ -8,7 +8,7 @@
         into the COT strategy</p>
       <div class="feature-grid">
         <div class="feature-item">
-          <img src="/assets/images/icons/home-1.svg" class="feature-item-icon" loading="lazy" alt="">
+          <img src="/icons/home-1.svg" class="feature-item-icon" loading="lazy" alt="">
           <div class="feature-item-text">
             <h4 class="h4">Wrong Financial Instruments</h4>
             <p>Trading with unregulated products like CFDs or Forex often leads to opaque and costly transactions. It is
@@ -17,7 +17,7 @@
           </div>
         </div>
         <div class="feature-item">
-          <img src="/assets/images/icons/home-2.svg" class="feature-item-icon" loading="lazy" alt="">
+          <img src="/icons/home-2.svg" class="feature-item-icon" loading="lazy" alt="">
           <div class="feature-item-text">
             <h4 class="h4">Risk Management</h4>
             <p>Protecting your capital and minimizing losses should always be the top priority in trading. Speaking
@@ -27,7 +27,7 @@
           </div>
         </div>
         <div class="feature-item">
-          <img src="/assets/images/icons/home-3.svg" class="feature-item-icon" loading="lazy" alt="">
+          <img src="/icons/home-3.svg" class="feature-item-icon" loading="lazy" alt="">
           <div class="feature-item-text">
             <h4 class="h4">Basic Knowledge</h4>
             <p>It is essential to understand how to choose the right futures contract and place bracket orders
@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="feature-item">
-          <img src="/assets/images/icons/home-4.svg" class="feature-item-icon" loading="lazy" alt="">
+          <img src="/icons/home-4.svg" class="feature-item-icon" loading="lazy" alt="">
           <div class="feature-item-text">
             <h4 class="h4">Searching for the Holy Grail</h4>
             <p>Trying to master every chart pattern, indicator, or optimization technique can make your strategy
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="feature-item">
-          <img src="/assets/images/icons/home-5.svg" class="feature-item-icon" loading="lazy" alt="">
+          <img src="/icons/home-5.svg" class="feature-item-icon" loading="lazy" alt="">
           <div class="feature-item-text">
             <h4 class="h4">Managing Your Emotions</h4>
             <p>Emotions like fear and greed often get in the way of trading success, leading to poor decisions in the
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="feature-item">
-          <img src="/assets/images/icons/home-6.svg" class="feature-item-icon" loading="lazy" alt="">
+          <img src="/icons/home-6.svg" class="feature-item-icon" loading="lazy" alt="">
           <div class="feature-item-text">
             <h4 class="h4">Filling in the Knowledge Gaps</h4>
             <p>inconsistent results often come from a lack of relevant education. If you cannot comprehend futures

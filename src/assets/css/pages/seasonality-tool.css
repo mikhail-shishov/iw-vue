@@ -1,0 +1,75 @@
+.intro-sect{padding:60px 0 0;}
+.intro-text{max-width:620px}
+.article-sect{background-image:none}
+.intro-sect + .seasonality-sect ~ .article{margin:50px 0}
+.seasonality-sect{padding:0}
+/* .circle-number{color:#fff;background-color:#6EE327;line-height:40px;border:0} */
+#seasonality{padding-bottom:0!important}
+#seasonality .cot-report-points{margin:0 0 30px}
+.seasonality{margin:30px 0 15px;}
+.seasonality-btn-container{position:relative}
+.seasonality-btn-choice{display:flex;gap:12px;margin-bottom:20px}
+.seasonality-btn-container .btn{background-color:#fff;color:#242923;border-color:#ececec;min-width:280px;text-align:center;}
+.seasonality-btn-container .btn.active{background-color:#242923;border-color:#242923;color:#fff}
+.seasonality-filter-action{display:flex;flex-direction:row-reverse;;gap:12px}
+.seasonality-filter-container{display:flex;align-items:flex-end}
+.seasonality-filter{margin-right:12px;flex-grow:1}
+/* .seasonality-filter.disabled{opacity:.4} */
+.seasonality-filter-heading{margin:0 0 10px;font-size:14px;font-weight:700}
+.seasonality-filter.disabled .select-filter{cursor:not-allowed;pointer-events:none}
+.seasonality-filter.disabled .seasonality-filter-heading{cursor:default;color:#6C757D;}
+.seasonality-filter.disabled .ss-main .ss-single-selected .ss-deselect.ss-hide, .seasonality-filter.disabled .ss-main .ss-single-selected .placeholder{background-color:#6C757D;color:white;}
+.seasonality-filter .ss-main .ss-single-selected{height:auto;min-height:42px;padding:7px;border:1px solid #000;border-radius:0}
+.seasonality-filter .ss-main .ss-single-selected .placeholder,.seasonality-filter .ss-main .ss-single-selected .ss-deselect.ss-hide{font-size:12px;padding:5px 8px;color:#000;background-color:#33BBA5;border-radius:0;font-weight:500}
+.seasonality-filter .ss-main .ss-single-selected .placeholder .ss-disabled{color:#242923}
+.seasonality-filter .ss-main .ss-single-selected .ss-deselect.ss-hide{display:inline-block;margin:0;padding-left:0;font-weight:700}
+.seasonality-filter .ss-main .ss-single-selected .ss-arrow span.arrow-up{border-color:#008B7D}
+.seasonality-filter .ss-optgroup{position:relative;background-color:#fff}
+.seasonality-filter .ss-list .ss-optgroup.chosen .ss-optgroup-label{font-weight:700}
+.seasonality-filter .ss-optgroup.chosen .ss-optgroup-label:before{content:"";background-image:url(/assets/images/seasonality/arrow.svg);background-position:center;background-size:contain;margin-right:6px;display:inline-block;vertical-align:middle;width:11px;height:7px}
+.seasonality-filter .ss-content .ss-list{overflow:initial;border:1px solid #000;max-height:unset}
+.seasonality-filter .ss-option{width:200px}
+.seasonality-filter .ss-content .ss-list .ss-option{padding:12px;cursor:pointer;user-select:none;font-size:12px;position:relative}
+.seasonality-filter .ss-content{max-width:200px;border:0;z-index:1}
+.seasonality-filter .ss-main .ss-single-selected .placeholder{flex:initial;width:auto}
+.seasonality-filter .ss-main .ss-single-selected .placeholder.ss-empty,.seasonality-filter .ss-main .ss-single-selected .ss-empty ~ .ss-deselect.ss-hide{background-color:transparent}
+.seasonality-filter .ss-main .ss-single-selected .ss-empty ~ .ss-deselect.ss-hide{display:none}
+.seasonality-filter .ss-main .ss-single-selected .ss-arrow{margin-left:auto}
+.seasonality-filter .ss-list .ss-optgroup .ss-optgroup-label{cursor:pointer;font-size:13px;font-weight:400;padding:12px 14px;position:relative;color:#242923}
+.seasonality-filter .ss-list .ss-optgroup .ss-optgroup-label:hover{background-color:#008B7D}
+.seasonality-filter .ss-list .ss-optgroup .ss-optgroup-label:after{content:"";background-image:url(/assets/images/seasonality/seasonality-right.svg);background-repeat:no-repeat;background-size:contain;width:12px;height:7px;display:inline-block;position:absolute;right:14px;top:50%;transform:translateY(-50%)}
+.seasonality-filter .ss-optgroup-inner{position:absolute;background:#fff;display:none;left:100%;top:0;border:1px solid #000}
+.seasonality-filter .ss-optgroup:hover .ss-optgroup-inner{display:block}
+.seasonality-filter .ss-list .ss-option{padding:12px;font-size:12px}
+.seasonality-filter .ss-list .ss-optgroup .ss-option{padding:12px 14px 12px 12px;font-size:12px;position:relative}
+.seasonality-filter .ss-list .ss-optgroup .ss-option.locked{pointer-events:none;color:#999;cursor:not-allowed;}
+.seasonality-filter .ss-list .ss-optgroup .ss-option.locked:before{content:"";width:20px;height:20px;background-image:url(/assets/images/icons/lock.png);background-size:contain;background-repeat:no-repeat;background-position:center;border:0;margin-top:-3px;}
+.seasonality-filter .ss-option:before{content:"";width:16px;height:16px;display:inline-block;border:1px solid #000;margin-right:8px;vertical-align:middle}
+.seasonality-filter .ss-option.ss-option-selected:after{content:"";background-image:url(/assets/images/seasonality/arrow.svg);background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align:middle;width:12px;height:7px;position:absolute;left:15px;top:19px}
+.seasonality-filter .ss-optgroup-inner .ss-option.ss-option-selected:after{left:15px;top:19px}
+.seasonality-filter .ss-list .ss-option:hover,.seasonality-filter .ss-list .ss-option:not(.ss-disabled).ss-option-selected{color:#242923;background-color:#008B7D}
+.btn-mob-container{display:none;position:relative}
+.btn-mob{background-color:#f6f5f7;border:0;min-width:48px;height:49px;position:absolute;z-index:1;left:0;cursor:pointer;background-image:url(/assets/images/seasonality/seasonality-right.svg);background-repeat:no-repeat;background-size:8px;background-position:center;font-size:0}
+.btn-mob-prev{transform:rotate(180deg)}
+.btn-mob-next{right:0;left:auto}
+.text-sect .seasonality-btn-container .btn{border-color:var(--black)}
+.seasonality-filter-action .btn{line-height:29px;text-transform:uppercase;text-align:center}
+.seasonality-filter-action .btn-clear{border-color:transparent;}
+@media (max-width: 992px) {
+.seasonality-filter-container{flex-direction:column;align-items:center}
+.seasonality-filter{width:100%;margin:0 0 24px}
+.seasonality-btn-choice{gap:0;overflow:auto}
+.seasonality-btn-container .btn{min-width:auto;font-size:14px;padding:14px 24px;white-space:nowrap;max-height:49px}
+.seasonality-btn-container .btn + .btn{border-left:0;}
+.seasonality-filter-action .btn{line-height:initial;}
+.seasonality-filter .ss-content{max-width:100%;max-height: 60vh;overflow: auto;}
+.seasonality-filter .ss-option{width:100%}
+.seasonality-filter .ss-content .ss-list,.seasonality-filter .ss-optgroup-inner{border:1px solid #bdbdbd}
+.seasonality-filter .ss-optgroup-inner{position:static;border-left:0;border-right:0}
+}
+@media (max-width: 576px) {
+.seasonality-btn-container{margin:40px -2.5% 30px}
+.seasonality-btn-choice{max-width:calc(100% - 96px);margin:auto}
+.btn-mob-container{display:block}
+.seasonality-filter-action{flex-direction:column;gap:16px;width:100%;}
+}

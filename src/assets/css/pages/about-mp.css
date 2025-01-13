@@ -1,0 +1,148 @@
+.mp-intro-row {
+  display: flex;
+  align-items: center;
+}
+
+.mp-intro-sect {
+  background-color: #040407;
+  overflow: hidden;
+}
+
+.mp-intro-row .h1 {
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+
+.mp-intro-left {
+  position: relative;
+}
+
+.mp-intro-right {
+  display: flex;
+  height: 100%;
+  margin-left: -100px;
+}
+
+.mp-intro-right img {
+  height: 100%;
+  max-width: unset;
+}
+
+.mp-person-sect .container {
+  padding: 80px 0;
+}
+
+.mp-person-sect+.mp-person-sect .container {
+  border-top: 1px solid black;
+}
+
+.mp-person-row {
+  display: flex;
+  gap: 30px;
+}
+
+.mp-person-row.reverse {
+  flex-direction: row-reverse;
+}
+
+.mp-person-col {
+  background-color: #212529;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding: 24px 42px;
+}
+
+.mp-person-col *,
+.mp-person-col .list * {
+  color: white;
+}
+
+.mp-person-col .h2 {
+  font-size: 54px;
+}
+
+.mp-person-col .list li {
+  margin: 10px 0;
+  font-size: 26px;
+}
+
+.mp-person-desc {
+  margin: 40px 0;
+}
+
+.mp-person-desc p {
+  font-size: 26px;
+}
+
+.mp-last-sect {
+  padding: 40px 20px 50px;
+  text-align: center;
+  background-color: #212529;
+  border-bottom: 1px solid white;
+}
+
+.mp-last-text {
+  font-weight: 700;
+  font-size: 54px;
+  margin: 20px 0 0;
+  color: white;
+}
+
+@media (max-width: 992px) {
+
+  .mp-intro-row,
+  .mp-person-row.reverse {
+    flex-direction: column;
+  }
+
+  .mp-intro-right img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .mp-intro-row .h1 {
+    font-size: 30px;
+    margin: 30px 0 25px;
+  }
+
+  .mp-person-row {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mp-person-col .h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+
+  .mp-last-text {
+    font-size: 28px;
+  }
+
+  .mp-person-col .list li,
+  .mp-person-desc p {
+    font-size: 16px;
+  }
+
+  .mp-person-sect .container {
+    padding: 60px 0;
+  }
+
+  .mp-person-col {
+    padding: 18px 22px;
+  }
+
+  .mp-last-sect img {
+    max-width: 200px;
+  }
+
+  .mp-last-sect {
+    padding: 40px 10px 40px;
+  }
+}

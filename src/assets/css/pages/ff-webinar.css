@@ -1,0 +1,583 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/OpenSans-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url('/assets/fonts/OpenSans-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.header ~ .content {
+  margin-top: 0;
+}
+
+.ff-web-heading {
+  background-color: #0d1625;
+  padding: 20px 0 0;
+}
+
+.btn-orange {
+  background-color: #e59a02;
+  color: white;
+  font-size: 26px;
+  border-radius: 10px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  border: 0;
+}
+
+.btn-orange:hover {
+  background-color: #0d1625;
+  color: white;
+}
+
+.header {
+  display: none;
+}
+
+.h1,
+.h2,
+.h3 {
+  font-weight: 700;
+}
+
+.h1,
+.h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.h1 {
+  margin-bottom: 20px;
+  max-width: 600px;
+}
+
+.h3 {
+  font-size: 20px;
+}
+
+p,
+p * {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.row {
+  display: flex;
+}
+
+.book-img {
+  position: absolute;
+  bottom: 0;
+  right: 275px;
+  max-width: 202px;
+}
+
+.marcus-photo {
+  align-self: flex-end;
+}
+
+.marcus-photo-1 {
+  position: absolute;
+  bottom: -40px;
+  right: -70px;
+}
+
+.marcus-photo-2 {
+  margin-right: -190px;
+}
+
+.marcus-photo-3 {
+  margin-left: -100px;
+  min-height: 800px;
+}
+
+.small-icon {
+  vertical-align: middle;
+}
+
+.ff-web-intro-sect {
+  background-color: #0d1625;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.ff-web-intro-row {
+  position: relative;
+}
+
+.ff-web-intro-row .text-small {
+  display: flex;
+  align-items: flex-start;
+  max-width: 340px;
+}
+
+.ff-web-intro-row .text-small img {
+  margin-right: 10px;
+  width: 15px;
+}
+
+.ff-web-intro-col {
+  width: 100%;
+}
+
+.ff-web-intro-live {
+  color: #fdb833;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.ff-web-intro-live img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.ff-web-intro-block {
+  background-color: #f0f7ff;
+  border-radius: 10px;
+  padding: 30px 24px;
+  margin-bottom: 20px;
+}
+
+.ff-web-intro-block p {
+  margin: 0;
+  font-size: 20px;
+}
+
+.ff-web-feature-sect {
+  padding: 100px 0;
+  background-color: #efefef;
+}
+
+.text-small,
+.text-small * {
+  font-size: 15px;
+}
+
+.white,
+.white a {
+  color: white;
+}
+
+.feature-row {
+  display: flex;
+  gap: 40px;
+}
+
+.feature-col {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.feature-item {
+  min-height: 180px;
+}
+
+.feature-item:nth-of-type(2) {
+  min-height: 280px;
+}
+
+.feature-item .h3 {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.feature-item + .feature-item {
+  margin-top: 40px;
+}
+
+.feature-item:last-of-type p:last-of-type {
+  margin-bottom: 0;
+}
+
+.ff-web-strat-sect {
+  padding: 40px 0;
+  background-color: #0d1625;
+  position: relative;
+  overflow: hidden;
+}
+
+.ff-web-strat-sect:before {
+  content: '';
+  background-color: rgba(13, 22, 37, 0.9);
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+
+.ff-web-strat-sect .container {
+  position: relative;
+  z-index: 2;
+}
+
+.bg-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+}
+
+.ff-web-strat-sect p {
+  color: white;
+}
+
+.ff-web-plan-sect {
+  padding: 80px 0 0;
+  background-color: #efefef;
+  overflow: hidden;
+}
+
+.ff-web-plan {
+  padding-left: 25px;
+  margin-left: 10px;
+  position: relative;
+}
+
+.ff-web-plan:before {
+  content: '';
+  background-color: #fdb833;
+  height: 100%;
+  width: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+}
+
+.ff-web-plan-point {
+  font-weight: 700;
+  margin: 0;
+}
+
+.ff-web-plan-text {
+  margin: 0;
+  font-size: 17px;
+}
+
+.ff-web-plan-item {
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.ff-web-plan-item:before {
+  content: '';
+  background-color: #fdb833;
+  border-radius: 50px;
+  width: 15px;
+  height: 15px;
+  display: inline-block;
+  position: absolute;
+  left: -32px;
+  top: 5px;
+}
+
+.ff-web-faq-sect {
+  padding: 80px 0;
+  background-color: #0d1625;
+}
+
+.ff-web-faq-sect .accordion-heading-name,
+.ff-web-faq-sect .accordion-text,
+.ff-web-faq-sect .h2 {
+  color: white;
+}
+
+.ff-web-faq-sect .accordion-block {
+  border-color: white;
+  border-radius: 10px;
+}
+
+.ff-web-faq-sect .accordion-heading-name:after {
+  filter: brightness(100);
+}
+
+.ff-web-contact-sect {
+  padding: 60px 0 0;
+  background-image: url(/assets/images/pages/ff-webinar/marcus-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.ff-web-contact-col {
+  min-width: 620px;
+}
+
+.ff-web-contact-form-wrap {
+  margin-bottom: 40px;
+}
+
+.ff-web-contact-form {
+  background-color: white;
+  border-radius: 10px;
+  padding: 40px;
+  margin: 40px 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 440px;
+}
+
+.ff-web-contact-input {
+  border: 0;
+  border-bottom: 1px solid #0d1625;
+  background-color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Open Sans', sans-serif;
+  outline: 0;
+  margin-bottom: 30px;
+}
+
+.ff-web-contact-form .checkmark {
+  border-width: 2px;
+}
+
+.subscription-form-paypal-light .subscription-col-form {
+  border: 0;
+  padding: 5px 25px;
+  max-width: 480px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.paypalData .fs-form-input {
+  min-width: 280px;
+  font-size: 16px;
+  padding: 10px 14px;
+  border-radius: 6px;
+}
+
+@media (max-width: 992px) {
+  .ff-web-intro-sect {
+    padding: 20px 0 40px;
+  }
+
+  .feature-row {
+    flex-direction: column;
+  }
+
+  .feature-item,
+  .feature-item:nth-of-type(2) {
+    min-height: unset;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .marcus-photo {
+    align-self: center;
+  }
+
+  .book-img {
+    right: 180px;
+    width: 140px;
+    top: 176px;
+  }
+
+  .marcus-photo-1 {
+    max-width: 330px;
+  }
+
+  .marcus-photo-2 {
+    margin-right: 0;
+  }
+
+  .marcus-photo-3 {
+    margin-left: 0;
+    min-height: unset;
+    order: 1;
+    width: 480px;
+  }
+
+  .ff-web-contact-col {
+    min-width: 100%;
+  }
+
+  .ff-web-intro-block {
+    padding: 30px 120px 30px 24px;
+  }
+
+  .ff-web-contact-form-wrap {
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ff-web-contact-form-container {
+    order: 2;
+  }
+
+  .ff-web-contact-form {
+    width: 100%;
+    max-width: unset;
+    margin: 20px 0 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .h1,
+  .h2 {
+    font-size: 30px;
+  }
+
+  .ff-web-feature-sect {
+    padding: 60px 0;
+  }
+
+  .btn-orange {
+    font-size: 20px;
+    padding: 10px 18px;
+  }
+
+  .ff-web-intro-live img {
+    margin-right: 5px;
+  }
+
+  .ff-web-heading,
+  .ff-web-intro-live {
+    text-align: center;
+  }
+
+  .ff-web-intro-live {
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+  }
+
+  .ff-web-faq-sect {
+    padding: 60px 0;
+  }
+
+  .ff-web-contact-form {
+    padding: 30px 24px;
+    margin: 30px 0 15px;
+  }
+
+  .book-img {
+    right: unset;
+    width: 180px;
+    top: 66px;
+    left: 20px;
+  }
+
+  .marcus-photo-1 {
+    position: static;
+    display: block;
+    margin: 20px 22px 0 auto;
+  }
+
+  .ff-web-intro-img {
+    position: relative;
+    background-color: #f0f7ff;
+    border-radius: 10px;
+    margin: 20px 0 0;
+    background-image: url(/assets/images/pages/ff-webinar/marcus-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .ff-web-intro-text-block {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+  }
+
+  .ff-web-intro-text-block .btn {
+    order: 1;
+  }
+
+  .ff-web-intro-text-block .ff-web-intro-img {
+    order: 2;
+  }
+
+  .ff-web-intro-text-block > div:first-of-type {
+    order: 3;
+  }
+
+  .ff-web-intro-block {
+    background-color: transparent;
+    padding: 0;
+  }
+
+  .ff-web-intro-block .h1,
+  .ff-web-intro-block p {
+    color: white;
+    text-align: center;
+    max-width: 100%;
+  }
+
+  .ff-web-intro-block .h1 {
+    margin-bottom: 10px;
+  }
+
+  .marcus-photo-2 {
+    display: none;
+  }
+
+  .ff-web-plan-sect {
+    padding: 60px 0 40px;
+  }
+
+  .ff-web-contact-form {
+    margin: 0 0 30px;
+  }
+
+  .ff-web-intro-row .text-small {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .text-small,
+  .text-small * {
+    font-size: 14px;
+  }
+
+  .h1,
+  .h2 {
+    font-size: 25px;
+  }
+
+  .ff-web-intro-block .h1 {
+    margin-bottom: 7px;
+  }
+
+  .marcus-photo-1 {
+    margin: 20px 10px 0 auto;
+    width: 70vw;
+  }
+
+  .book-img {
+    width: 130px;
+    top: 105px;
+    left: 10px;
+  }
+
+  .marcus-photo-3 {
+    width: 80vw;
+  }
+
+  .ff-web-contact-form-container .btn {
+    width: 100%;
+  }
+}
+
