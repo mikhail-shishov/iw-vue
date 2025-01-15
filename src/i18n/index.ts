@@ -103,8 +103,45 @@ const messages = {
     },
     how_we_trade_h1: `So traden wir`,
     how_we_trade_p1: `Unsere Informationen werden täglich aktualisiert und du findest wertvolle Einblicke und wichtige Updates, die für deine Handelsentscheidungen relevant sind. Alle Elemente sind für Benutzer zugänglich, die bei MyIW, unserem Mitgliederbereich, angemeldet sind.`,
-    pro_benefits_h1: `Pro Trader Insights Subscription`,
-    pro_benefits_p1: `Eine fundierte Trader-Ausbildung hilft dir, eine profitable Strategie zu entwickeln und deine Emotionen zu beherrschen. Ich biete angehenden Tradern Einblicke in die Märkte und die Techniken, Charts zu lesen, um dann effektiv im Trading zu sein.`,
+    pro_benefits: {
+      h1: `Pro Trader Insights Subscription`,
+      p1: `Eine fundierte Trader-Ausbildung hilft dir, eine profitable Strategie zu entwickeln und deine Emotionen zu beherrschen. Ich biete angehenden Tradern Einblicke in die Märkte und die Techniken, Charts zu lesen, um dann effektiv im Trading zu sein.`,
+      item_1: {
+        h: `Wöchentliche Trading-Pläne für deine Entscheidungen`,
+        d: `Bleib informiert mit einem wöchentlichen Trading-Plan. Jede Woche analysiere ich die Märkte mit hilfe von COT-Daten, saisonalen Trends und andere Daten, um die vielversprechendsten Chancen herauszufiltern. Die Ergebnisse dieser Analysen teile ich exklusiv mit unseren Mitgliedern.`
+      },
+      item_2: {
+        h: `Lerne von unserer Transparenz`,
+        d: `Mit dem Pro Trade Insights Subscription erhältst du Einblick in meine persönliche Watchlist sowie in alle Trades auf den Startup- und COT-1-Konten. Du wirst immer wissen, welche Positionen ich eröffnet habe und welche Märkte ich im Blick habe. So kannst du durch Beobachtung meiner Trades direkt von mir lernen und deine Trading-Fähigkeiten ausbauen.`
+      },
+      item_3: {
+        h: `Erhalte Einblick in unsere Strategie`,
+        d: `Interessiert an den Hintergründen der COT-Strategie? Du hast die Möglichkeit, die tägliche Umsetzung dieser Strategie in der Praxis zu erleben und herauszufinden, ob Swing Trading auf COT-Basis zu dir passt. Durch Beobachtung dieser Strategie in der Praxis kannst du deine Effektivität bewerten und Marktbewegungen lernen.`
+      },
+      item_4: {
+        h: `Zugang zu relevanten News und zusätzlichem Content`,
+        d: `Bleib bestens informiert: Mit Pro Trade Insights erhältst du laufend wichtige Trading-News sowie weitere Tipps zur Anwendung unserer Strategie, z.B., über die “Trading Ausbildung Deutschland”, “Technische Chartanalyse Lernen”, “Trading Lernen PDF”, und online Dokumente.`
+      }
+    },
+    reviews: {
+      h1: `Bewertungen`,
+      item_1: `“Larry Williams sollte jedem Future Trader eine bekannte Größe sein. Auf der Suche nach seinem Lehrling bin ich auf insider-week gestoßen. Das Team ist sehr gut, vor allem einen großen Lob und Dank an Markus Winkler. Er macht seine Arbeit perfekt als Coach, die Sichtweise an die Märkte übermittelt er einwandfrei. Ich nähme am COT-1 und COT-2 Coaching teil. Die Inputs, was man hier übermittelt bekommt, ist immens, allerdings möchte ich erwähnen, dass das Thema Trading personenabhängig ist, ob man dafür geeignet ist oder auch nicht. Die Coachs übermittelt in den Webinaren sehr gut ihre Marktanalysen, man lernt immer wieder dazu. Mir hat der folgende Satz gefallen, "wir zeigen euch den Weg von A nach B, allerdings müsst Ihr den Weg selber beschreiten". So sieht es aus im Leben.”`,
+      item_2: `“Die Erfahrungen mit InsiderWeek sind durchweg positiv. Das Coaching wird auf einem sehr hohen qualitativen Niveau durchgeführt. Das gesamte Team von IW hat das Ziel die Schüler nach vorne zu bringen. Der Schüler wird dabei auf seinem Weg zum Rohstofftrader sehr gut betreut. Wer sich für COT Daten und das Rohstofftrading interessiert kommt an der Schulung bei IW nicht vorbei.”`,
+      item_3: `“Ich bedanke mich vielmals beim InsiderWeek Team für das großartige Ausbildungsprogramm. Das Wissen welches hier vermittelt wird kann sowohl vom absoluten Anfänger bis hin zum Profi jedem nützen und unterstützen an der Börse Geld zu verdienen. Geschenkt wird einem nichts. Es liegt an jedem selbst und der Disziplin Zeit und Energie in die Ausbildung zu investieren. Vom Team erhält man jederzeit Hilfe und alle Fragen werden entweder per Email oder in den zahlreichen Webinaren beantwortet. Ich bin rundum glücklich und sehr zufrieden.”`
+    },
+    tools: {
+      h1: `Tools für das Trading`,
+      p1: `Die Entscheidung, sich einer Trading Schule oder Coach anzuvertrauen, steigert die Erfolgschancen erheblich. Unsere Plattform bietet eine Auswahl an leistungsstarken Trading-Tools, die dir helfen, fundierte Entscheidungen zu treffen und deine Trading-Strategien zu optimieren. Von Hebelprodukten für Anfänger und Marktsignalen bis hin zu Wirtschaftskalendern und Risikomanagement-Tools – hier findest du alles, was du brauchst, um dein Trading Lernen seriös und erfolgreich zu gestalten.`,
+      p2: `Unsere Werkzeuge unterstützen dich dabei, den Markt besser zu verstehen, die besten Gelegenheiten zu erkennen und die beste Trading Plattform für Anfänger und erfahrene Trader zu finden.`
+    },
+    subscribe: {
+      h1: `Newsletter abonnieren`,
+      p1: `Möchtest du einen Trading Kurs für Anfänger und Profis? Du erhältst aktuelle Trading-Tipps, Marktanalysen und Neuigkeiten direkt in dein Postfach! Bleib auf dem Laufenden und verbessere Trading-Strategien mit den neuesten Erkenntnissen und Trends.`,
+      input_name: `Vorname und Name *`,
+      input_email: `Email`,
+      input_gdpr: `Ich akzeptiere die Nutzungsbedingungen und die Datenschutzrichtlinien von InsiderWeek.`,
+      input_submit: `Ja, informiert mich`
+    }
   },
   en: {
     message: {
@@ -228,6 +265,25 @@ const messages = {
           h: `Zugang zu relevanten News und zusätzlichem Content`,
           d: `Bleib bestens informiert: Mit Pro Trade Insights erhältst du laufend wichtige Trading-News sowie weitere Tipps zur Anwendung unserer Strategie, z.B., über die “Trading Ausbildung Deutschland”, “Technische Chartanalyse Lernen”, “Trading Lernen PDF”, und online Dokumente.`
         }
+      },
+      reviews: {
+        h1: `Testimonials`,
+        item_1: `“I have been with Insider-Week since 2020 and have done COT-1 and WCC coaching. And I’m rather successful with COT-2 strategy, in particular. I am currently an active member of the weather futures trading coaching. I can definitely recommend InsiderWeek. Max and his team publish their results, which have been growing steadily since the beginning. The course content is easy to understand and the weekly coaching sessions are very practical. If you have any questions, the team will answer you immediately and are always very helpful. The community is also very helpful. You can always exchange ideas and share trading application codes or other experiences.”`,
+        item_2: `“I would like to thank the InsiderWeek team for the excellent training program. The knowledge that is imparted here can be useful to everyone, from absolute beginners to professionals, and will help them to make money in the exchange market. Nothing is given to you for free. It's up to you and your discipline to invest time and energy in learning. You can get necessary assistance from the team at all times and all questions will be answered by email or in numerous webinars. I'm happy and very satisfied.”`,
+        item_3: `“The experience with InsiderWeek has been consistently positive. The coaching is of a very high quality. The aim of the entire InsiderWeek team is to move the students forward. The student is very well coached on the way to becoming a commodity trader. If you are interested in COT data and commodity trading, you cannot miss the training at InsiderWeek.”`
+      },
+      tools: {
+        h1: `Trading Tools`,
+        p1: `Choosing to invest with the support from a trading school or a coach can increase your chances of success. Our platform offers a range of powerful trading tools designed to help you make informed decisions and optimize your trading strategies, too. Here, you will find everything you need to ensure that your trading education is both professional and successful.`,
+        p2: `Our tools help you better understand the market, identify the best opportunities, and find the most suitable trading platform.`
+      },
+      subscribe: {
+        h1: `Subscribe to newsletter`,
+        p1: `Are you looking for a trading course for beginners and professionals? Get the latest trading tips, market analyses, and news directly in your inbox! Let us stay updated and improve trading strategies together.`,
+        input_name: `Your name and surname *`,
+        input_email: `Email`,
+        input_gdpr: `I accept InsiderWeek's Terms of Service and Privacy Policy. We only use this data to contact you and never pass it on to third parties.`,
+        input_submit: `Sign up`
       }
     }
   }

@@ -3878,8 +3878,6 @@ div.tradeStatMainField h1 {
     transition: .3s;
 }
 
-.splide__slide:not(.is-active) {}
-
 .video-review-block-row {
     display: flex;
     align-items: center;
@@ -4381,7 +4379,6 @@ div.tradeStatMainField h1 {
 }
 
 @media (min-width: 1921px) {
-
     .header-nav,
     .en .header-nav {
         gap: 30px;

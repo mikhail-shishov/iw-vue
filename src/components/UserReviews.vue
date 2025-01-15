@@ -354,3 +354,211 @@ export default defineComponent({
     </div>
   </section>
 </template>
+
+<style scoped>
+.review-splide {
+  margin-top: 60px;
+}
+
+.review-splide .h3 {
+  margin: 15px 0 60px;
+}
+
+.review-splide .text {
+  font-style: normal;
+  display: block;
+  margin: auto;
+}
+
+.review-stars {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 25px;
+}
+
+.review-stars-item {
+  width: 24px;
+  height: 24px;
+  background-position: center;
+  background-size: contain;
+  background-image: url(/assets/images/icons/star-green.svg);
+}
+
+.review-splide .splide__arrow {
+  top: 50%;
+  right: -50px;
+}
+
+.review-splide .splide__arrow--prev {
+  left: -50px;
+  right: unset;
+}
+
+.review-splide .splide__pagination {
+  display: none;
+}
+
+.splide__arrows--rtl .splide__arrow--next {
+  left: 1em;
+  right: auto;
+}
+
+.splide__arrow {
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  height: 2em;
+  justify-content: center;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 2em;
+  z-index: 1;
+  background: #fff0;
+  background-image: url(/assets/images/en/icons/slider-arrow.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 0;
+  outline: 0;
+}
+
+.splide__arrow:disabled {
+  opacity: 0.3;
+}
+
+.splide__arrow svg {
+  display: none;
+}
+
+.splide__arrow--prev {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.splide__pagination__page {
+  border: 0;
+  width: 13px;
+  height: 13px;
+  background-color: var(--black);
+  opacity: 0.25;
+  margin: 4px 10px;
+  border-radius: 50px;
+  padding: 0;
+}
+
+.splide__pagination__page.is-active {
+  background: var(--black);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.splide__arrow--prev {
+  left: -6px;
+}
+
+.splide__arrow--next {
+  right: -6px;
+}
+
+.splide__slide,
+.splide__list {
+  transition: 0.3s;
+}
+
+.results-splide,
+.tools-splide,
+.news-splide,
+.video-results-splide {
+  margin: 35px 0;
+}
+
+.results-splide iframe,
+.video-results-splide iframe {
+  width: 100%;
+}
+
+.results-splide .splide__pagination,
+.video-results-splide .splide__pagination,
+.tools-splide .splide__pagination,
+.news-splide .splide__pagination {
+  display: none;
+}
+
+.splide__pagination {
+  padding: 0;
+}
+
+.results-splide .splide__track,
+.tools-splide .splide__track,
+.news-splide .splide__track,
+.video-results-splide .splide__track {
+  max-width: 100%;
+  margin: auto;
+}
+
+.results-splide .splide__arrow--next,
+.tools-splide .splide__arrow--next {
+  right: -40px;
+  top: 120px;
+}
+
+.tools-splide .splide__arrow--next {
+  top: 145px;
+}
+
+.news-splide .splide__arrow--next {
+  right: -30px;
+  top: 78px
+}
+
+.results-splide .splide__arrow--prev,
+.tools-splide .splide__arrow--prev {
+  left: -40px;
+  top: 120px;
+}
+
+.tools-splide .splide__arrow--prev {
+  top: 145px;
+}
+
+.news-splide .splide__arrow--prev {
+  left: -30px;
+  top: 78px
+}
+
+.video-results-splide .splide__arrow--prev {
+  right: -40px;
+  transform: translateY(-50%) rotate(0);
+}
+
+.video-results-splide .splide__arrow--next {
+  left: -40px;
+  transform: translateY(-50%) rotate(180deg);
+}
+
+.review-splide .splide__list {
+  align-items: flex-start;
+}
+
+.basic-course-splide .splide__arrow {
+  display: none;
+}
+
+.splide__track--nav .splide__slide {
+  cursor: pointer;
+}
+
+.splide__track--nav .splide__slide:hover {
+  opacity: 0.8;
+}
+
+.splide__list {
+  align-items: flex-start;
+}
+
+.splide__slide {
+  transition: .3s;
+}
+</style>
