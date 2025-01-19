@@ -32,15 +32,14 @@ export default defineComponent({
         </div>
         <div class="footer-col">
           <div class="footer-links">
-            <a href="/de/datenschutz/" class="js-modal" data-modal="#privacy">Datenschutzerklärung</a>
-            <a href="/de/nutzungsbedingungen/" class="js-modal" data-modal="#terms">Nutzungsbedingungen</a>
-            <a href="/de/impressum/" class="js-modal" data-modal="#legal">Impressum</a>
-            <a href="/de/risikohinweis/" class="js-modal" data-modal="#risk">Risikohinweis</a>
+            <a href="https://insider-week.com/de/datenschutz/" class="js-modal" data-modal="#privacy">Datenschutzerklärung</a>
+            <a href="https://insider-week.com/de/nutzungsbedingungen/" class="js-modal" data-modal="#terms">Nutzungsbedingungen</a>
+            <a href="https://insider-week.com/de/impressum/" class="js-modal" data-modal="#legal">Impressum</a>
+            <a href="https://insider-week.com/de/risikohinweis/" class="js-modal" data-modal="#risk">Risikohinweis</a>
           </div>
         </div>
         <div class="footer-col">
           <div class="footer-links">
-            <a href="#" class="js-modal" data-modal="#contact">Kontakt</a>
             <div class="footer-social">
               <a href="https://youtube.com/c/InsiderWeek/" rel="noopener noreferrer" target="_blank"><img
                   src="/icons/social/yt.svg" width="42" height="42" class="footer-icon" alt="Youtube"

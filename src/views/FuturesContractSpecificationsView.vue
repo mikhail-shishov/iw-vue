@@ -1,7 +1,250 @@
+<script lang="ts">
+import "@/assets/css/pages/specification.css";
+</script>
+
 <template>
-  <div class="fcs">
-    <h1>This is an FCS page</h1>
-  </div>
+  <main class="content">
+    <section class="text-sect">
+      <div class="container-full">
+        <h2 class="h1">Futures-Kontrakt-Spezifikationen</h2>
+        <div class="tab-group" data-tab-group="spec">
+          <div class="tab is-active" data-tab="Indices" id="Indices">
+            <div class="table-spec-container">
+              <table class="table-spec" cellpadding="0" cellspacing="0">
+                <tbody>
+                  <tr class="table-spec-head">
+                    <th class="table-spec-th" rowspan="2">Futures Contract</th>
+                    <th class="table-spec-th" rowspan="2">Exchange</th>
+                    <th class="table-spec-th" colspan="4">Symbols</th>
+                    <th class="table-spec-th" rowspan="2">Trading Hours</th>
+                    <th class="table-spec-th" rowspan="2">Delivery Months</th>
+                    <th class="table-spec-th" rowspan="2">Contract Size</th>
+                    <th class="table-spec-th" rowspan="2">Minimum Tick Value</th>
+                    <th class="table-spec-th" rowspan="2">Point Value</th>
+                    <th class="table-spec-th" rowspan="2">Margin Requirements</th>
+                    <th class="table-spec-th" rowspan="2">Detailed description</th>
+                  </tr>
+
+                  <tr class="table-spec-symbol">
+                    <th class="table-spec-th table-spec-th-symbol"><a href="https://www.tradenavigator.com"
+                        target="_blank" rel="nofollow noreferrer">TN<span>Trade Navigator</span></a></th>
+                    <th class="table-spec-th table-spec-th-symbol"><a href="https://www.tradestation.com"
+                        target="_blank" rel="nofollow noreferrer">TS<span>TradeStation</span></a></th>
+                    <th class="table-spec-th table-spec-th-symbol"><a href="https://www.tradingview.com" target="_blank"
+                        rel="nofollow noreferrer">IB<span>Interactive Brokers</span></a></th>
+                    <th class="table-spec-th table-spec-th-symbol"><a href="https://www.interactivebrokers.com"
+                        target="_blank" rel="nofollow noreferrer">TV<span>TradingView</span></a></th>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>S&amp;P 500 E-Mini (ES)</td>
+                    <td>GBLX</td>
+                    <td>ES</td>
+                    <td>ES</td>
+                    <td>ES</td>
+                    <td>ES</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$50 times Index</td>
+                    <td>$12.50</td>
+                    <td>$50.00</td>
+                    <td>$12,320.00</td>
+                    <td><a
+                        href="http://www.cmegroup.com/trading/equity-index/us-index/e-mini-sandp500_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>S&amp;P 500 Micro E-mini (MES)</td>
+                    <td>CME</td>
+                    <td>MES</td>
+                    <td>MES</td>
+                    <td>MES</td>
+                    <td>MES</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$5 times Index</td>
+                    <td>$1.25</td>
+                    <td>$5.00</td>
+                    <td>$1,232.00</td>
+                    <td><a
+                        href="https://www.cmegroup.com/trading/equity-index/us-index/micro-e-mini-sandp-500_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>Nasdaq 100 E-Mini (NQ)</td>
+                    <td>GBLX</td>
+                    <td>NQ</td>
+                    <td>NQ</td>
+                    <td>NQ</td>
+                    <td>NQ</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$20 times Index</td>
+                    <td>$5.00</td>
+                    <td>$20.00</td>
+                    <td>$18,480.00</td>
+                    <td><a
+                        href="http://www.cmegroup.com/trading/equity-index/us-index/e-mini-nasdaq-100_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>Nasdaq 100 Micro E-mini (MNQ)</td>
+                    <td>CME</td>
+                    <td>MNQ</td>
+                    <td>MNQ</td>
+                    <td>MNQ</td>
+                    <td>MNQ</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$2 times Index</td>
+                    <td>$0.50</td>
+                    <td>$2.00</td>
+                    <td>$1,848.00</td>
+                    <td><a
+                        href="https://www.cmegroup.com/trading/equity-index/us-index/micro-e-mini-nasdaq-100_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>Dow Futures E-Mini (YM)</td>
+                    <td>CBOTM</td>
+                    <td>YM</td>
+                    <td>YM</td>
+                    <td>YM</td>
+                    <td>YM</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) CST (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$5 times Index</td>
+                    <td>$5.00</td>
+                    <td>$5.00</td>
+                    <td>$8,800.00</td>
+                    <td><a
+                        href="http://www.cmegroup.com/trading/equity-index/us-index/e-mini-dow_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>Dow Micro E-mini (MYM)</td>
+                    <td>CME</td>
+                    <td>MYM</td>
+                    <td>MYM</td>
+                    <td>MYM</td>
+                    <td>MYM</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) CST (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$0.5 times Index</td>
+                    <td>$0.50</td>
+                    <td>$0.50</td>
+                    <td>$880.00</td>
+                    <td><a
+                        href="https://www.cmegroup.com/trading/equity-index/us-index/micro-e-mini-dow_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>Russell 2000 E-Mini (RTY)</td>
+                    <td>GBLX</td>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>RTY</td>
+                    <td>-</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$50 times Index</td>
+                    <td>$5.00</td>
+                    <td>$50.00</td>
+                    <td>$6,820.00</td>
+                    <td><a
+                        href="https://www.cmegroup.com/trading/equity-index/us-index/e-mini-russell-2000_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>Russell 2000 Micro E-mini (M2K)</td>
+                    <td>CME</td>
+                    <td>RTY</td>
+                    <td>RTY</td>
+                    <td>RTY</td>
+                    <td>RTY</td>
+                    <td>5:00p.m. - 4:00p.m. (Sun-Fri) (Settles 3:00p.m.) CST</td>
+                    <td>H, M, U, Z</td>
+                    <td>$5 times Index</td>
+                    <td>$0.50</td>
+                    <td>$5.00</td>
+                    <td>$682.00</td>
+                    <td><a
+                        href="https://www.cmegroup.com/trading/equity-index/us-index/micro-e-mini-russell-2000_contract_specifications.html"
+                        rel="nofollow noopener" target="_blank">www.cmegroup.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>CBOE Volatility Index (VIX)</td>
+                    <td>CFE</td>
+                    <td>VX</td>
+                    <td>VX</td>
+                    <td>VIX</td>
+                    <td>VX</td>
+                    <td>5:00p.m. - 3:15p.m. (Sun) and 3:30p.m. - 3:15p.m. (Mon-Thur) (Settles 3:30p.m.) CST</td>
+                    <td>ALL MONTHS</td>
+                    <td>$1000 times Index</td>
+                    <td>$50.00</td>
+                    <td>$1,000.00</td>
+                    <td>$8,074.00</td>
+                    <td><a href="https://www.cboe.com/tradable_products/vix/vix_futures/" rel="nofollow noopener"
+                        target="_blank">www.cboe.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>DAX (FDX, FDAX)</td>
+                    <td>Eurex</td>
+                    <td>FDX</td>
+                    <td>FDAX</td>
+                    <td>FDAX</td>
+                    <td>FDAX</td>
+                    <td>01:15a.m. - 10:00p.m. (Mon-Fri) CET</td>
+                    <td>H, M, U, Z</td>
+                    <td>€25 times Index</td>
+                    <td>€25.00</td>
+                    <td>€25.00</td>
+                    <td>€23,380.00</td>
+                    <td><a href="https://www.eurex.com/ex-en/markets/idx/dax" rel="nofollow noopener"
+                        target="_blank">www.eurex.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>DAX E-mini (GMX, FDXM)</td>
+                    <td>Eurex</td>
+                    <td>GXM</td>
+                    <td>FDXM</td>
+                    <td>FDXM</td>
+                    <td>FDXM</td>
+                    <td>01:15a.m. - 10:00p.m. (Mon-Fri) CET</td>
+                    <td>H, M, U, Z</td>
+                    <td>€5 times Index</td>
+                    <td>€5.00</td>
+                    <td>€5.00</td>
+                    <td>€4,676.00</td>
+                    <td><a href="https://www.eurex.com/ex-en/markets/idx/dax" rel="nofollow noopener"
+                        target="_blank">www.eurex.com</a></td>
+                  </tr>
+                  <tr class="table-spec-row">
+                    <td>DAX micro (FDXS)</td>
+                    <td>Eurex</td>
+                    <td>-</td>
+                    <td>FDXS</td>
+                    <td>FDXS</td>
+                    <td>FDXS</td>
+                    <td>01:15a.m. - 10:00p.m. (Mon-Fri) CET</td>
+                    <td>H, M, U, Z</td>
+                    <td>€1 times Index</td>
+                    <td>€1.00</td>
+                    <td>€1.00</td>
+                    <td>€936.00</td>
+                    <td><a href="https://www.eurex.com/ex-en/markets/idx/dax" rel="nofollow noopener"
+                        target="_blank">www.eurex.com</a></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <p class="text spec-download"><a href="https://insider-week.com/en/futures-spec/?pdf=futures_specifications"
+            target="_blank">Download PDF</a></p>
+      </div>
+    </section>
+  </main>
 </template>
 
 <style>

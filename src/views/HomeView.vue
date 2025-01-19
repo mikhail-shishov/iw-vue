@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import UserReviews from "../components/UserReviews.vue";
+import SubscriptionBenefits from "../components/SubscriptionBenefits.vue";
 import { useI18n } from "vue-i18n";
 
 const { t } = useI18n();
@@ -23,8 +24,16 @@ const featureItems = [
           <h2 class="h3">{{ $t('home.intro_2') }}</h2>
           <h2 class="h3">{{ $t('home.intro_3') }}</h2>
           <div class="btn-container">
-            <a href="/de/pro-trader/" class="btn btn-big btn-white-fill">{{ $t('btn.pro') }}</a>
-            <a href="/de/gespraechstermin-coaching-aktiv/" class="btn btn-big btn-white">{{ $t('btn.coaching') }}</a>
+            <RouterLink :to="{ name: 'subscription' }">
+              <v-btn class="btn btn-big btn-white-fill">
+                {{ $t('btn.pro') }}
+              </v-btn>
+            </RouterLink>
+            <RouterLink :to="{ name: 'coaching' }">
+              <v-btn class="btn btn-big btn-white">
+                {{ $t('btn.coaching') }}
+              </v-btn>
+            </RouterLink>
           </div>
         </div>
       </div>
@@ -131,7 +140,7 @@ const featureItems = [
         <p>{{ t('home.section_3.p_2') }}</p>
         <div class="feature-grid">
           <div v-for="(item, index) in featureItems" :key="index" class="feature-item">
-            <img :src="item.icon" class="feature-item-icon" loading="lazy" alt="Feature Icon">
+            <img :src="item.icon" class="feature-item-icon" loading="lazy" alt="">
 
             <div class="feature-item-text">
               <h4 class="h4">{{ t(item.titleKey) }}</h4>
@@ -143,6 +152,8 @@ const featureItems = [
     </section>
 
     <UserReviews />
+
+    <SubscriptionBenefits />
   </main>
 </template>
 

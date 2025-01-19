@@ -64,7 +64,6 @@ export default {
       </label>
       <div class="header-menu">
         <nav class="header-nav">
-          <RouterLink to="/about" class="header-nav-link">{{ $t('header.nav_about') }}</RouterLink>
           <RouterLink to="/strategy" class="header-nav-link">{{ $t('header.nav_strategy') }}</RouterLink>
           <div class="header-nav-item" @mouseenter="handleMouseEnter('tools')" @mouseleave="handleMouseLeave('tools')">
             <RouterLink to="/tools" class="header-nav-link dropdown-btn" :class="{ visible: dropdownVisible.tools }"

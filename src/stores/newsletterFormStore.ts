@@ -3,8 +3,8 @@ import { defineStore } from "pinia";
 export const useNewsletterFormStore = defineStore("newsletterForm", {
   state: () => ({
     isLoading: false,
-    full_name: "", // User's full name
-    email: "", // User's email
+    full_name: "",
+    email: "",
   }),
   actions: {
     setFormData({ full_name, email }: { full_name: string; email: string }) {
@@ -14,7 +14,6 @@ export const useNewsletterFormStore = defineStore("newsletterForm", {
     async submitForm() {
       this.isLoading = true;
       try {
-        // Simulate an API call
         await new Promise((resolve) => setTimeout(resolve, 2000));
         console.log("Form submitted:", {
           full_name: this.full_name,

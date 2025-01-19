@@ -285,8 +285,8 @@ const messages = {
       p1: `Are you looking for a trading course for beginners and professionals? Get the latest trading tips, market analyses, and news directly in your inbox! Let us stay updated and improve trading strategies together.`,
       input_name: `Your name and surname *`,
       input_email: `Email`,
-      input_gdpr: `I accept InsiderWeek's Terms of Service and Privacy Policy. We only use this data to contact you and never pass it on to third parties.`,
-      input_submit: `Sign up`
+      input_gdpr: `I accept InsiderWeek's Terms of Service and Privacy Policy.`,
+      input_submit: `Sign up for newsletter`
     }
   }
 }

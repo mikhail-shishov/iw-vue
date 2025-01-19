@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { RouterView } from "vue-router";
-// import HelloWorld from "./components/HelloWorld.vue";
 import TheHeader from "./components/TheHeader.vue";
 import TheFooter from "./components/TheFooter.vue";
 </script>
@@ -771,8 +770,7 @@ p,
   font-size: 12px;
 }
 
-.btn,
-.weatherBlockMapParamsWrapper3 {
+.btn {
   font-size: 16px;
   text-decoration: none;
   padding: 3.5px 12px;
@@ -787,6 +785,8 @@ p,
   text-align: center;
   appearance: none;
   border-radius: 0;
+  height: unset !important;
+  letter-spacing: 0;
 }
 
 .btn-big {
@@ -1328,6 +1328,20 @@ p.img-desc {
   flex-grow: 1;
   min-width: 50%;
   display: flex;
+}
+
+.link-arrow:after {
+  content: "";
+  background-image: url(./src/assets/img/article/arrow-prev.svg);
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 14px;
+  height: 6px;
+}
+
+.link-arrow:after {
+  background-image: url(./src/assets/img/article/arrow-next.svg);
 }
 
 /*general styles end*/

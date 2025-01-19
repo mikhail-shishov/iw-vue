@@ -1,48 +1,18 @@
 <template>
-  <form
-      @submit.prevent="submitForm"
-      class="owhforms form-horizontal form-subscribe"
-  >
-    <b>Newsletter abonniere:</b>
+  <form @submit.prevent="submitForm" class="owhforms form-horizontal form-subscribe">
+    <b>{{ $t('subscribe.h1') }}</b>
     <div v-if="!isLoading && !isSuccess">
-      <input
-          type="text"
-          class="cf-input-text required"
-          name="full_name"
-          placeholder="Vorname und Name *"
-          v-model="full_name"
-          required
-      />
-      <input
-          type="email"
-          class="cf-input-text required"
-          name="email"
-          placeholder="Email *"
-          v-model="email"
-          required
-      />
+      <input type="text" class="cf-input-text required" name="full_name" :placeholder="$t('subscribe.input_name')"
+        v-model="full_name" required />
+      <input type="email" class="cf-input-text required" name="email" placeholder="Email *" v-model="email" required />
       <label class="cf-label cf-label-checkbox label-checkbox">
-        <input
-            type="checkbox"
-            class="form-input-checkbox"
-            required
-            id="gdpr-accept"
-        />
+        <input type="checkbox" class="form-input-checkbox" required id="gdpr-accept" />
         <span class="checkmark"></span>
         <span class="fs-label-text">
-          Ich akzeptiere die
-          <a href="/de/nutzungsbedingungen/" target="_blank" rel="noopener">Nutzungsbedingungen</a>
-          und die
-          <a href="/de/datenschutz/" target="_blank" rel="noopener">Datenschutzrichtlinien</a>
-          von InsiderWeek.
+          {{ $t('subscribe.input_gdpr') }}
         </span>
       </label>
-      <input
-          type="submit"
-          name="owhforms_submit"
-          class="btn btn-white-fill"
-          value="Ja, informiert mich"
-      />
+      <input type="submit" name="owhforms_submit" class="btn btn-white-fill" :value="$t('subscribe.input_submit')" />
     </div>
 
     <div v-if="isLoading" class="owhforms_loading">
@@ -84,9 +54,12 @@ export default defineComponent({
       isLoading.value = true;
       isSuccess.value = false;
 
-      // Simulate form submission
       setTimeout(() => {
-        // Save data in Pinia store
+        console.log("Your data:", {
+          full_name: full_name.value,
+          email: email.value,
+        });
+
         newsletterFormStore.setFormData({
           full_name: full_name.value,
           email: email.value,
@@ -107,4 +80,3 @@ export default defineComponent({
   },
 });
 </script>
-

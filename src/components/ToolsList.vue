@@ -45,9 +45,9 @@
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">Seasonality</span>
                     <picture>
-                      <source srcset="/uploads/2023/05/22/400season-thumb.webp" width="400" height="267"
+                      <source srcset="/2023/05/22/400season-thumb.webp" width="400" height="267"
                         type="image/webp">
-                      <img src="/uploads/2023/05/22/400season-thumb.jpg" class="article-img-thumb" loading="lazy"
+                      <img src="/2023/05/22/400season-thumb.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">
                     </picture>
                     <img src="/en/icons/tool.svg" class="article-item-card-icon" alt="">
