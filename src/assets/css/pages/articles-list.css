@@ -6,7 +6,7 @@
 .trading-results-heading{font-size:36px;font-weight:700}
 p.trading-results-heading{margin-top:0}
 .trading-results .tradings-results-item-number{color:#27e34f;font-size:36px;font-weight:700;margin:0}
-.trading-results-row{display:flex;justify-content:space-between;padding:85px 0 30px;background-image:url(/assets/images/trading-element.svg);background-position:center 20px;background-repeat:no-repeat;background-size:70%}
+.trading-results-row{display:flex;justify-content:space-between;padding:85px 0 30px;background-image:url(./src/assets/img/trading-element.svg);background-position:center 20px;background-repeat:no-repeat;background-size:70%}
 .trading-results-item{text-align:center}
 p.trading-results-item-name{font-size:16px;font-weight:700;margin:0}
 .decrease .tradings-results-item-number{color:#e31029}
@@ -20,8 +20,8 @@ p.trading-results-item-name{font-size:16px;font-weight:700;margin:0}
 .bulletin-sect{padding:60px 0 0} 
 .bulletin-sect .main-heading{margin:0}
 .bulletin-sect .trading-signals-subheading{font-size:28px;margin:15px 0 35px}
-.plan-intro-sect{padding:90px 0 0;background:url(/assets/images/diff-intro-bg-de.png),linear-gradient(95.96deg,#252923 20.18%,#5B5B5B 82.28%);background-size:cover;background-position:right bottom,left top;background-repeat:no-repeat;position:relative}
-.en .plan-intro-sect{background:url(/assets/images/diff-intro-bg-en.png),linear-gradient(95.96deg,#252923 20.18%,#5B5B5B 82.28%);background-size:cover;background-position:right bottom,left top;background-repeat:no-repeat}
+.plan-intro-sect{padding:90px 0 0;background:url(./src/assets/img/diff-intro-bg-de.png),linear-gradient(95.96deg,#252923 20.18%,#5B5B5B 82.28%);background-size:cover;background-position:right bottom,left top;background-repeat:no-repeat;position:relative}
+.en .plan-intro-sect{background:url(./src/assets/img/diff-intro-bg-en.png),linear-gradient(95.96deg,#252923 20.18%,#5B5B5B 82.28%);background-size:cover;background-position:right bottom,left top;background-repeat:no-repeat}
 .plan-intro-sect:before{content:"";background-color:rgba(0,0,0,.5);position:absolute;top:0;left:0;width:100%;height:100%;z-index:1}
 .plan-intro-sect .container{position:relative;z-index:2}
 .plan-intro-sect *{color:#fff}

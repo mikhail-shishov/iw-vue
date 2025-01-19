@@ -1,21 +1,62 @@
 <script lang="ts">
-  export default {
-    name: 'LangSwitch',
-    methods: {
-      changeLanguage(lang: string) { // Explicitly declare the type
-        this.$i18n.locale = lang;
-      },
-    },
-  };
+import { ref, computed, onMounted, onUnmounted } from "vue";
+
+export default {
+  name: "HeaderDropdown",
+  setup() {
+    const windowWidth = ref(window.innerWidth); // Track window width
+    const dropdownVisible = ref<Record<string, boolean>>({}); // Store visibility states dynamically
+
+    // Determine if the current view is desktop or mobile
+    const isDesktop = computed(() => windowWidth.value > 992);
+
+    const updateWindowWidth = () => {
+      windowWidth.value = window.innerWidth; // Update window width on resize
+    };
+
+    const handleMouseEnter = (dropdown: string) => {
+      dropdownVisible.value[dropdown] = true; // Show dropdown when hovering over dropdown button or content
+    };
+
+    const handleMouseLeave = (dropdown: string) => {
+      dropdownVisible.value[dropdown] = false; // Hide dropdown when leaving both button and content
+    };
+
+    const toggleDropdown = (e: MouseEvent, dropdown: string) => {
+      e.preventDefault();
+      if (!isDesktop.value) {
+        dropdownVisible.value[dropdown] = !dropdownVisible.value[dropdown]; // Toggle visibility for mobile
+      }
+    };
+
+    onMounted(() => {
+      window.addEventListener("resize", updateWindowWidth);
+    });
+
+    onUnmounted(() => {
+      window.removeEventListener("resize", updateWindowWidth);
+    });
+
+    return {
+      windowWidth,
+      dropdownVisible,
+      isDesktop,
+      updateWindowWidth,
+      handleMouseEnter,
+      handleMouseLeave,
+      toggleDropdown,
+    };
+  },
+};
 </script>
 
 <template>
-  <!-- {{ $t('message.hello') }} -->
   <header class="header">
     <div class="container">
-      <a href="/" class="header-logo" aria-label="Homepage link"><img src="/en/logo/logo.svg" width="130" height="24"
-          alt=""></a>
-      <input id="toggle-menu" type="checkbox">
+      <RouterLink to="/" class="header-logo">
+        <img src="/en/logo/logo.svg" width="130" height="24" alt="InsiderWeek" />
+      </RouterLink>
+      <input id="toggle-menu" type="checkbox" />
       <label class="hamburger" for="toggle-menu">
         <span class="top"></span>
         <span class="meat"></span>
@@ -23,48 +64,34 @@
       </label>
       <div class="header-menu">
         <nav class="header-nav">
-          <a href="/de/ueber-uns/" class="header-nav-link">Arbeitsprinzipien</a>
-          <a href="/de/strategie/" class="header-nav-link">Strategie</a>
-          <a href="/de/pro-account/" class="header-nav-link">Erfolgsbilanz</a>
-          <div><a href="/de/tools/" class="header-nav-link dropdown-btn">Tools</a>
-            <div class="dropdown-content">
-              <a href="/de/tools/" class="mob-only">Alle Analyse-Tools</a>
-              <a href="/de/cot/">COT Daten</a>
-              <a href="/de/seasonal-charts/">Saisonalität</a>
-              <a href="/de/futures-rechner/">Futures Rechner</a>
-              <a href="/de/futures-specifications/">Futures-Kontrakt-Spezifikationen</a>
-              <a href="/de/rendite-rechner/">Rendite-Rechner</a>
-              <a href="/de/rohstoff-karte/">Rohstoff-Karte</a>
-              <a href="/de/zinseszins-rechner/">Zinseszins-Rechner</a>
+          <RouterLink to="/about" class="header-nav-link">{{ $t('header.nav_about') }}</RouterLink>
+          <RouterLink to="/strategy" class="header-nav-link">{{ $t('header.nav_strategy') }}</RouterLink>
+          <div class="header-nav-item" @mouseenter="handleMouseEnter('tools')" @mouseleave="handleMouseLeave('tools')">
+            <RouterLink to="/tools" class="header-nav-link dropdown-btn" :class="{ visible: dropdownVisible.tools }"
+              @click="toggleDropdown($event, 'tools')">
+              {{ $t("header.nav_tools") }}
+            </RouterLink>
+            <div class="dropdown-content" v-if="dropdownVisible.tools || !isDesktop">
+              <RouterLink to="/tools" class="mob-only">{{ $t('header.nav_tools_all') }}</RouterLink>
+              <RouterLink to="/futures-contract-specifications">{{ $t('header.nav_tools_futures_spec') }}</RouterLink>
             </div>
           </div>
-          <div><a href="/de/materials/" class="header-nav-link dropdown-btn">Schulungen</a>
-            <div class="dropdown-content">
-              <a href="/de/materials/" class="mob-only">Ressourcen</a>
-              <a href="/de/cot-1-strategie/">Coaching</a>
-              <a
-                href="/de/live-webinare?utm_source=website&amp;utm_medium=org&amp;utm_campaign=post&amp;utm_content=webinar&amp;utm_term=261124">Webinare</a>
-              <!-- <a href="/de/seminare/">Seminare</a> -->
-              <!-- <a href="/de/trading-lernen-kurs/">Kurse</a> -->
-              <a href="/de/pro-trader/">Abonnement</a>
+          
+          <div class="header-nav-item" @mouseenter="handleMouseEnter('education')" @mouseleave="handleMouseLeave('education')">
+            <RouterLink to="/education" class="header-nav-link dropdown-btn" :class="{ visible: dropdownVisible.education }"
+              @click="toggleDropdown($event, 'education')">
+              {{ $t("header.nav_education") }}
+            </RouterLink>
+            <div class="dropdown-content" v-if="dropdownVisible.education || !isDesktop">
+              <RouterLink to="/education" class="mob-only">{{ $t("header.nav_education") }}</RouterLink>
+              <RouterLink to="/coaching">{{ $t("header.nav_coaching") }}</RouterLink>
+              <RouterLink to="/subscription">{{ $t("header.nav_subscription") }}</RouterLink>
             </div>
           </div>
-          <a href="/de/blog/" class="header-nav-link">Blog</a>
-          <a href="/de/news/" class="header-nav-link">Nachrichten</a>
         </nav>
         <div class="header-right">
-          <a href="https://my-iw.insider-week.com/" class="header-right-login">
-            <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M4.99967 0.333313C5.61851 0.333313 6.21201 0.579146 6.64959 1.01673C7.08717 1.45432 7.33301 2.04781 7.33301 2.66665C7.33301 3.28548 7.08717 3.87898 6.64959 4.31656C6.21201 4.75415 5.61851 4.99998 4.99967 4.99998C4.38084 4.99998 3.78734 4.75415 3.34976 4.31656C2.91217 3.87898 2.66634 3.28548 2.66634 2.66665C2.66634 2.04781 2.91217 1.45432 3.34976 1.01673C3.78734 0.579146 4.38084 0.333313 4.99967 0.333313ZM4.99967 6.16665C7.57801 6.16665 9.66634 7.21081 9.66634 8.49998V9.66665H0.333008V8.49998C0.333008 7.21081 2.42134 6.16665 4.99967 6.16665Z"
-                fill="#181818"></path>
-            </svg>
-            Mikhail</a>
-          <!-- <a href="/en/cot-trading-1/" class="btn btn-black-fill js-modal" data-modal="#trade">Trade with me</a> -->
-          <a href="/de/pro-trader/" class="btn btn-black-fill utm-header-trade utm-header-trade-de">Zum Trading</a>
-          <v-btn @click="changeLanguage('en')">EN</v-btn>
-          <v-btn @click="changeLanguage('de')">DE</v-btn>
-          <!-- <a href="/de/christmas-advent/" class="btn-header-xmas">Weihnachtskalender</a> -->
+          <RouterLink to="/subscription" class="btn btn-black-fill utm-header-trade utm-header-trade-de">{{
+            $t("header.nav_subscription") }}</RouterLink>
         </div>
       </div>
     </div>
@@ -88,7 +115,7 @@
   height: 8px;
   display: inline-block;
   margin-left: 8px;
-  background-image: url(/assets/images/en/icons/dropdown.svg);
+  background-image: url(./src/assets/img/en/icons/dropdown.svg);
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -335,6 +362,7 @@ div.dropdown-content a:hover {
 }
 
 @media (min-width: 1921px) {
+
   .header-nav,
   .en .header-nav {
     gap: 30px;
@@ -350,6 +378,119 @@ div.dropdown-content a:hover {
 
   .header .container {
     width: 1200px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header-nav {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    height: 54px;
+  }
+
+  .hamburger {
+    display: block;
+    float: right;
+    margin-left: 20px
+  }
+
+  .header-menu {
+    display: none
+  }
+
+  .header-nav,
+  .header-right {
+    flex-direction: column;
+    margin: 0 auto 0 20px;
+    padding: 10px 0
+  }
+
+  .header .btn {
+    position: absolute;
+    top: 11px;
+    right: 40px
+  }
+
+  .header-right-login {
+    border-right: 0
+  }
+
+  .header-nav {
+    gap: 22px;
+    width: calc(100% - 40px)
+  }
+
+  div.dropdown-content {
+    min-width: 100%;
+    position: static;
+    margin-top: 10px;
+    padding: 0 10px;
+    display: none
+  }
+
+  .header~.content {
+    margin-top: 50px
+  }
+
+  .dropdown-btn.visible+div.dropdown-content {
+    display: flex;
+  }
+
+  .nav-open~.header-menu {
+    display: flex;
+    flex-direction: column;
+    top: 54px;
+    left: -20px;
+    background: #fff;
+    width: 100vw;
+    box-shadow: 10px 10px 10px rgb(0 0 0 / 0.1);
+    position: absolute;
+  }
+
+  .dropdown-container .dropdown-btn.visible+div.dropdown-content {
+    margin-top: 0;
+    position: absolute;
+    top: 31px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header div.dropdown-content a {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 340px) {
+  .header-logo img {
+    max-width: 110px;
+  }
+
+  .header .btn {
+    font-size: 12px;
+    top: 14px;
+  }
+
+  .header-nav,
+  .header-right {
+    width: calc(100% - 20px);
+    margin: 0 auto;
+  }
+
+  .nav-open~.header-menu {
+    left: -10px;
+  }
+}
+
+@media (max-width: 320px) {
+  .header .btn {
+    font-size: 10px;
+    padding: 6px;
+    top: 13px;
+    right: 35px;
   }
 }
 </style>

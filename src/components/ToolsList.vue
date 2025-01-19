@@ -27,7 +27,7 @@
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">COT Data</span>
                     <picture>
-                      <source srcset="/assets/images/tools/tools-cot.webp" width="400" height="267" type="image/webp">
+                      <source srcset="./src/assets/img/tools/tools-cot.webp" width="400" height="267" type="image/webp">
                       <img src="/tools/tools-cot.jpg" class="article-img-thumb" loading="lazy" width="400"
                         height="267" alt="">
                     </picture>
@@ -63,7 +63,7 @@
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">Futures Calculator</span>
                     <picture>
-                      <source srcset="/assets/images/tools/tools-futures-calc.webp" width="400" height="267"
+                      <source srcset="./src/assets/img/tools/tools-futures-calc.webp" width="400" height="267"
                         type="image/webp">
                       <img src="/tools/tools-futures-calc.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">
@@ -81,7 +81,7 @@
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">Futures Calendar</span>
                     <picture>
-                      <source srcset="/assets/images/tools/tools-calendar.webp" width="400" height="267"
+                      <source srcset="./src/assets/img/tools/tools-calendar.webp" width="400" height="267"
                         type="image/webp">
                       <img src="/tools/tools-calendar.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">
@@ -99,7 +99,7 @@
                     <div class="article-item-card-badge">Tool</div>
                     <span class="article-item-card-name">Futures Contract Specifications</span>
                     <picture>
-                      <source srcset="/assets/images/tools/tools-contract.webp" width="400" height="267"
+                      <source srcset="./src/assets/img/tools/tools-contract.webp" width="400" height="267"
                         type="image/webp">
                       <img src="/tools/tools-contract.jpg" class="article-img-thumb" loading="lazy"
                         width="400" height="267" alt="">

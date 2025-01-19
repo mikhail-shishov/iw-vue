@@ -26,7 +26,7 @@
 .seasonality-filter .ss-main .ss-single-selected .ss-arrow span.arrow-up{border-color:#008B7D}
 .seasonality-filter .ss-optgroup{position:relative;background-color:#fff}
 .seasonality-filter .ss-list .ss-optgroup.chosen .ss-optgroup-label{font-weight:700}
-.seasonality-filter .ss-optgroup.chosen .ss-optgroup-label:before{content:"";background-image:url(/assets/images/seasonality/arrow.svg);background-position:center;background-size:contain;margin-right:6px;display:inline-block;vertical-align:middle;width:11px;height:7px}
+.seasonality-filter .ss-optgroup.chosen .ss-optgroup-label:before{content:"";background-image:url(./src/assets/img/seasonality/arrow.svg);background-position:center;background-size:contain;margin-right:6px;display:inline-block;vertical-align:middle;width:11px;height:7px}
 .seasonality-filter .ss-content .ss-list{overflow:initial;border:1px solid #000;max-height:unset}
 .seasonality-filter .ss-option{width:200px}
 .seasonality-filter .ss-content .ss-list .ss-option{padding:12px;cursor:pointer;user-select:none;font-size:12px;position:relative}
@@ -37,19 +37,19 @@
 .seasonality-filter .ss-main .ss-single-selected .ss-arrow{margin-left:auto}
 .seasonality-filter .ss-list .ss-optgroup .ss-optgroup-label{cursor:pointer;font-size:13px;font-weight:400;padding:12px 14px;position:relative;color:#242923}
 .seasonality-filter .ss-list .ss-optgroup .ss-optgroup-label:hover{background-color:#008B7D}
-.seasonality-filter .ss-list .ss-optgroup .ss-optgroup-label:after{content:"";background-image:url(/assets/images/seasonality/seasonality-right.svg);background-repeat:no-repeat;background-size:contain;width:12px;height:7px;display:inline-block;position:absolute;right:14px;top:50%;transform:translateY(-50%)}
+.seasonality-filter .ss-list .ss-optgroup .ss-optgroup-label:after{content:"";background-image:url(./src/assets/img/seasonality/seasonality-right.svg);background-repeat:no-repeat;background-size:contain;width:12px;height:7px;display:inline-block;position:absolute;right:14px;top:50%;transform:translateY(-50%)}
 .seasonality-filter .ss-optgroup-inner{position:absolute;background:#fff;display:none;left:100%;top:0;border:1px solid #000}
 .seasonality-filter .ss-optgroup:hover .ss-optgroup-inner{display:block}
 .seasonality-filter .ss-list .ss-option{padding:12px;font-size:12px}
 .seasonality-filter .ss-list .ss-optgroup .ss-option{padding:12px 14px 12px 12px;font-size:12px;position:relative}
 .seasonality-filter .ss-list .ss-optgroup .ss-option.locked{pointer-events:none;color:#999;cursor:not-allowed;}
-.seasonality-filter .ss-list .ss-optgroup .ss-option.locked:before{content:"";width:20px;height:20px;background-image:url(/assets/images/icons/lock.png);background-size:contain;background-repeat:no-repeat;background-position:center;border:0;margin-top:-3px;}
+.seasonality-filter .ss-list .ss-optgroup .ss-option.locked:before{content:"";width:20px;height:20px;background-image:url(./src/assets/img/icons/lock.png);background-size:contain;background-repeat:no-repeat;background-position:center;border:0;margin-top:-3px;}
 .seasonality-filter .ss-option:before{content:"";width:16px;height:16px;display:inline-block;border:1px solid #000;margin-right:8px;vertical-align:middle}
-.seasonality-filter .ss-option.ss-option-selected:after{content:"";background-image:url(/assets/images/seasonality/arrow.svg);background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align:middle;width:12px;height:7px;position:absolute;left:15px;top:19px}
+.seasonality-filter .ss-option.ss-option-selected:after{content:"";background-image:url(./src/assets/img/seasonality/arrow.svg);background-position:center;background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align:middle;width:12px;height:7px;position:absolute;left:15px;top:19px}
 .seasonality-filter .ss-optgroup-inner .ss-option.ss-option-selected:after{left:15px;top:19px}
 .seasonality-filter .ss-list .ss-option:hover,.seasonality-filter .ss-list .ss-option:not(.ss-disabled).ss-option-selected{color:#242923;background-color:#008B7D}
 .btn-mob-container{display:none;position:relative}
-.btn-mob{background-color:#f6f5f7;border:0;min-width:48px;height:49px;position:absolute;z-index:1;left:0;cursor:pointer;background-image:url(/assets/images/seasonality/seasonality-right.svg);background-repeat:no-repeat;background-size:8px;background-position:center;font-size:0}
+.btn-mob{background-color:#f6f5f7;border:0;min-width:48px;height:49px;position:absolute;z-index:1;left:0;cursor:pointer;background-image:url(./src/assets/img/seasonality/seasonality-right.svg);background-repeat:no-repeat;background-size:8px;background-position:center;font-size:0}
 .btn-mob-prev{transform:rotate(180deg)}
 .btn-mob-next{right:0;left:auto}
 .text-sect .seasonality-btn-container .btn{border-color:var(--black)}

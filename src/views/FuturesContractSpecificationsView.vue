@@ -97,7 +97,7 @@ p.article-tip-name {
   margin-right: 15px;
   min-width: 42px;
   height: 42px;
-  background-image: url(/assets/images/en/icons/question-mark.svg);
+  background-image: url(./src/assets/img/en/icons/question-mark.svg);
   background-position: center;
   background-size: contain;
 }
@@ -181,5 +181,35 @@ p.article-tip-text {
 
 .article a {
   overflow-wrap: break-word;
+}
+
+@media (max-width: 768px) {
+  .article-info-item b {
+        font-size: 18px;
+    }
+
+    .article-book-row {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+  .article-video {
+        height: 47vw;
+    }
+
+    .article .img-container {
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 420px) {
+
+
+  .article-book-block {
+        padding: 20px;
+    }
 }
 </style>

@@ -1,11 +1,16 @@
 <script lang="ts">
 import { defineComponent } from "vue";
-import NewsletterForm from "./NewsletterForm.vue"; // Adjust the path as needed
+import NewsletterForm from "./NewsletterForm.vue";
 
 export default defineComponent({
   name: "TheFooter",
   components: {
     NewsletterForm,
+  },
+  methods: {
+    changeLanguage(lang: string) {
+      this.$i18n.locale = lang;
+    },
   },
 });
 </script>
@@ -20,12 +25,10 @@ export default defineComponent({
             8201 Geroskipou<br>
             Paphos, Cyprus
           </div>
-          <!-- <details class="footer-switch">
-                  <summary class="footer-switch-name">Deutsch</summary>
-                  <div class="footer-switch-list">
-                      <a href="https://insider-week.com/en/" class="footer-switch-link">English</a>
-                  </div>
-              </details> -->
+          <div class="footer-switch">
+            <v-btn class="btn btn-black-fill" @click="changeLanguage('en')">EN</v-btn>
+            <v-btn class="btn btn-black-fill" @click="changeLanguage('de')">DE</v-btn>
+          </div>
         </div>
         <div class="footer-col">
           <div class="footer-links">
@@ -33,12 +36,10 @@ export default defineComponent({
             <a href="/de/nutzungsbedingungen/" class="js-modal" data-modal="#terms">Nutzungsbedingungen</a>
             <a href="/de/impressum/" class="js-modal" data-modal="#legal">Impressum</a>
             <a href="/de/risikohinweis/" class="js-modal" data-modal="#risk">Risikohinweis</a>
-            <!-- <a href="/en/60-day-risk-free-trial/" class="js-modal" data-modal="#money-back">60-day money-back guarantee</a> -->
           </div>
         </div>
         <div class="footer-col">
           <div class="footer-links">
-            <!-- <a href="#" class="js-modal" data-modal="#mail">Newsletter abonnieren</a> -->
             <a href="#" class="js-modal" data-modal="#contact">Kontakt</a>
             <div class="footer-social">
               <a href="https://youtube.com/c/InsiderWeek/" rel="noopener noreferrer" target="_blank"><img
@@ -67,7 +68,7 @@ export default defineComponent({
         <p class="text">© 2017-2025 InsiderWeek Education LTD.<br>All Rights Reserved.</p>
         <p class="text">VAT-ID: CY10417166X</p>
       </div>
-      <NewsletterForm/>
+      <NewsletterForm />
     </div>
   </footer>
   <div class="risk-disclosure">
@@ -93,7 +94,7 @@ export default defineComponent({
   </div>
 </template>
 
-<style scoped>
+<style>
 .owhforms input {
   outline: 0;
 }
@@ -140,7 +141,7 @@ export default defineComponent({
 }
 
 .footer .form-subscribe {
-  margin: 60px 0 10px;
+  margin: 60px 0 0;
   padding: 35px 0;
   border-top: 1px solid var(--black-2);
   border-bottom: 1px solid var(--black-2);
@@ -261,7 +262,7 @@ export default defineComponent({
   width: 12px;
   height: 12px;
   transform: translate(-50%, -50%);
-  background-image: url(/assets/images/icons/checkbox-icon.svg);
+  background-image: url(./src/assets/img/icons/checkbox-icon.svg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -524,7 +525,7 @@ textarea.fs-form-input {
   height: 18px;
   display: inline-block;
   position: absolute;
-  background-image: url(/assets/images/en/icons/modal-close.svg);
+  background-image: url(./src/assets/img/en/icons/modal-close.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -767,10 +768,148 @@ textarea.fs-form-input {
   display: none;
 }
 
+.form-subscribe div {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.footer-switch {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+@media (max-width: 1280px) {
+  .footer .form-subscribe {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 992px) {
+
+  .cf-input-text,
+  .cf-textarea {
+    font-size: 12px
+  }
+
+  .footer {
+    padding: 60px 0;
+  }
+
+  .footer-switch {
+    position: static;
+    margin-top: 20px;
+    width: 100%;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 768px) {
   .cf-label-row {
     flex-direction: column;
     gap: 0;
+  }
+
+  .footer-row {
+    flex-direction: column;
+  }
+
+  .footer-col:nth-of-type(1) {
+    order: 3;
+  }
+
+  .footer-col:nth-of-type(2) {
+    order: 1;
+    text-align: left;
+  }
+
+  .footer-col:nth-of-type(3) {
+    order: 2;
+    text-align: left;
+  }
+
+  .footer-social {
+    justify-content: flex-start;
+  }
+
+  .footer-address {
+    margin-top: 30px;
+  }
+
+  .cf-input-text-footer {
+    text-align: left;
+  }
+
+  .footer-links a {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .fs-form.form-vertical {
+    width: 100%;
+  }
+
+  .suggest-popup {
+    width: 95vw;
+    max-width: unset;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    bottom: unset;
+    border: 0;
+  }
+
+  .suggest-popup-step {
+    text-align: center;
+  }
+
+  .suggest-popup-open {
+    flex-direction: row;
+  }
+
+  .suggest-popup-open:before {
+    margin: 0 5px 0 0;
+  }
+
+  .suggest-popup-open.no-text:before {
+    margin: 0;
+  }
+
+
+  .modal-block {
+    padding: 25px 20px;
+  }
+
+  .modal-close {
+    top: 16px;
+    right: 16px;
+    width: 15px;
+    height: 15px;
+  }
+
+  .modal-window-dark .h3.center {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+
+
+  .footer-links a,
+  .footer-address {
+    font-size: 16px;
+  }
+
+}
+
+@media (max-width: 320px) {
+  .footer-social {
+    gap: 7px;
   }
 }
 </style>

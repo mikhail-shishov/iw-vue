@@ -9,7 +9,7 @@
 .trading-results-col:last-of-type{max-width:53%}
 .trading-results-subheading{font-size:28px;margin:0}
 .cta-button-container{position:relative;text-align:center;width:310px;margin-bottom:80px}
-.cta-button-container:after{content:"";background-image:url(/assets/images/telegram-logo.svg);background-size:contain;background-position:center;background-repeat:no-repeat;width:50px;height:50px;display:inline-block;position:absolute;right:-70px;top:0}
+.cta-button-container:after{content:"";background-image:url(./src/assets/img/telegram-logo.svg);background-size:contain;background-position:center;background-repeat:no-repeat;width:50px;height:50px;display:inline-block;position:absolute;right:-70px;top:0}
 .cta-button-container .btn{width:310px;padding:12px}
 .cta-button-container p{color:#bdbdbd;margin-top:7px;min-width:310px;font-size:15px}
 .trading-results-main-img{width:53vw;max-width:720px}

@@ -142,7 +142,7 @@
 }
 
 .intro-item-sect {
-  background-image: url(/assets/images/downloads/item-bg.webp);
+  background-image: url(./src/assets/img/downloads/item-bg.webp);
   padding: 20px 0 0;
   min-height: auto;
 }

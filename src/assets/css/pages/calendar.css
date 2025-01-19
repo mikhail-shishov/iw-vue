@@ -7,8 +7,8 @@
 .calendar-week-days,.calendar-month-days{display:flex;flex-wrap:wrap}
 .calendar-month{text-align:center;margin:0 0 60px}
 .calendar-month-title{font-size:36px;font-weight:700;margin:0 40px;user-select:none}
-.calendar-arrow{width:40px;height:40px;background-image:url(/assets/images/calendar/arrow-left.svg);background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align:text-bottom}
-.calendar-arrow-right{background-image:url(/assets/images/calendar/arrow-right.svg)}
+.calendar-arrow{width:40px;height:40px;background-image:url(./src/assets/img/calendar/arrow-left.svg);background-size:contain;background-repeat:no-repeat;display:inline-block;vertical-align:text-bottom}
+.calendar-arrow-right{background-image:url(./src/assets/img/calendar/arrow-right.svg)}
 .calendar-day{width:16.6666%;border-top:1px solid #d0ccd1;padding:30px 16px 30px 8px}
 .calendar-day-current{border-top:2px solid #27e34f}
 .calendar-week-days .calendar-day{text-align:center;padding:15px;border-top:0}

@@ -3,7 +3,6 @@
       @submit.prevent="submitForm"
       class="owhforms form-horizontal form-subscribe"
   >
-    <!-- Form Fields -->
     <b>Newsletter abonniere:</b>
     <div v-if="!isLoading && !isSuccess">
       <input
@@ -46,12 +45,10 @@
       />
     </div>
 
-    <!-- Loading State -->
     <div v-if="isLoading" class="owhforms_loading">
       <p>Loading...</p>
     </div>
 
-    <!-- Success Message -->
     <div v-if="isSuccess" class="owhforms_success">
       <p class="text">
         <b>Vielen Dank für dein Interesse an unseren Produkten.</b>

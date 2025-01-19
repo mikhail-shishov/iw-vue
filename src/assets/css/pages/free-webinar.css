@@ -1,9 +1,9 @@
 .intro-sect{background-color:#f6f2f7;padding:120px 0}
 .join-sect{padding:0 0 90px}
-.trading-points-row:nth-of-type(1) .trading-points-img:before{background-image:url(/assets/images/free-webinar/webinar-icon-1.png)}
-.trading-points-row:nth-of-type(2) .trading-points-img:before{background-image:url(/assets/images/free-webinar/webinar-icon-2.png)}
-.trading-points-row:nth-of-type(3) .trading-points-img:before{background-image:url(/assets/images/free-webinar/webinar-icon-3.png)}
-.trading-points-row:nth-of-type(4) .trading-points-img:before{background-image:url(/assets/images/free-webinar/webinar-icon-4.png)}
+.trading-points-row:nth-of-type(1) .trading-points-img:before{background-image:url(./src/assets/img/free-webinar/webinar-icon-1.png)}
+.trading-points-row:nth-of-type(2) .trading-points-img:before{background-image:url(./src/assets/img/free-webinar/webinar-icon-2.png)}
+.trading-points-row:nth-of-type(3) .trading-points-img:before{background-image:url(./src/assets/img/free-webinar/webinar-icon-3.png)}
+.trading-points-row:nth-of-type(4) .trading-points-img:before{background-image:url(./src/assets/img/free-webinar/webinar-icon-4.png)}
 .topic-sect{padding:90px 0 0}
 .topic-grid{display:grid;grid-template-columns:repeat(3,1fr);margin:50px 0 0;gap:30px}
 .topic-item{border:1px solid #1f1d20;padding:28px 20px;text-align:center}

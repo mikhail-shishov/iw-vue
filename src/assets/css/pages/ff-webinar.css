@@ -310,7 +310,7 @@ p * {
 
 .ff-web-contact-sect {
   padding: 60px 0 0;
-  background-image: url(/assets/images/pages/ff-webinar/marcus-bg.jpg);
+  background-image: url(./src/assets/img/pages/ff-webinar/marcus-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -489,7 +489,7 @@ p * {
     background-color: #f0f7ff;
     border-radius: 10px;
     margin: 20px 0 0;
-    background-image: url(/assets/images/pages/ff-webinar/marcus-bg.jpg);
+    background-image: url(./src/assets/img/pages/ff-webinar/marcus-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

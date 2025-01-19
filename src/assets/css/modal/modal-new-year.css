@@ -1,5 +1,5 @@
 .ny-modal .modal-wrap {
-  /* background: url(/assets/images/modal/geburtstag-aktion/hooray.png),
+  /* background: url(./src/assets/img/modal/geburtstag-aktion/hooray.png),
     linear-gradient(224.62deg, #37a022 13.26%, #093700 81.07%); */
   background: linear-gradient(98.64deg, #a30000 5.87%, #fc0000 97.17%);
   background-position: right;
@@ -24,7 +24,7 @@
   left: 0;
   border: 0;
   opacity: 0.6;
-  background-image: url(/assets/images/modal/new-year/Snowflake_047_seamless.svg);
+  background-image: url(./src/assets/img/modal/new-year/Snowflake_047_seamless.svg);
   background-size: contain;
   animation: snow-anim 20s infinite linear;
 }
@@ -100,7 +100,7 @@
   content: "";
   width: 100%;
   height: 60px;
-  background-image: url(/assets/images/modal/new-year/btn-top.png);
+  background-image: url(./src/assets/img/modal/new-year/btn-top.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -115,7 +115,7 @@
 }
 
 .ny-modal .btn-filled-green:after {
-  background-image: url(/assets/images/modal/new-year/btn-bottom.png);
+  background-image: url(./src/assets/img/modal/new-year/btn-bottom.png);
   bottom: -55px;
   width: 95%;
 }

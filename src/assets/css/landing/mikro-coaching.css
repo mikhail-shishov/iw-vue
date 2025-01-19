@@ -255,7 +255,7 @@ span {
   position: absolute;
   width: 145px;
   height: 111px;
-  background-image: url(/assets/images/landing/mikro-coaching/intro-line-1.svg);
+  background-image: url(./src/assets/img/landing/mikro-coaching/intro-line-1.svg);
   background-size: contain;
   background-repeat: no-repeat;
   top: 100%;
@@ -264,7 +264,7 @@ span {
 }
 
 .mikro-intro-square-text:last-of-type:before {
-  background-image: url(/assets/images/landing/mikro-coaching/intro-line-2.svg);
+  background-image: url(./src/assets/img/landing/mikro-coaching/intro-line-2.svg);
   right: 43%;
   width: 134px;
 }
@@ -512,7 +512,7 @@ span {
 
 .review-sect .swiper-button-next:after,
 .review-sect .swiper-button-prev:after {
-  background-image: url(/assets/images/landing/bcp/arrow.svg);
+  background-image: url(./src/assets/img/landing/bcp/arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
 }

@@ -1,7 +1,7 @@
 .intro-sect{padding:120px 0;background-color:#f8f1f8}
 .article-sect{background-color:#f6f2f7;background-image:none}
-.trading-points-row:nth-of-type(1) .trading-points-img:before{background-image:url(/assets/images/charts-und-tools/chart.svg);right:-10px;left:auto}
-.trading-points-row:nth-of-type(2) .trading-points-img:before{background-image:url(/assets/images/charts-und-tools/umbrella.svg)}
+.trading-points-row:nth-of-type(1) .trading-points-img:before{background-image:url(./src/assets/img/charts-und-tools/chart.svg);right:-10px;left:auto}
+.trading-points-row:nth-of-type(2) .trading-points-img:before{background-image:url(./src/assets/img/charts-und-tools/umbrella.svg)}
 .trading-points-text{max-width:45%}
 .charts-and-tools .cot-01-product-sect{background-color:#f9f8f8}
 @media (max-width: 992px) {

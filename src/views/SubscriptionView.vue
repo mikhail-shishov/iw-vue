@@ -1,6 +1,108 @@
+<script setup lang="ts">
+import UserReviews from "../components/UserReviews.vue";
+
+const featureItems = [
+  { icon: "/icons/home-7.svg", title: "Wöchentliche Trading-Pläne für deine Entscheidungen", desc: "Bleib informiert mit einem wöchentlichen Trading-Plan. Jede Woche analysiere ich die Märkte mit hilfe von COT-Daten, saisonalen Trends und andere Daten, um die vielversprechendsten Chancen herauszufiltern. Die Ergebnisse dieser Analysen teile ich exklusiv mit unseren Mitgliedern." },
+  { icon: "/icons/home-8.svg", title: "Lerne von unserer Transparenz", desc: "Mit dem Pro Trade Insights Subscription erhältst du Einblick in meine persönliche Watchlist sowie in alle Trades auf den Startup- und COT-1-Konten. Du wirst immer wissen, welche Positionen ich eröffnet habe und welche Märkte ich im Blick habe. So kannst du durch Beobachtung meiner Trades direkt von mir lernen und deine Trading-Fähigkeiten ausbauen." },
+  { icon: "/icons/home-9.svg", title: "Erhalte Einblick in unsere Strategie", desc: "Interessiert an den Hintergründen der COT-Strategie? Du hast die Möglichkeit, die tägliche Umsetzung dieser Strategie in der Praxis zu erleben und herauszufinden, ob Swing Trading auf COT-Basis zu dir passt. Durch Beobachtung dieser Strategie in der Praxis kannst du deine Effektivität bewerten und Marktbewegungen lernen." },
+  { icon: "/icons/home-10.svg", title: "Zugang zu relevanten News und zusätzlichem Content", desc: "Bleib bestens informiert: Mit Pro Trade Insights erhältst du laufend wichtige Trading-News sowie weitere Tipps zur Anwendung unserer Strategie, z.B., über die “Trading Ausbildung Deutschland”, “Technische Chartanalyse Lernen”, “Trading Lernen PDF”, und online Dokumente." },
+];</script>
+
 <template>
-  <div class="subscription">
-    <h1>This is an subscription page</h1>
+  <div class="pro-trader">
+    <section class="pro-intro-sect">
+      <div class="container">
+        <div class="intro-row">
+          <div class="intro-left">
+            <div class="intro-left-text">
+              <h1 class="h1">Pure Trading Praxis!</h1>
+              <p class="text">Mit dem Pro Trader-Abo hast du Zugang zu allen Trades der COT-1-Strategie. Du erhältst
+                Zugriff auf die Watchlist und alle geplanten Trades, einschließlich Informationen zu Einstiegspreis,
+                Stop-Loss, Preisziel und Positionsgröße. Auf diese Weise kannst du dir einen Eindruck von der
+                praktischen
+                Umsetzung der COT-1-Strategie machen und dich selbst von unserer hundertprozentigen Transparenz
+                überzeugen.</p>
+            </div>
+            <button class="btn btn-white btn-big btn-get-pro-de goToLink" attr-id="1">Kauf den tarif</button>
+          </div>
+          <div class="intro-right">
+            <img src="/abo/max-pro-2.webp" class="intro-right-img" width="461" height="587" alt="Max Foto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-sect">
+      <div class="container">
+        <ul class="breadcrumbs">
+          <li><a href="/de/">Startseite</a></li>
+          <li><span>Pro Trader Abo</span></li>
+        </ul>
+        <h2 class="h1">Pro Trader Subscription</h2>
+        <!-- <h3 class="h2">Let's take a closer look at the benefits</h3> -->
+        <div class="plan-desc-row">
+          <div class="plan-desc-col">
+            <div class="plan-item plan-item-trader">
+              <div class="plan-top">
+                <div class="plan-top-text">
+                  <h3 class="h4 plan-top-name">Pro Trader</h3>
+                  <p class="plan-top-desc">Folge der COT-Strategie, die seit über 10 Jahren erfolgreich funktioniert.
+                  </p>
+                </div>
+              </div>
+              <div class="plan-bottom">
+                <p class="plan-bottom-desc">Mit dem Pro Trader-Abonnement erhältst du Zugang zu allen Trades der
+                  COT-1-Strategie.<br><br>Im Tarif enthaltene Leistungen:</p>
+                <ul class="plan-checkmark-list">
+                  <!-- <li>COT Report Analyse</li>
+                            <li>COT Signale</li>
+                            <li>Watchlist</li>
+                            <li>Wöchentliche Handelspläne</li>
+                            <li>Tägliche Handelssignale</li>
+                            <li>Zugang zum Mitgliederbereich</li>
+                            <li>Zugriff auf alle geplanten Trades über den Mitgliederbereich & Traderkanal</li> -->
+                  <!-- <li>Monatliches Live-Webinar über Trading-Chancen des Monats</li> -->
+
+                  <li>Basis Trading Kurs</li>
+                  <li>Rohstoff Trading Reports</li>
+                  <li>Rohstoff IW Kanal</li>
+                  <li>Live FAQ Webinar</li>
+                  <li>COT Report Analyse</li>
+                  <li>COT Signale</li>
+                  <li>Wöchentliche Handelspläne</li>
+                  <li>Watchlist</li>
+                  <li>Tägliche Handelskommentare</li>
+                  <li>Zugriff zu unseren Trades über den Mitgliederbereich &amp; Telegram</li>
+                  <li>Monatliches Webinar über Trading-Möglichkeiten</li>
+                </ul>
+                <div class="plan-get-badge">Bekomme jetzt dein Zugang</div>
+                <div class="plan-get">
+                  <div class="plan-get-price">
+                    <span class="plan-get-price-start">Ab</span>
+                    <span class="plan-get-price-current">€ 65</span>
+                    <span class="plan-get-price-month">pro monat</span>
+                  </div>
+                  <button class="btn btn-black-fill btn-get-pro-de goToLink" attr-id="1">Kaufen</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="plan-desc-col">
+            <div class="feature-grid feature-grid-column">
+              <div v-for="(item, index) in featureItems" :key="index" class="feature-item">
+                <img :src="item.icon" class="feature-item-icon" loading="lazy" alt="">
+                <div class="feature-item-text">
+                  <h4 class="h4">{{ item.title }}</h4>
+                  <p>{{ item.desc }}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <UserReviews />
   </div>
 </template>
 
@@ -20,7 +122,7 @@
 }
 
 .plan-top {
-  background-color: var(--darkblue-1);
+  background-color: var(--lightblue-5);
   color: #fff;
   font-size: 26px;
   padding: 20px;
@@ -112,52 +214,22 @@
   display: none;
 }
 
-.en.pro-trader .plan-desc-row {
-  gap: 40px;
-}
-
-.en.pro-trader .plan-item .text-small:last-of-type {
-  font-size: 10px;
-  margin: 5px 0 0;
-}
-
-.en.pro-trader h4.plan-bottom-desc {
-  font-weight: 700;
-  font-size: 20px;
-}
-
-.en.pro-trader .plan-checkmark-list {
-  font-size: 14px;
-}
-
-.en.pro-trader .plan-bottom {
-  gap: 12px;
-  margin-top: 0;
-}
-
-.en.pro-trader .plan-get-price {
-  margin-bottom: 10px;
-  gap: 0 5px;
-}
-
-.en.pro-trader .plan-desc-col .text-block p {
-  font-size: 18px;
-}
-
 .pro-trader .text-sect+.text-sect {
   padding-top: 0;
 }
 
-.de.pro-trader .pro-intro-sect .text {
+.pro-trader .pro-intro-sect .text {
   font-size: 16px;
+  color: white;
 }
 
-.de.pro-trader .pro-intro-sect .h1 {
+.pro-trader .pro-intro-sect .h1 {
   margin: 0;
   font-size: 52px;
+  color: white;
 }
 
-.de.pro-trader .intro-left-text {
+.pro-trader .intro-left-text {
   margin-bottom: 20px;
 }
 
@@ -398,9 +470,52 @@
 .pro-intro-sect,
 .pro-acc-intro-sect {
   background-color: var(--lightgrey-3);
-  background-image: url(/assets/images/abo/bg-pro-2.webp);
+  background-image: url(./src/assets/img/abo/bg-pro-2.webp);
   background-position: center;
   background-size: cover;
   padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .plan-offer-row {
+    flex-direction: column;
+  }
+
+  .plan-offer-item {
+    max-width: unset;
+  }
+
+  .plan-desc-row {
+    flex-direction: column;
+    gap: 35px;
+  }
+
+  .accordion-heading,
+  .accordion-text {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .accordion-block+.accordion-block {
+    margin-top: 20px;
+  }
+
+  .accordion-heading-name:after {
+    right: 14px;
+  }
+
+  .subscription-form-paypal {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .plan-item {
+    width: 100%;
+  }
+
+  .accordion-heading-name {
+    font-size: 16px;
+  }
 }
 </style>

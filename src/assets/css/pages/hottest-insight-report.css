@@ -1,8 +1,8 @@
 .digest-sect .container-big{width:1400px}
 .digest-sect .main-heading{font-size:48px;margin:0 0 25px;max-width:750px}
 .digest-sect .section-heading{font-size:28px;max-width:750px;margin:0 0 45px;font-weight:400}
-.digest-sect .section-heading:before{content:"";background-image:url(/assets/images/hottest-insight-report/fire-icon.png);background-size:cover;width:55px;height:55px;display:inline-block;margin:10px 20px 0 0;float:left}
-.digest-sect{background-image:url(/assets/images/hottest-insight-report/digest-bg.svg);background-position:right;background-repeat:no-repeat;background-size:contain;padding:50px 0 20px;position:relative}
+.digest-sect .section-heading:before{content:"";background-image:url(./src/assets/img/hottest-insight-report/fire-icon.png);background-size:cover;width:55px;height:55px;display:inline-block;margin:10px 20px 0 0;float:left}
+.digest-sect{background-image:url(./src/assets/img/hottest-insight-report/digest-bg.svg);background-position:right;background-repeat:no-repeat;background-size:contain;padding:50px 0 20px;position:relative}
 .digest-row{display:flex}
 .digest-col{width:50%;max-width:500px}
 .digest-box{position:relative;padding:50px 0}
@@ -77,7 +77,7 @@
 .custom-modal-main{text-align:center;overflow:hidden;position:fixed;top:0;right:0;bottom:0;left:0;outline:0;opacity:0;transition:.15s;z-index:-1;overflow-x:hidden;overflow-y:auto}
 .modal-open{z-index:99999;opacity:1;overflow:hidden}
 .custom-modal-inner{transform:translate(0,-25%);transition:.3s ease-out;display:inline-block;vertical-align:middle;width:95%;max-width:700px;margin:30px auto}
-.custom-modal-wrap{display:block;width:100%;position:relative;background-color:#fff;border:1px solid rgba(0,0,0,0.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,0.5);background-clip:padding-box;outline:0;text-align:center;padding:50px;box-sizing:border-box;max-height:calc(100vh - 70px);overflow-y:auto;background-image:url(/assets/images/hottest-insight-report/reg-thx.jpg);background-size:cover;background-position:right}
+.custom-modal-wrap{display:block;width:100%;position:relative;background-color:#fff;border:1px solid rgba(0,0,0,0.2);border-radius:6px;box-shadow:0 3px 9px rgba(0,0,0,0.5);background-clip:padding-box;outline:0;text-align:center;padding:50px;box-sizing:border-box;max-height:calc(100vh - 70px);overflow-y:auto;background-image:url(./src/assets/img/hottest-insight-report/reg-thx.jpg);background-size:cover;background-position:right}
 .popup-content-wrap .digest-form{max-width:420px}
 .popup-content-wrap .main-heading{margin-bottom:0;max-width:100%}
 .popup-content-wrap .section-heading,.popup-content-wrap .middle-heading{margin-top:30px;margin-bottom:0;max-width:100%}

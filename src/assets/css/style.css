@@ -114,7 +114,7 @@ picture {
     height: 8px;
     display: inline-block;
     margin-left: 8px;
-    background-image: url(/assets/images/en/icons/dropdown.svg);
+    background-image: url(./src/assets/img/en/icons/dropdown.svg);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -608,7 +608,7 @@ p,
 
 .btn-arrow:after {
     content: "";
-    background-image: url(/assets/images/article/arrow-next.svg);
+    background-image: url(./src/assets/img/article/arrow-next.svg);
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -617,7 +617,7 @@ p,
 }
 
 .btn-black-fill.btn-arrow:after {
-    background-image: url(/assets/images/article/arrow-next-white.svg);
+    background-image: url(./src/assets/img/article/arrow-next-white.svg);
 }
 
 .btn-white-fill.btn-border {
@@ -653,7 +653,7 @@ p,
     width: 11px;
     height: 11px;
     display: inline-block;
-    background-image: url(/assets/images/icons/btn-yes.svg);
+    background-image: url(./src/assets/img/icons/btn-yes.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -661,7 +661,7 @@ p,
 }
 
 .btn-no:before {
-    background-image: url(/assets/images/icons/btn-no.svg);
+    background-image: url(./src/assets/img/icons/btn-no.svg);
 }
 
 .heading-icon {
@@ -842,7 +842,7 @@ p,
     width: 12px;
     height: 12px;
     transform: translate(-50%, -50%);
-    background-image: url(/assets/images/icons/checkbox-icon.svg);
+    background-image: url(./src/assets/img/icons/checkbox-icon.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -1158,7 +1158,7 @@ textarea.fs-form-input {
 
 .quiz-prev-step:before {
     content: "";
-    background-image: url(/assets/images/en/icons/slider-arrow.svg);
+    background-image: url(./src/assets/img/en/icons/slider-arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 24px;
@@ -1243,7 +1243,7 @@ textarea.fs-form-input {
 }
 
 .quiz-survey-choice.is-chosen:before {
-    background-image: url(/assets/images/icons/material-check-black.svg);
+    background-image: url(./src/assets/img/icons/material-check-black.svg);
 }
 
 .quiz-survey+.quiz-bottom {
@@ -1622,7 +1622,7 @@ textarea.fs-form-input {
     margin: 80px 0;
     padding: 100px 0;
     background-color: var(--text-lightgrey);
-    background-image: url(/assets/images/cta-bg.webp);
+    background-image: url(./src/assets/img/cta-bg.webp);
     background-size: cover;
     background-position: center;
 }
@@ -1714,7 +1714,7 @@ p.img-desc {
     height: 24px;
     background-position: center;
     background-size: contain;
-    background-image: url(/assets/images/icons/star-green.svg);
+    background-image: url(./src/assets/img/icons/star-green.svg);
 }
 
 .review-splide .splide__arrow {
@@ -1750,7 +1750,7 @@ p.img-desc {
     width: 2em;
     z-index: 1;
     background: #fff0;
-    background-image: url(/assets/images/en/icons/slider-arrow.svg);
+    background-image: url(./src/assets/img/en/icons/slider-arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 0;
@@ -1929,7 +1929,7 @@ p.img-desc {
 .breadcrumbs li:after,
 .breadcrumbs li:only-child:before {
     content: "";
-    background-image: url(/assets/images/icons/breadcrumbs-caret.svg);
+    background-image: url(./src/assets/img/icons/breadcrumbs-caret.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -2075,7 +2075,7 @@ p.img-desc {
 
 .open-positions-date:before {
     content: '';
-    background-image: url(/assets/images/landing/important-trading-techniques/icon-clock.svg);
+    background-image: url(./src/assets/img/landing/important-trading-techniques/icon-clock.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -2127,7 +2127,7 @@ p.article-tip-name {
     margin-right: 15px;
     min-width: 42px;
     height: 42px;
-    background-image: url(/assets/images/en/icons/question-mark.svg);
+    background-image: url(./src/assets/img/en/icons/question-mark.svg);
     background-position: center;
     background-size: contain;
 }
@@ -2350,7 +2350,7 @@ div.tradeStatMainField h1 {
 .content .calendar-arrow {
     width: 30px;
     height: 30px;
-    background-image: url(/assets/images/en/icons/slider-arrow.svg);
+    background-image: url(./src/assets/img/en/icons/slider-arrow.svg);
     transform: rotate(180deg);
 }
 
@@ -3067,14 +3067,14 @@ div.tradeStatMainField h1 {
 .cot1-intro-sect,
 .pro-acc-intro-sect {
     background-color: var(--lightgrey-3);
-    background-image: url(/assets/images/abo/bg-pro-2.webp);
+    background-image: url(./src/assets/img/abo/bg-pro-2.webp);
     background-position: center;
     background-size: cover;
     padding-top: 10px;
 }
 
 .basic-intro-sect {
-    background-image: url(/assets/images/basic-bg.jpg);
+    background-image: url(./src/assets/img/basic-bg.jpg);
     overflow: hidden;
 }
 
@@ -3090,12 +3090,12 @@ div.tradeStatMainField h1 {
 }
 
 .cot1-intro-sect {
-    background-image: url(/assets/images/cot1-banner2.webp);
+    background-image: url(./src/assets/img/cot1-banner2.webp);
     padding: 40px 0 60px;
 }
 
 .pro-acc-intro-sect {
-    background-image: url(/assets/images/pro-account-bg.webp);
+    background-image: url(./src/assets/img/pro-account-bg.webp);
     padding: 90px 0;
 }
 
@@ -3242,7 +3242,7 @@ div.tradeStatMainField h1 {
 .cot-scheme-number:nth-child(2):after,
 .cot-scheme-number:nth-child(12):after {
     height: 60px;
-    background-image: url(/assets/images/cot-01/arrow-1.svg);
+    background-image: url(./src/assets/img/cot-01/arrow-1.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-color: #fff0;
@@ -3251,13 +3251,13 @@ div.tradeStatMainField h1 {
 }
 
 .cot-scheme-number:nth-child(2):after {
-    background-image: url(/assets/images/cot-01/arrow-2.svg);
+    background-image: url(./src/assets/img/cot-01/arrow-2.svg);
     width: 186px;
     left: 116px;
 }
 
 .cot-scheme-number:nth-child(12):after {
-    background-image: url(/assets/images/cot-01/arrow-3.svg);
+    background-image: url(./src/assets/img/cot-01/arrow-3.svg);
     left: unset;
     right: 12px;
     height: 50px;
@@ -3292,7 +3292,7 @@ div.tradeStatMainField h1 {
     align-items: center;
     justify-content: space-between;
     gap: 5px;
-    background-image: url(/assets/images/cot-01/arrow-main.svg);
+    background-image: url(./src/assets/img/cot-01/arrow-main.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -3426,7 +3426,7 @@ div.tradeStatMainField h1 {
     height: 18px;
     display: inline-block;
     position: absolute;
-    background-image: url(/assets/images/en/icons/modal-close.svg);
+    background-image: url(./src/assets/img/en/icons/modal-close.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3714,7 +3714,7 @@ div.tradeStatMainField h1 {
     height: 10px;
     border: 0;
     background-color: #fff0;
-    background-image: url(/assets/images/close-white.svg);
+    background-image: url(./src/assets/img/close-white.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -3752,7 +3752,7 @@ div.tradeStatMainField h1 {
 
 .suggest-popup-open:before {
     content: '';
-    background-image: url(/assets/images/icons/icon-feedback.svg);
+    background-image: url(./src/assets/img/icons/icon-feedback.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -3841,7 +3841,7 @@ div.tradeStatMainField h1 {
     position: absolute;
     right: 20px;
     top: 20px;
-    background-image: url(/assets/images/icons/close-black.svg);
+    background-image: url(./src/assets/img/icons/close-black.svg);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -3967,11 +3967,11 @@ div.tradeStatMainField h1 {
 .material-quiz-choice.is-true:before,
 .material-quiz-choice-success:before {
     background-color: var(--green-4);
-    background-image: url(/assets/images/icons/material-check-black.svg);
+    background-image: url(./src/assets/img/icons/material-check-black.svg);
 }
 
 .material-quiz-choice-success:before {
-    background-image: url(/assets/images/icons/material-check-green.svg);
+    background-image: url(./src/assets/img/icons/material-check-green.svg);
     border-color: var(--green-5);
     background-color: #fff0;
 }
@@ -3981,7 +3981,7 @@ div.tradeStatMainField h1 {
 }
 
 .material-quiz-choice.is-false:before {
-    background-image: url(/assets/images/icons/material-cross-black.svg);
+    background-image: url(./src/assets/img/icons/material-cross-black.svg);
 }
 
 .windows * {
@@ -4224,7 +4224,7 @@ div.tradeStatMainField h1 {
 .article-nav-next:after,
 .link-arrow:after {
     content: "";
-    background-image: url(/assets/images/article/arrow-prev.svg);
+    background-image: url(./src/assets/img/article/arrow-prev.svg);
     background-size: cover;
     background-position: center;
     display: inline-block;
@@ -4234,7 +4234,7 @@ div.tradeStatMainField h1 {
 
 .article-nav-next:after,
 .link-arrow:after {
-    background-image: url(/assets/images/article/arrow-next.svg);
+    background-image: url(./src/assets/img/article/arrow-next.svg);
 }
 
 .article-slider-container+.article-nav .article-nav-prev,
@@ -4840,7 +4840,7 @@ div.tradeStatMainField h1 {
     .cot-scheme-list {
         flex-direction: column;
         gap: 9px;
-        background-image: url(/assets/images/cot-01/arrow-main-mob.svg);
+        background-image: url(./src/assets/img/cot-01/arrow-main-mob.svg);
         padding: 0;
         margin: 0 35px 0 0;
     }
@@ -4859,11 +4859,11 @@ div.tradeStatMainField h1 {
         bottom: 14px;
         left: 40px;
         transform: none;
-        background-image: url(/assets/images/cot-01/arrow-1-mob.svg);
+        background-image: url(./src/assets/img/cot-01/arrow-1-mob.svg);
     }
 
     .cot-scheme-number:nth-child(2):after {
-        background-image: url(/assets/images/cot-01/arrow-2-mob.svg);
+        background-image: url(./src/assets/img/cot-01/arrow-2-mob.svg);
         width: 30px;
         height: 160px;
         left: 42px;
@@ -4883,7 +4883,7 @@ div.tradeStatMainField h1 {
     }
 
     .cot-scheme-number:nth-child(12):after {
-        background-image: url(/assets/images/cot-01/arrow-3-mob.svg);
+        background-image: url(./src/assets/img/cot-01/arrow-3-mob.svg);
         right: -38px;
         height: 5px;
         width: 30px;
@@ -5006,7 +5006,6 @@ div.tradeStatMainField h1 {
 }
 
 @media (max-width: 768px) {
-
     .text-sect,
     .logo-sect {
         padding: 60px 0;
@@ -5316,7 +5315,7 @@ div.tradeStatMainField h1 {
 
     .home-intro-sect:before {
         content: "";
-        background-image: url(/assets/images/home-bg.webp);
+        background-image: url(./src/assets/img/home-bg.webp);
         background-size: cover;
         background-position: 90% 0;
         height: 300px;
@@ -5355,7 +5354,7 @@ div.tradeStatMainField h1 {
     .breadcrumbs li:before,
     .breadcrumbs li:only-child:before {
         content: "";
-        background-image: url(/assets/images/icons/breadcrumbs-caret.svg);
+        background-image: url(./src/assets/img/icons/breadcrumbs-caret.svg);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
@@ -5442,6 +5441,10 @@ div.tradeStatMainField h1 {
         height: 15px;
     }
 
+    .modal-window-dark .h3.center {
+        max-width: 100%;
+    }
+
     .news-note {
         padding: 20px;
     }
@@ -5449,10 +5452,6 @@ div.tradeStatMainField h1 {
     .news-close {
         right: 12px;
         top: 12px;
-    }
-
-    .modal-window-dark .h3.center {
-        max-width: 100%;
     }
 
     .form-steps {
@@ -5820,7 +5819,7 @@ div.tradeStatMainField h1 {
     height: 18px;
     display: inline-block;
     position: absolute;
-    background-image: url(/assets/images/en/icons/modal-close.svg);
+    background-image: url(./src/assets/img/en/icons/modal-close.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -5849,7 +5848,7 @@ div.tradeStatMainField h1 {
 
 /* christmas theme */
 /* .home-intro-sect {
-    background-image: url(/assets/images/christmas/christmas-home-bg.webp);
+    background-image: url(./src/assets/img/christmas/christmas-home-bg.webp);
     background-position: top center;
 }
 
@@ -5869,7 +5868,7 @@ div.tradeStatMainField h1 {
     width: 100%;
     height: 70px;
     display: inline-block;
-    background-image: url(/assets/images/christmas/lights.png);
+    background-image: url(./src/assets/img/christmas/lights.png);
     background-size: contain;
     background-repeat: repeat-x;
     top: -10px;
@@ -5884,7 +5883,7 @@ div.tradeStatMainField h1 {
     display: inline-block;
     border: 0;
     background-color: transparent;
-    background-image: url(/assets/images/christmas/envelope.png);
+    background-image: url(./src/assets/img/christmas/envelope.png);
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
@@ -5905,7 +5904,7 @@ div.tradeStatMainField h1 {
     width: 100%;
     height: 5vw;
     display: inline-block;
-    background-image: url(/assets/images/christmas/green.png);
+    background-image: url(./src/assets/img/christmas/green.png);
     background-size: contain;
     background-position: bottom;
     background-repeat: repeat-x;
@@ -5918,7 +5917,7 @@ div.tradeStatMainField h1 {
 .postcard-window {
     box-shadow: none;
     background-color: transparent;
-    background-image: url(/assets/images/christmas/postcard.png);
+    background-image: url(./src/assets/img/christmas/postcard.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -5997,7 +5996,7 @@ div.tradeStatMainField h1 {
     display: inline-block;
     border: 0;
     background-color: transparent;
-    background-image: url(/assets/images/christmas/envelope-close.svg);
+    background-image: url(./src/assets/img/christmas/envelope-close.svg);
     background-size: contain;
     background-repeat: no-repeat;
     position: fixed;
@@ -6015,15 +6014,15 @@ div.tradeStatMainField h1 {
 
 @keyframes envelope {
     0% {
-        background-image: url(/assets/images/christmas/envelope-closed.png);
+        background-image: url(./src/assets/img/christmas/envelope-closed.png);
     }
 
     50% {
-        background-image: url(/assets/images/christmas/envelope-open.png);
+        background-image: url(./src/assets/img/christmas/envelope-open.png);
     }
 
     100% {
-        background-image: url(/assets/images/christmas/postcard.png);
+        background-image: url(./src/assets/img/christmas/postcard.png);
     }
 }
 
@@ -6065,7 +6064,7 @@ div.tradeStatMainField h1 {
 
 .btn-header-xmas:before {
     content: '';
-    background-image: url(/assets/images/christmas/icon-tree.svg);
+    background-image: url(./src/assets/img/christmas/icon-tree.svg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;

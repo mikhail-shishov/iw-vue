@@ -482,7 +482,7 @@ footer .container {
 
 .review-sect .swiper-button-next:after,
 .review-sect .swiper-button-prev:after {
-  background-image: url(/assets/images/landing/bcp/arrow.svg);
+  background-image: url(./src/assets/img/landing/bcp/arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
 }

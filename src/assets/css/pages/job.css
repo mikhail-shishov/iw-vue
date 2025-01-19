@@ -9,7 +9,7 @@
 }
 
 .intro-sect {
-    /* background-image: url(/assets/images/job/intro-job-bg.webp?2);
+    /* background-image: url(./src/assets/img/job/intro-job-bg.webp?2);
     background-size: cover;
     background-position: center; */
     padding: 50px 0 20px;
@@ -36,7 +36,7 @@
 }
 
 .job-top .note {
-    background-image: url(/assets/images/job/outro-job-bg.webp);
+    background-image: url(./src/assets/img/job/outro-job-bg.webp);
     background-size: cover;
     background-position: center;
     padding: 20px 40px;

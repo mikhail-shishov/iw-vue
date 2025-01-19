@@ -6,7 +6,7 @@
 .max-quote-sect{padding:110px 0}
 .max-quote-row{display:flex}
 .max-quote-text{position:relative;padding-right:30px}
-.max-quote-text:after{content:"";background-image:url(/assets/images/about/quote-mark.png);background-size:contain;background-repeat:no-repeat;width:25px;height:20px;display:inline-block;position:absolute;top:20px;right:50px}
+.max-quote-text:after{content:"";background-image:url(./src/assets/img/about/quote-mark.png);background-size:contain;background-repeat:no-repeat;width:25px;height:20px;display:inline-block;position:absolute;top:20px;right:50px}
 .max-quote-img img{height:auto}
 .home-numbers-sect{background-image:none}
 .home-numbers-sect .section-heading{text-align:left}

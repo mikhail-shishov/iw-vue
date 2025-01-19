@@ -21,6 +21,8 @@ const messages = {
       nav_education_webinars: `Webinare`,
       nav_education_subscription: `Abonnement`,
       nav_blog: `Blog`,
+      nav_coaching: `Coaching`,
+      nav_subscription: `Pro Trader`,
     },
     btn: {
       pro: `Pro Trader insights`,
@@ -33,8 +35,8 @@ const messages = {
       intro_2: `Die beste Trading Ausbildung für Einsteiger und Profis: Mit klaren Strategien und echten Ergebnissen. Du brauchst nur 15 Minuten am Tag.`,
       intro_3: `Jetzt kannst du von Profis traden lernen und schnelle Erfolge sehen.`,
       section_1: {
-        h1_1: "Mein Name ist Max Schulz.",
-        h2_1: `Ich bin professioneller Rohstoff- und Futureshändler und erfahrener Trading Coach. Ich folge einer Tradingstrategie, die auf den COT-Daten, der Saisonalität und der Markttechnik basiert.`,
+        h1: "Mein Name ist Max Schulz.",
+        h2: `Ich bin professioneller Rohstoff- und Futureshändler und erfahrener Trading Coach. Ich folge einer Tradingstrategie, die auf den COT-Daten, der Saisonalität und der Markttechnik basiert.`,
         p_1: `Wichtig beim Trading für Einsteiger und für erfahrene Trader ist vor allem, sich klare Strategien anzueignen, die Märkte zu verstehen und mit Geduld an den Handel heranzugehen. Mein Ziel ist es, Transparenz zu bieten, damit andere Trader ein vollständiges Bild über das Futures Trading nach COT Daten erhalten und aus meinen Erfahrungen als Trading Coach lernen können.`,
         p_2: `Warum setzt erfolgreiches Trading disziplinierte Planung und die richtige Trading Ausbildung voraus? Im Laufe der Jahre habe ich viele Trader kommen und gehen sehen. Meiner Beobachtung nach sind nur etwa 10 % langfristig erfolgreich genug, um das Trading hauptberuflich zu betreiben, so wie ich es tue. Der Hauptgrund dafür ist: das Verhalten, das benötigt wird, um im Trading erfolgreich zu sein, steht im Gegensatz zum menschlichen Verhalten.`,
         p_3: `Die meisten Fehler im Trading entstehen durch die Aktivierung der inneren Abwehrmechanismen, die dazu dienen, uns vor Schaden zu schützen. Das ist der Grund, warum das Trading nach Gefühl und Intuition nicht funktioniert.`,
@@ -51,7 +53,7 @@ const messages = {
           item_3: `Mit einem Drawdown von weniger als 10%.`
         },
         p_6: `Ich werde oft gefragt: "Wie schnell kann ich mit Trading für Anfänger oder als erfahrener Händler reich werden?" Du solltest von Anfang an wissen, dass es keine "schnell reich werden"-Strategie gibt. Erwarte also nicht, dass du bald deinen Job aufgeben kannst. Erfolgreiches Trading erfordert Zeit und dauerhafte Weiterbildung.`,
-        h3_1: `Man muss:`,
+        h3: `Man muss:`,
         list_2: {
           item_1: `kontinuierlich an sich arbeiten;`,
           item_2: `Risiken managen;`,
@@ -62,14 +64,14 @@ const messages = {
         p_7: `Traden ist für Anfänger und erfahrene Trader nicht so einfach, wie es viele Trading-Gurus auf YouTube darstellen. Aber mit Willenskraft, Ausdauer, Disziplin und einem guten Trading Kurs ist es möglich, erfolgreich zu sein.`
       },
       section_2: {
-        h1_1: `Mit meiner Strategie und meinem Tradinsansatz konnte ich mich bereits dreimal unter den Top5 in den World Cup Championship of Futures Trading® platzieren.`,
+        h1: `Mit meiner Strategie und meinem Tradinsansatz konnte ich mich bereits dreimal unter den Top5 in den World Cup Championship of Futures Trading® platzieren.`,
         y_2017: `Platz 3 mit 111% Rendite`,
         y_2019: `Platz 3 mit 156% Rendite`,
         y_2021: `Platz 5 mit 78% Rendite`,
         img_desc: `Max Schulz bei der Entgegennahme seiner ersten Auszeichnung im Jahr 2017`
       },
       section_3: {
-        h1_1: `Kann jeder Trader werden?`,
+        h1: `Kann jeder Trader werden?`,
         p_1: `Ich zeige jedem interessierten Trader schon seit Jahren im Detail, welche Trades ich vorhabe, bevor ich sie umsetze und mit dem Trading anfange. So können alle meiner COT-Strategie folgen.`,
         p_2: `Warum schaffen es trotzdem so viele nicht, meine Renditen zu erreichen? Hier sind einige Beobachtungen, die ich gemacht habe und die du berücksichtigen solltest, bevor du der COT-Strategie folgst:`,
         features: {
@@ -144,147 +146,147 @@ const messages = {
     }
   },
   en: {
-    message: {
-      header: {
-        nav_about: `Our Principles`,
-        nav_strategy: `Strategy`,
-        nav_performance: `Performance`,
-        nav_tools: `Tools`,
-        nav_tools_all: `All tools`,
-        nav_tools_cot: `COT Data`,
-        nav_tools_seasonal_charts: `Seasonality`,
-        nav_tools_futures_calc: `Futures Calculator`,
-        nav_tools_futures_spec: `Futures Contract Specifications`,
-        nav_tools_trade_return: `Trade Return Calculator`,
-        nav_tools_commodities_map: `Commodities Map`,
-        nav_tools_compound_calc: `Compound Interest Calculator`,
-        nav_education: `Education`,
-        nav_education_materials: `Downloads`,
-        nav_education_coaching: `Coaching`,
-        nav_education_webinars: `Webinars`,
-        nav_education_subscription: `Subscription`,
-        nav_blog: `Blog`,
+    header: {
+      nav_about: `Our Principles`,
+      nav_strategy: `Strategy`,
+      nav_performance: `Performance`,
+      nav_tools: `Tools`,
+      nav_tools_all: `All tools`,
+      nav_tools_cot: `COT Data`,
+      nav_tools_seasonal_charts: `Seasonality`,
+      nav_tools_futures_calc: `Futures Calculator`,
+      nav_tools_futures_spec: `Futures Contract Specifications`,
+      nav_tools_trade_return: `Trade Return Calculator`,
+      nav_tools_commodities_map: `Commodities Map`,
+      nav_tools_compound_calc: `Compound Interest Calculator`,
+      nav_education: `Education`,
+      nav_education_materials: `Downloads`,
+      nav_education_coaching: `Coaching`,
+      nav_education_webinars: `Webinars`,
+      nav_education_subscription: `Subscription`,
+      nav_blog: `Blog`,
+      nav_coaching: `Coaching`,
+      nav_subscription: `Pro Trader`,
+    },
+    btn: {
+      pro: `Pro Trader insights`,
+      coaching: `Book demo session`,
+    },
+    home: {
+      title: `Learn to be a successful futures trader by following my trades`,
+      desc: `Unlock the secrets of swing trading futures and commodities with our expert guidance! Learn to effectively utilize COT data and enhance your trading strategy for maximum profit. Join us now and elevate your trading skills!`,
+      intro_1: `How to Trade Commodities and Futures Successfully`,
+      intro_2: `The best trading educational resources for beginners and professionals. With clear strategies and real results. You only need 15 minutes a day.`,
+      intro_3: `Learn to trade from professionals and see quick results.`,
+      section_1: {
+        h1_1: "My name is Max Schulz.",
+        h2_1: `I am a professional commodity and futures trader and an experienced trading coach who follows trading strategies based on COT data, seasonality, and market techniques.`,
+        p_1: `The key to trading for both beginners and experienced traders lies primarily in the adoption of clear strategies, understanding the markets, and approaching trading with patience. My goal is to make it transparent so that other traders can gain a complete understanding of futures trading based on COT data and learn from my experience as a trading coach.`,
+        p_2: `Why does successful trading require disciplined planning and the right education? Over the years, I have seen many traders come and go. From what I have observed, only about 10% lead to sustainable success in trading as a full-time career, like the one that I have these days. The main reason is that the behavior needed to succeed in trading often goes against natural human instincts.`,
+        p_3: `Most trading mistakes occur when our internal defense mechanisms kick in to protect us from harm. This is why trading based on gut feelings and intuition does not work at all.`,
+        p_4: `To succeed, you need to learn trading from the basics. This means that one requires a clearly defined strategy, thorough preparation, the right trading signals, and the willingness to work on yourself.`,
+        p_5: `The good news is that your chances of success increase when you learn to trade properly from a mentor who:`,
+        list_1: {
+          item_1: `is a proven successful trader,`,
+          item_2: `has a solid track record over many years,`,
+          item_3: `and trades with complete transparency.`
+        },
+        features_1: {
+          item_1: `Since 2017, I have been sharing all my trades publicly before placing any orders`,
+          item_2: `Over the past 10 years, I have averaged a 77% annual return`,
+          item_3: `I have kept my drawdowns consistently below 10%`
+        },
+        p_6: `I am often asked, “How quickly can I get rich from trading as a beginner or an experienced trader?” The truth is, there is no “get rich quickly” strategy. So do not expect to quit your job soon. Successful trading takes time and requires continuous learning.`,
+        h3_1: `Man muss:`,
+        list_2: {
+          item_1: `kontinuierlich an sich arbeiten;`,
+          item_2: `Risiken managen;`,
+          item_3: `mit Verlusten umgehen;`,
+          item_4: `Drawdowns durchstehen;`,
+          item_5: `Chartanalyse lernen, usw.`
+        },
+        p_7: `Traden ist für Anfänger und erfahrene Trader nicht so einfach, wie es viele Trading-Gurus auf YouTube darstellen. Aber mit Willenskraft, Ausdauer, Disziplin und einem guten Trading Kurs ist es möglich, erfolgreich zu sein.`
       },
-      btn: {
-        pro: `Pro Trader insights`,
-        coaching: `Book demo session`,
+      section_2: {
+        h1_1: `Max Schulz has already reached the top 5 place in the World Cup Championship of Futures Trading® three times.`,
+        y_2017: `3rd place with 111% return`,
+        y_2019: `3rd place with 156% return`,
+        y_2021: `5th place with 78% return`,
+        img_desc: `Max Schulz accepting his first award in 2017.`
       },
-      home: {
-        title: `Learn to be a successful futures trader by following my trades`,
-        desc: `Unlock the secrets of swing trading futures and commodities with our expert guidance! Learn to effectively utilize COT data and enhance your trading strategy for maximum profit. Join us now and elevate your trading skills!`,
-        intro_1: `How to Trade Commodities and Futures Successfully`,
-        intro_2: `The best trading educational resources for beginners and professionals. With clear strategies and real results. You only need 15 minutes a day.`,
-        intro_3: `Learn to trade from professionals and see quick results.`,
-        section_1: {
-          h1_1: "My name is Max Schulz.",
-          h2_1: `I am a professional commodity and futures trader and an experienced trading coach who follows trading strategies based on COT data, seasonality, and market techniques.`,
-          p_1: `The key to trading for both beginners and experienced traders lies primarily in the adoption of clear strategies, understanding the markets, and approaching trading with patience. My goal is to make it transparent so that other traders can gain a complete understanding of futures trading based on COT data and learn from my experience as a trading coach.`,
-          p_2: `Why does successful trading require disciplined planning and the right education? Over the years, I have seen many traders come and go. From what I have observed, only about 10% lead to sustainable success in trading as a full-time career, like the one that I have these days. The main reason is that the behavior needed to succeed in trading often goes against natural human instincts.`,
-          p_3: `Most trading mistakes occur when our internal defense mechanisms kick in to protect us from harm. This is why trading based on gut feelings and intuition does not work at all.`,
-          p_4: `To succeed, you need to learn trading from the basics. This means that one requires a clearly defined strategy, thorough preparation, the right trading signals, and the willingness to work on yourself.`,
-          p_5: `The good news is that your chances of success increase when you learn to trade properly from a mentor who:`,
-          list_1: {
-            item_1: `is a proven successful trader,`,
-            item_2: `has a solid track record over many years,`,
-            item_3: `and trades with complete transparency.`
+      section_3: {
+        h1_1: `Is Trading Suitable for Everyone?`,
+        p_1: `For years, I have been sharing my well-detailed trades with anyone interested before I actually execute them. This is how those involved can follow my COT strategy.`,
+        p_2: `But why do so many still fail to achieve my returns? Here are a few key observations to consider before diving into the COT strategy`,
+        features: {
+          item_1: {
+            h: `Wrong Financial Instruments`,
+            d: `Trading with unregulated products like CFDs or Forex often leads to opaque and costly transactions. It is better for beginners to focus on futures contracts, which may offer greater transparency and more productive risk management, to benefit from clear pricing structures and better returns.`,
           },
-          features_1: {
-            item_1: `Since 2017, I have been sharing all my trades publicly before placing any orders`,
-            item_2: `Over the past 10 years, I have averaged a 77% annual return`,
-            item_3: `I have kept my drawdowns consistently below 10%`
+          item_2: {
+            h: `Risk Management`,
+            d: `Protecting your capital and minimizing losses should always be the top priority in trading. Speaking about my own experience, my drawdown has never exceeded 10% since 2014, while achieving an average return of 77% per year. In my trading courses, you will learn how to patiently wait for a good opportunity and when to act decisively within the framework of the available markets.`,
           },
-          p_6: `I am often asked, “How quickly can I get rich from trading as a beginner or an experienced trader?” The truth is, there is no “get rich quickly” strategy. So do not expect to quit your job soon. Successful trading takes time and requires continuous learning.`,
-          h3_1: `Man muss:`,
-          list_2: {
-            item_1: `kontinuierlich an sich arbeiten;`,
-            item_2: `Risiken managen;`,
-            item_3: `mit Verlusten umgehen;`,
-            item_4: `Drawdowns durchstehen;`,
-            item_5: `Chartanalyse lernen, usw.`
+          item_3: {
+            h: `Basic Knowledge`,
+            d: `It is essential to understand how to choose the right futures contract and place bracket orders correctly. We offer our members a free basic course to help them learn to trade. Besides, there are plenty of other online resources (like the best trading books for beginners) that can guide you if you are new to futures trading. Our trading seminars were designed for both beginners and experienced traders alike, and these are incredibly useful.`,
           },
-          p_7: `Traden ist für Anfänger und erfahrene Trader nicht so einfach, wie es viele Trading-Gurus auf YouTube darstellen. Aber mit Willenskraft, Ausdauer, Disziplin und einem guten Trading Kurs ist es möglich, erfolgreich zu sein.`
-        },
-        section_2: {
-          h1_1: `Max Schulz has already reached the top 5 place in the World Cup Championship of Futures Trading® three times.`,
-          y_2017: `3rd place with 111% return`,
-          y_2019: `3rd place with 156% return`,
-          y_2021: `5th place with 78% return`,
-          img_desc: `Max Schulz accepting his first award in 2017.`
-        },
-        section_3: {
-          h1_1: `Is Trading Suitable for Everyone?`,
-          p_1: `For years, I have been sharing my well-detailed trades with anyone interested before I actually execute them. This is how those involved can follow my COT strategy.`,
-          p_2: `But why do so many still fail to achieve my returns? Here are a few key observations to consider before diving into the COT strategy`,
-          features: {
-            item_1: {
-              h: `Wrong Financial Instruments`,
-              d: `Trading with unregulated products like CFDs or Forex often leads to opaque and costly transactions. It is better for beginners to focus on futures contracts, which may offer greater transparency and more productive risk management, to benefit from clear pricing structures and better returns.`,
-            },
-            item_2: {
-              h: `Risk Management`,
-              d: `Protecting your capital and minimizing losses should always be the top priority in trading. Speaking about my own experience, my drawdown has never exceeded 10% since 2014, while achieving an average return of 77% per year. In my trading courses, you will learn how to patiently wait for a good opportunity and when to act decisively within the framework of the available markets.`,
-            },
-            item_3: {
-              h: `Basic Knowledge`,
-              d: `It is essential to understand how to choose the right futures contract and place bracket orders correctly. We offer our members a free basic course to help them learn to trade. Besides, there are plenty of other online resources (like the best trading books for beginners) that can guide you if you are new to futures trading. Our trading seminars were designed for both beginners and experienced traders alike, and these are incredibly useful.`,
-            },
-            item_4: {
-              h: `Searching for the Holy Grail`,
-              d: `Trying to master every chart pattern, indicator, or optimization technique can make your strategy unprofitable. The truth is, that the best trading systems are often the simplest. Using too many indicators or making things overly complex can cause you to miss clear trading signals and overcomplicate the market.`,
-            },
-            item_5: {
-              h: `Managing Your Emotions`,
-              d: `Emotions like fear and greed often get in the way of trading success, leading to poor decisions in the end. Therefore, both beginners and experienced traders need to stay calm and confident during any online procedure. Keeping your emotions in check helps you stick to your strategy instead of reacting impulsively to market fluctuations.`,
-            },
-            item_6: {
-              h: `Filling in the Knowledge Gaps`,
-              d: `inconsistent results often come from a lack of relevant education. If you cannot comprehend futures trading, mistakes are inevitable. Good training usually focuses on clear, actionable signals and simple strategies, but never overwhelms you with confusing methods.`,
-            },
+          item_4: {
+            h: `Searching for the Holy Grail`,
+            d: `Trying to master every chart pattern, indicator, or optimization technique can make your strategy unprofitable. The truth is, that the best trading systems are often the simplest. Using too many indicators or making things overly complex can cause you to miss clear trading signals and overcomplicate the market.`,
+          },
+          item_5: {
+            h: `Managing Your Emotions`,
+            d: `Emotions like fear and greed often get in the way of trading success, leading to poor decisions in the end. Therefore, both beginners and experienced traders need to stay calm and confident during any online procedure. Keeping your emotions in check helps you stick to your strategy instead of reacting impulsively to market fluctuations.`,
+          },
+          item_6: {
+            h: `Filling in the Knowledge Gaps`,
+            d: `inconsistent results often come from a lack of relevant education. If you cannot comprehend futures trading, mistakes are inevitable. Good training usually focuses on clear, actionable signals and simple strategies, but never overwhelms you with confusing methods.`,
           },
         },
-        cta_h1: `If you believe in your potential, do not hesitate — take the first step and start trading today.`,
       },
-      how_we_trade_h1: `This is How We Trade`,
-      how_we_trade_p1: `We update our content daily, which is to offer valuable insights and key updates to help with your trading decisions anytime. All materials are available to members registered in MyIW, i.e., our exclusive members' area.`,
-      pro_benefits: {
-        h1: `Pro Trader Insights Subscription`,
-        p1: `Eine fundierte Trader-Ausbildung hilft dir, eine profitable Strategie zu entwickeln und deine Emotionen zu beherrschen. Ich biete angehenden Tradern Einblicke in die Märkte und die Techniken, Charts zu lesen, um dann effektiv im Trading zu sein.`,
-        item_1: {
-          h: `Wöchentliche Trading-Pläne für deine Entscheidungen`,
-          d: `Bleib informiert mit einem wöchentlichen Trading-Plan. Jede Woche analysiere ich die Märkte mit hilfe von COT-Daten, saisonalen Trends und andere Daten, um die vielversprechendsten Chancen herauszufiltern. Die Ergebnisse dieser Analysen teile ich exklusiv mit unseren Mitgliedern.`
-        },
-        item_2: {
-          h: `Lerne von unserer Transparenz`,
-          d: `Mit dem Pro Trade Insights Subscription erhältst du Einblick in meine persönliche Watchlist sowie in alle Trades auf den Startup- und COT-1-Konten. Du wirst immer wissen, welche Positionen ich eröffnet habe und welche Märkte ich im Blick habe. So kannst du durch Beobachtung meiner Trades direkt von mir lernen und deine Trading-Fähigkeiten ausbauen.`
-        },
-        item_3: {
-          h: `Erhalte Einblick in unsere Strategie`,
-          d: `Interessiert an den Hintergründen der COT-Strategie? Du hast die Möglichkeit, die tägliche Umsetzung dieser Strategie in der Praxis zu erleben und herauszufinden, ob Swing Trading auf COT-Basis zu dir passt. Durch Beobachtung dieser Strategie in der Praxis kannst du deine Effektivität bewerten und Marktbewegungen lernen.`
-        },
-        item_4: {
-          h: `Zugang zu relevanten News und zusätzlichem Content`,
-          d: `Bleib bestens informiert: Mit Pro Trade Insights erhältst du laufend wichtige Trading-News sowie weitere Tipps zur Anwendung unserer Strategie, z.B., über die “Trading Ausbildung Deutschland”, “Technische Chartanalyse Lernen”, “Trading Lernen PDF”, und online Dokumente.`
-        }
+      cta_h1: `If you believe in your potential, do not hesitate — take the first step and start trading today.`,
+    },
+    how_we_trade_h1: `This is How We Trade`,
+    how_we_trade_p1: `We update our content daily, which is to offer valuable insights and key updates to help with your trading decisions anytime. All materials are available to members registered in MyIW, i.e., our exclusive members' area.`,
+    pro_benefits: {
+      h1: `Pro Trader Insights Subscription`,
+      p1: `Eine fundierte Trader-Ausbildung hilft dir, eine profitable Strategie zu entwickeln und deine Emotionen zu beherrschen. Ich biete angehenden Tradern Einblicke in die Märkte und die Techniken, Charts zu lesen, um dann effektiv im Trading zu sein.`,
+      item_1: {
+        h: `Wöchentliche Trading-Pläne für deine Entscheidungen`,
+        d: `Bleib informiert mit einem wöchentlichen Trading-Plan. Jede Woche analysiere ich die Märkte mit hilfe von COT-Daten, saisonalen Trends und andere Daten, um die vielversprechendsten Chancen herauszufiltern. Die Ergebnisse dieser Analysen teile ich exklusiv mit unseren Mitgliedern.`
       },
-      reviews: {
-        h1: `Testimonials`,
-        item_1: `“I have been with Insider-Week since 2020 and have done COT-1 and WCC coaching. And I’m rather successful with COT-2 strategy, in particular. I am currently an active member of the weather futures trading coaching. I can definitely recommend InsiderWeek. Max and his team publish their results, which have been growing steadily since the beginning. The course content is easy to understand and the weekly coaching sessions are very practical. If you have any questions, the team will answer you immediately and are always very helpful. The community is also very helpful. You can always exchange ideas and share trading application codes or other experiences.”`,
-        item_2: `“I would like to thank the InsiderWeek team for the excellent training program. The knowledge that is imparted here can be useful to everyone, from absolute beginners to professionals, and will help them to make money in the exchange market. Nothing is given to you for free. It's up to you and your discipline to invest time and energy in learning. You can get necessary assistance from the team at all times and all questions will be answered by email or in numerous webinars. I'm happy and very satisfied.”`,
-        item_3: `“The experience with InsiderWeek has been consistently positive. The coaching is of a very high quality. The aim of the entire InsiderWeek team is to move the students forward. The student is very well coached on the way to becoming a commodity trader. If you are interested in COT data and commodity trading, you cannot miss the training at InsiderWeek.”`
+      item_2: {
+        h: `Lerne von unserer Transparenz`,
+        d: `Mit dem Pro Trade Insights Subscription erhältst du Einblick in meine persönliche Watchlist sowie in alle Trades auf den Startup- und COT-1-Konten. Du wirst immer wissen, welche Positionen ich eröffnet habe und welche Märkte ich im Blick habe. So kannst du durch Beobachtung meiner Trades direkt von mir lernen und deine Trading-Fähigkeiten ausbauen.`
       },
-      tools: {
-        h1: `Trading Tools`,
-        p1: `Choosing to invest with the support from a trading school or a coach can increase your chances of success. Our platform offers a range of powerful trading tools designed to help you make informed decisions and optimize your trading strategies, too. Here, you will find everything you need to ensure that your trading education is both professional and successful.`,
-        p2: `Our tools help you better understand the market, identify the best opportunities, and find the most suitable trading platform.`
+      item_3: {
+        h: `Erhalte Einblick in unsere Strategie`,
+        d: `Interessiert an den Hintergründen der COT-Strategie? Du hast die Möglichkeit, die tägliche Umsetzung dieser Strategie in der Praxis zu erleben und herauszufinden, ob Swing Trading auf COT-Basis zu dir passt. Durch Beobachtung dieser Strategie in der Praxis kannst du deine Effektivität bewerten und Marktbewegungen lernen.`
       },
-      subscribe: {
-        h1: `Subscribe to newsletter`,
-        p1: `Are you looking for a trading course for beginners and professionals? Get the latest trading tips, market analyses, and news directly in your inbox! Let us stay updated and improve trading strategies together.`,
-        input_name: `Your name and surname *`,
-        input_email: `Email`,
-        input_gdpr: `I accept InsiderWeek's Terms of Service and Privacy Policy. We only use this data to contact you and never pass it on to third parties.`,
-        input_submit: `Sign up`
+      item_4: {
+        h: `Zugang zu relevanten News und zusätzlichem Content`,
+        d: `Bleib bestens informiert: Mit Pro Trade Insights erhältst du laufend wichtige Trading-News sowie weitere Tipps zur Anwendung unserer Strategie, z.B., über die “Trading Ausbildung Deutschland”, “Technische Chartanalyse Lernen”, “Trading Lernen PDF”, und online Dokumente.`
       }
+    },
+    reviews: {
+      h1: `Testimonials`,
+      item_1: `“I have been with Insider-Week since 2020 and have done COT-1 and WCC coaching. And I’m rather successful with COT-2 strategy, in particular. I am currently an active member of the weather futures trading coaching. I can definitely recommend InsiderWeek. Max and his team publish their results, which have been growing steadily since the beginning. The course content is easy to understand and the weekly coaching sessions are very practical. If you have any questions, the team will answer you immediately and are always very helpful. The community is also very helpful. You can always exchange ideas and share trading application codes or other experiences.”`,
+      item_2: `“I would like to thank the InsiderWeek team for the excellent training program. The knowledge that is imparted here can be useful to everyone, from absolute beginners to professionals, and will help them to make money in the exchange market. Nothing is given to you for free. It's up to you and your discipline to invest time and energy in learning. You can get necessary assistance from the team at all times and all questions will be answered by email or in numerous webinars. I'm happy and very satisfied.”`,
+      item_3: `“The experience with InsiderWeek has been consistently positive. The coaching is of a very high quality. The aim of the entire InsiderWeek team is to move the students forward. The student is very well coached on the way to becoming a commodity trader. If you are interested in COT data and commodity trading, you cannot miss the training at InsiderWeek.”`
+    },
+    tools: {
+      h1: `Trading Tools`,
+      p1: `Choosing to invest with the support from a trading school or a coach can increase your chances of success. Our platform offers a range of powerful trading tools designed to help you make informed decisions and optimize your trading strategies, too. Here, you will find everything you need to ensure that your trading education is both professional and successful.`,
+      p2: `Our tools help you better understand the market, identify the best opportunities, and find the most suitable trading platform.`
+    },
+    subscribe: {
+      h1: `Subscribe to newsletter`,
+      p1: `Are you looking for a trading course for beginners and professionals? Get the latest trading tips, market analyses, and news directly in your inbox! Let us stay updated and improve trading strategies together.`,
+      input_name: `Your name and surname *`,
+      input_email: `Email`,
+      input_gdpr: `I accept InsiderWeek's Terms of Service and Privacy Policy. We only use this data to contact you and never pass it on to third parties.`,
+      input_submit: `Sign up`
     }
   }
 }

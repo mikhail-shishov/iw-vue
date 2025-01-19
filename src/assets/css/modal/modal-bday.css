@@ -1,5 +1,5 @@
 .bday-modal .modal-wrap {
-  background: url(/assets/images/modal/geburtstag-aktion/hooray.png),
+  background: url(./src/assets/img/modal/geburtstag-aktion/hooray.png),
     linear-gradient(224.62deg, #37a022 13.26%, #093700 81.07%);
   background-position: right;
   background-size: cover;
@@ -80,7 +80,7 @@
 
 .bday-modal-date-time:before {
     content: "";
-    background-image: url(/assets/images/modal/geburtstag-aktion/clock.svg);
+    background-image: url(./src/assets/img/modal/geburtstag-aktion/clock.svg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 16px;
