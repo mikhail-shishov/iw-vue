@@ -2,31 +2,36 @@
 import { ref, computed, onMounted, onUnmounted } from "vue";
 
 export default {
-  name: "HeaderDropdown",
+  name: "HeaderComp",
   setup() {
-    const windowWidth = ref(window.innerWidth); // Track window width
-    const dropdownVisible = ref<Record<string, boolean>>({}); // Store visibility states dynamically
+    const windowWidth = ref(window.innerWidth);
+    const dropdownVisible = ref<Record<string, boolean>>({});
 
-    // Determine if the current view is desktop or mobile
     const isDesktop = computed(() => windowWidth.value > 992);
 
     const updateWindowWidth = () => {
-      windowWidth.value = window.innerWidth; // Update window width on resize
+      windowWidth.value = window.innerWidth;
     };
 
     const handleMouseEnter = (dropdown: string) => {
-      dropdownVisible.value[dropdown] = true; // Show dropdown when hovering over dropdown button or content
+      dropdownVisible.value[dropdown] = true;
     };
 
     const handleMouseLeave = (dropdown: string) => {
-      dropdownVisible.value[dropdown] = false; // Hide dropdown when leaving both button and content
+      dropdownVisible.value[dropdown] = false;
     };
 
     const toggleDropdown = (e: MouseEvent, dropdown: string) => {
       e.preventDefault();
       if (!isDesktop.value) {
-        dropdownVisible.value[dropdown] = !dropdownVisible.value[dropdown]; // Toggle visibility for mobile
+        dropdownVisible.value[dropdown] = !dropdownVisible.value[dropdown];
       }
+    };
+
+    const isNavOpen = ref(false);
+
+    const toggleMenu = () => {
+      isNavOpen.value = !isNavOpen.value;
     };
 
     onMounted(() => {
@@ -45,6 +50,8 @@ export default {
       handleMouseEnter,
       handleMouseLeave,
       toggleDropdown,
+      isNavOpen,
+      toggleMenu
     };
   },
 };
@@ -57,7 +64,7 @@ export default {
         <img src="/en/logo/logo.svg" width="130" height="24" alt="InsiderWeek" />
       </RouterLink>
       <input id="toggle-menu" type="checkbox" />
-      <label class="hamburger" for="toggle-menu">
+      <label class="hamburger" :class="{ 'nav-open': isNavOpen }" @click="toggleMenu">
         <span class="top"></span>
         <span class="meat"></span>
         <span class="bottom"></span>
@@ -75,10 +82,11 @@ export default {
               <RouterLink to="/futures-contract-specifications">{{ $t('header.nav_tools_futures_spec') }}</RouterLink>
             </div>
           </div>
-          
-          <div class="header-nav-item" @mouseenter="handleMouseEnter('education')" @mouseleave="handleMouseLeave('education')">
-            <RouterLink to="/education" class="header-nav-link dropdown-btn" :class="{ visible: dropdownVisible.education }"
-              @click="toggleDropdown($event, 'education')">
+
+          <div class="header-nav-item" @mouseenter="handleMouseEnter('education')"
+            @mouseleave="handleMouseLeave('education')">
+            <RouterLink to="/education" class="header-nav-link dropdown-btn"
+              :class="{ visible: dropdownVisible.education }" @click="toggleDropdown($event, 'education')">
               {{ $t("header.nav_education") }}
             </RouterLink>
             <div class="dropdown-content" v-if="dropdownVisible.education || !isDesktop">

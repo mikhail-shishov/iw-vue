@@ -277,6 +277,10 @@ const featureItems = [
   .text-row-about {
     flex-direction: column;
   }
+
+  .champ-row {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 768px) {

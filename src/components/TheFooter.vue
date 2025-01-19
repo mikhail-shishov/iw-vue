@@ -32,8 +32,10 @@ export default defineComponent({
         </div>
         <div class="footer-col">
           <div class="footer-links">
-            <a href="https://insider-week.com/de/datenschutz/" class="js-modal" data-modal="#privacy">Datenschutzerklärung</a>
-            <a href="https://insider-week.com/de/nutzungsbedingungen/" class="js-modal" data-modal="#terms">Nutzungsbedingungen</a>
+            <a href="https://insider-week.com/de/datenschutz/" class="js-modal"
+              data-modal="#privacy">Datenschutzerklärung</a>
+            <a href="https://insider-week.com/de/nutzungsbedingungen/" class="js-modal"
+              data-modal="#terms">Nutzungsbedingungen</a>
             <a href="https://insider-week.com/de/impressum/" class="js-modal" data-modal="#legal">Impressum</a>
             <a href="https://insider-week.com/de/risikohinweis/" class="js-modal" data-modal="#risk">Risikohinweis</a>
           </div>
@@ -845,6 +847,11 @@ textarea.fs-form-input {
 
   .footer-links a {
     margin-bottom: 15px;
+  }
+
+  .form-subscribe div {
+    flex-direction: column;
+    align-items: flex-start;
   }
 }
 
