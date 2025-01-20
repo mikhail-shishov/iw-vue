@@ -190,7 +190,7 @@ export default defineComponent({
     };
 
     const onHide = () => {
-      showLightbox.value = false; // Close the lightbox
+      showLightbox.value = false;
     };
 
     return {
