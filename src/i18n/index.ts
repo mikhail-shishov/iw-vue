@@ -208,14 +208,14 @@ const messages = {
         p_7: `Traden ist für Anfänger und erfahrene Trader nicht so einfach, wie es viele Trading-Gurus auf YouTube darstellen. Aber mit Willenskraft, Ausdauer, Disziplin und einem guten Trading Kurs ist es möglich, erfolgreich zu sein.`
       },
       section_2: {
-        h1_1: `Max Schulz has already reached the top 5 place in the World Cup Championship of Futures Trading® three times.`,
+        h1: `Max Schulz has already reached the top 5 place in the World Cup Championship of Futures Trading® three times.`,
         y_2017: `3rd place with 111% return`,
         y_2019: `3rd place with 156% return`,
         y_2021: `5th place with 78% return`,
         img_desc: `Max Schulz accepting his first award in 2017.`
       },
       section_3: {
-        h1_1: `Is Trading Suitable for Everyone?`,
+        h1: `Is Trading Suitable for Everyone?`,
         p_1: `For years, I have been sharing my well-detailed trades with anyone interested before I actually execute them. This is how those involved can follow my COT strategy.`,
         p_2: `But why do so many still fail to achieve my returns? Here are a few key observations to consider before diving into the COT strategy`,
         features: {
